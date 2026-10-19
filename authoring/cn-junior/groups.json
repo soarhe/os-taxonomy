@@ -1,0 +1,7092 @@
+[
+  {
+    "source": "math",
+    "code": "S4-NUM",
+    "domain": "数与式",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      61,
+      62
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／初中部分／数与代数／数与式",
+    "summary": "从小学正数运算扩展到有理数与实数，借助数轴、根式和代数式表达数量关系。",
+    "items": [
+      {
+        "id": "jm_rational",
+        "type": "CONCEPTUAL",
+        "name": "有理数与数轴",
+        "description": "用正负数和零描述方向相反的量，并在数轴上比较大小。",
+        "evidence": [
+          "在数轴上定位有理数并解释负数的顺序"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在数轴上定位有理数并解释负数的顺序。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_negative",
+            "hard",
+            "需要相反意义量的经验"
+          ],
+          [
+            "math_fraction_decimal",
+            "hard",
+            "需要分数小数表示"
+          ]
+        ]
+      },
+      {
+        "id": "jm_absolute",
+        "type": "CONCEPTUAL",
+        "name": "相反数与绝对值",
+        "description": "从原点距离和方向解释绝对值与相反数。",
+        "evidence": [
+          "说明绝对值相等为何未必两数相等"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明绝对值相等为何未必两数相等。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_rational",
+            "hard",
+            "需要数轴定位"
+          ]
+        ]
+      },
+      {
+        "id": "jm_operations",
+        "type": "PROCEDURAL",
+        "name": "有理数混合运算",
+        "description": "理解符号法则与乘方意义，按顺序进行有理数运算。",
+        "evidence": [
+          "解释负数运算的符号并检验结果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释负数运算的符号并检验结果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_absolute",
+            "hard",
+            "需要区分符号与大小"
+          ],
+          [
+            "math_order",
+            "hard",
+            "需要运算顺序"
+          ]
+        ]
+      },
+      {
+        "id": "jm_roots",
+        "type": "CONCEPTUAL",
+        "name": "平方根与立方根",
+        "description": "用乘方的逆过程解释平方根、算术平方根和立方根。",
+        "evidence": [
+          "区分平方根与算术平方根并说明存在条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分平方根与算术平方根并说明存在条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_operations",
+            "hard",
+            "需要乘方"
+          ]
+        ]
+      },
+      {
+        "id": "jm_real",
+        "type": "CONCEPTUAL",
+        "name": "实数与无理数",
+        "description": "区分有理数和无理数，认识实数与数轴点的对应。",
+        "evidence": [
+          "给出无理数实例并用近似值定位"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：给出无理数实例并用近似值定位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_roots",
+            "hard",
+            "根式提供无理数实例"
+          ]
+        ]
+      },
+      {
+        "id": "jm_powers",
+        "type": "PROCEDURAL",
+        "name": "整数指数幂与科学记数法",
+        "description": "用指数规律表示数量级并简化幂的运算。",
+        "evidence": [
+          "解释负整数指数意义并检查数量级"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释负整数指数意义并检查数量级。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_operations",
+            "hard",
+            "需要乘方含义"
+          ]
+        ]
+      },
+      {
+        "id": "jm_expression",
+        "type": "REPRESENTATIONAL",
+        "name": "代数式与求值",
+        "description": "把数量关系表示为含字母的式子，说明字母范围并代入。",
+        "evidence": [
+          "解释式中变量和单位并检验取值"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释式中变量和单位并检验取值。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_letter",
+            "hard",
+            "承接字母表示数"
+          ],
+          [
+            "jm_operations",
+            "hard",
+            "需要有理数计算"
+          ]
+        ]
+      },
+      {
+        "id": "jm_polynomial",
+        "type": "PROCEDURAL",
+        "name": "整式加减与乘法",
+        "description": "依据运算律合并同类项、去括号和展开乘积。",
+        "evidence": [
+          "用分配律说明变形过程"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用分配律说明变形过程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_expression",
+            "hard",
+            "需要代数式"
+          ],
+          [
+            "math_laws",
+            "hard",
+            "需要运算律"
+          ]
+        ]
+      },
+      {
+        "id": "jm_identities",
+        "type": "REPRESENTATIONAL",
+        "name": "平方差与完全平方公式",
+        "description": "用几何模型和代数运算说明乘法公式。",
+        "evidence": [
+          "用面积或展开式验证公式并识别误用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用面积或展开式验证公式并识别误用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_polynomial",
+            "hard",
+            "需要整式乘法"
+          ]
+        ]
+      },
+      {
+        "id": "jm_factor",
+        "type": "PROCEDURAL",
+        "name": "提公因式与公式分解",
+        "description": "把整式改写为因式的积，并用展开检验等价。",
+        "evidence": [
+          "选择合适分解方法并反向检验"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：选择合适分解方法并反向检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_identities",
+            "hard",
+            "公式支持因式分解"
+          ]
+        ]
+      },
+      {
+        "id": "jm_fractional",
+        "type": "PROCEDURAL",
+        "name": "分式及运算条件",
+        "description": "在分母非零条件下约分通分并进行简单运算。",
+        "evidence": [
+          "标明取值限制并说明约分的依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：标明取值限制并说明约分的依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_factor",
+            "hard",
+            "分解帮助约分"
+          ],
+          [
+            "math_common_den",
+            "hard",
+            "承接分数通分"
+          ]
+        ]
+      },
+      {
+        "id": "jm_radicals",
+        "type": "PROCEDURAL",
+        "name": "二次根式运算",
+        "description": "在有意义的条件下进行简单根式化简和运算。",
+        "evidence": [
+          "说明根号内条件并检验化简结果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明根号内条件并检验化简结果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_roots",
+            "hard",
+            "需要算术平方根"
+          ],
+          [
+            "jm_polynomial",
+            "hard",
+            "需要式的运算"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "math",
+    "code": "S4-EQUATION",
+    "domain": "方程与不等式",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      63,
+      64
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／初中部分／数与代数／方程与不等式",
+    "summary": "用等式和不等式表达约束，求解后回到情境检查解的意义。",
+    "items": [
+      {
+        "id": "jm_linear_eq",
+        "type": "PROCEDURAL",
+        "name": "一元一次方程",
+        "description": "依等式性质求解一次方程并检验。",
+        "evidence": [
+          "把实际等量关系列成方程并解释解"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把实际等量关系列成方程并解释解。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_equation_property",
+            "hard",
+            "承接等式性质"
+          ],
+          [
+            "jm_polynomial",
+            "hard",
+            "需要整式变形"
+          ]
+        ]
+      },
+      {
+        "id": "jm_system",
+        "type": "PROCEDURAL",
+        "name": "二元一次方程组与消元",
+        "description": "用代入或加减消元保持两条约束同时成立。",
+        "evidence": [
+          "解释消元过程并代回两式检验"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释消元过程并代回两式检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_linear_eq",
+            "hard",
+            "需要一次方程求解"
+          ]
+        ]
+      },
+      {
+        "id": "jm_fraction_eq",
+        "type": "PROCEDURAL",
+        "name": "分式方程与验根",
+        "description": "通过去分母求解可化为一次方程的分式方程，排除增根。",
+        "evidence": [
+          "说明为什么必须检验分母和原方程"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明为什么必须检验分母和原方程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_fractional",
+            "hard",
+            "需要分母限制"
+          ],
+          [
+            "jm_linear_eq",
+            "hard",
+            "需要一次方程"
+          ]
+        ]
+      },
+      {
+        "id": "jm_quadratic",
+        "type": "PROCEDURAL",
+        "name": "一元二次方程",
+        "description": "选择因式分解、配方或公式法求解，并讨论实根情况。",
+        "evidence": [
+          "比较两种方法并用判别式解释根的情况"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两种方法并用判别式解释根的情况。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_factor",
+            "hard",
+            "需要因式分解"
+          ],
+          [
+            "jm_radicals",
+            "hard",
+            "求根涉及根式"
+          ],
+          [
+            "jm_linear_eq",
+            "hard",
+            "需要等价变形"
+          ]
+        ]
+      },
+      {
+        "id": "jm_inequality",
+        "type": "PROCEDURAL",
+        "name": "一元一次不等式与不等式组",
+        "description": "用不等式表达范围，注意乘除负数时不等号变化。",
+        "evidence": [
+          "在数轴上表示解集并检查端点"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在数轴上表示解集并检查端点。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_linear_eq",
+            "hard",
+            "承接代数变形"
+          ],
+          [
+            "jm_rational",
+            "hard",
+            "需要数轴和负数"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "math",
+    "code": "S4-FUNCTION",
+    "domain": "函数",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      64,
+      65
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／初中部分／数与代数／函数",
+    "summary": "协调表格、图象与解析式，解释变量关系、变化趋势及实际约束。",
+    "items": [
+      {
+        "id": "jm_function",
+        "type": "CONCEPTUAL",
+        "name": "函数关系与表示",
+        "description": "识别一个自变量值对应唯一函数值的关系，并在图表与式间转换。",
+        "evidence": [
+          "说明自变量范围和函数值的情境含义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明自变量范围和函数值的情境含义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_expression",
+            "hard",
+            "需要变量式"
+          ],
+          [
+            "jm_coordinates",
+            "hard",
+            "图象需要坐标"
+          ]
+        ]
+      },
+      {
+        "id": "jm_linear_fn",
+        "type": "REPRESENTATIONAL",
+        "name": "一次函数与参数",
+        "description": "根据条件确定一次函数，解释斜率和截距的变化作用。",
+        "evidence": [
+          "用图象与式解释变化率并解决情境问题"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图象与式解释变化率并解决情境问题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_function",
+            "hard",
+            "需要函数含义"
+          ],
+          [
+            "jm_system",
+            "hard",
+            "待定系数可用方程组"
+          ]
+        ]
+      },
+      {
+        "id": "jm_inverse_fn",
+        "type": "REPRESENTATIONAL",
+        "name": "反比例函数",
+        "description": "用乘积恒定的关系建立反比例函数并分析图象。",
+        "evidence": [
+          "解释取值限制并比较不同区间变化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释取值限制并比较不同区间变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_function",
+            "hard",
+            "需要函数表示"
+          ],
+          [
+            "math_ratio",
+            "hard",
+            "需要比的经验"
+          ]
+        ]
+      },
+      {
+        "id": "jm_quadratic_fn",
+        "type": "REPRESENTATIONAL",
+        "name": "二次函数与最值",
+        "description": "联系图象、对称轴和顶点分析二次函数，并联系方程的根。",
+        "evidence": [
+          "在实际范围内解释最值和零点"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在实际范围内解释最值和零点。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_function",
+            "hard",
+            "需要函数表示"
+          ],
+          [
+            "jm_quadratic",
+            "hard",
+            "需要二次方程"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "math",
+    "code": "S4-GEOMETRY",
+    "domain": "图形的性质",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／初中部分／图形与几何／图形的性质",
+    "summary": "从直观认识进入几何推理，区分命题、证明与反例，并研究基本图形。",
+    "items": [
+      {
+        "id": "jm_proof",
+        "type": "META",
+        "name": "几何命题与证明",
+        "description": "区分条件和结论，用定义或已知事实逐步论证，并以反例否定错误命题。",
+        "evidence": [
+          "给出每步推理依据并解释测量不等于证明"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：给出每步推理依据并解释测量不等于证明。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_triangle_properties",
+            "hard",
+            "已有图形性质经验"
+          ]
+        ]
+      },
+      {
+        "id": "jm_angles",
+        "type": "PROCEDURAL",
+        "name": "相交线平行线与角",
+        "description": "用对顶角、垂直和平行线角关系进行计算与证明。",
+        "evidence": [
+          "区分平行的判定与性质"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分平行的判定与性质。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_parallel",
+            "hard",
+            "承接平行垂直"
+          ],
+          [
+            "jm_proof",
+            "hard",
+            "需要推理依据"
+          ]
+        ]
+      },
+      {
+        "id": "jm_congruence",
+        "type": "CONCEPTUAL",
+        "name": "三角形全等",
+        "description": "依据全等判定确定对应关系，解释形状大小保持。",
+        "evidence": [
+          "写出足够条件并指出不充分的组合"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：写出足够条件并指出不充分的组合。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_angles",
+            "hard",
+            "需要边角关系"
+          ],
+          [
+            "jm_proof",
+            "hard",
+            "需要论证"
+          ]
+        ]
+      },
+      {
+        "id": "jm_special_triangle",
+        "type": "CONCEPTUAL",
+        "name": "等腰与直角三角形",
+        "description": "证明特殊三角形性质及判定，关联角平分线和垂直平分线。",
+        "evidence": [
+          "从已知条件推出边角关系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从已知条件推出边角关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_congruence",
+            "hard",
+            "全等支持性质证明"
+          ]
+        ]
+      },
+      {
+        "id": "jm_pythagoras",
+        "type": "CONCEPTUAL",
+        "name": "勾股定理及逆定理",
+        "description": "联系直角三角形三边平方关系，并区分定理与逆定理。",
+        "evidence": [
+          "判断适用条件并解决测量问题"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：判断适用条件并解决测量问题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_roots",
+            "hard",
+            "长度计算涉及平方根"
+          ],
+          [
+            "jm_special_triangle",
+            "hard",
+            "需要直角三角形"
+          ]
+        ]
+      },
+      {
+        "id": "jm_quadrilaterals",
+        "type": "CONCEPTUAL",
+        "name": "平行四边形与特殊四边形",
+        "description": "通过边、角、对角线关系证明性质和判定，整理包含关系。",
+        "evidence": [
+          "说明某判定为何足够并绘制分类图"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明某判定为何足够并绘制分类图。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_congruence",
+            "hard",
+            "证明常依赖全等"
+          ]
+        ]
+      },
+      {
+        "id": "jm_circle",
+        "type": "CONCEPTUAL",
+        "name": "圆中的角与切线",
+        "description": "研究圆周角、弦、切线及相关位置关系。",
+        "evidence": [
+          "根据圆的条件作出推理并说明依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据圆的条件作出推理并说明依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_circle",
+            "hard",
+            "承接圆的要素"
+          ],
+          [
+            "jm_special_triangle",
+            "hard",
+            "需要角和垂直关系"
+          ]
+        ]
+      },
+      {
+        "id": "jm_arc_area",
+        "type": "PROCEDURAL",
+        "name": "弧长与扇形面积",
+        "description": "依据圆心角占比计算弧长与扇形面积。",
+        "evidence": [
+          "区分长度和面积单位并解释比例"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分长度和面积单位并解释比例。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_circle_area",
+            "hard",
+            "承接圆的度量"
+          ],
+          [
+            "math_ratio",
+            "hard",
+            "需要比例"
+          ]
+        ]
+      },
+      {
+        "id": "jm_construction",
+        "type": "PROCEDURAL",
+        "name": "尺规作图与依据",
+        "description": "用无刻度直尺和圆规作基本图形，并说明构造依据。",
+        "evidence": [
+          "展示作图痕迹并解释构造保证了什么"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：展示作图痕迹并解释构造保证了什么。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_congruence",
+            "hard",
+            "需要边角性质"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "math",
+    "code": "S4-TRANSFORM",
+    "domain": "图形的变化与坐标",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      75,
+      76,
+      77,
+      78
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／初中部分／图形与几何／图形的变化及图形与坐标",
+    "summary": "用变换、相似、投影和坐标建立几何与代数的联系。",
+    "items": [
+      {
+        "id": "jm_transform",
+        "type": "CONCEPTUAL",
+        "name": "轴对称旋转平移的不变量",
+        "description": "说明基本变换对距离、角度和对应关系的影响。",
+        "evidence": [
+          "寻找变换中心或轴并解释保持不变的量"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：寻找变换中心或轴并解释保持不变的量。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_grid_transform",
+            "hard",
+            "承接方格变换"
+          ]
+        ]
+      },
+      {
+        "id": "jm_similarity",
+        "type": "CONCEPTUAL",
+        "name": "相似与位似",
+        "description": "以对应角和边的比例解释相似，区分相似与全等。",
+        "evidence": [
+          "判断对应关系并说明面积比与边长比的不同"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：判断对应关系并说明面积比与边长比的不同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_congruence",
+            "hard",
+            "需要对应关系"
+          ],
+          [
+            "math_ratio",
+            "hard",
+            "需要比例"
+          ]
+        ]
+      },
+      {
+        "id": "jm_trig",
+        "type": "PROCEDURAL",
+        "name": "锐角三角函数",
+        "description": "用直角三角形边比定义正弦余弦正切并解决简单测量。",
+        "evidence": [
+          "选取正确边比并解释测量条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：选取正确边比并解释测量条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_similarity",
+            "hard",
+            "边比不随相似缩放变化"
+          ],
+          [
+            "jm_pythagoras",
+            "hard",
+            "需要直角三角形"
+          ]
+        ]
+      },
+      {
+        "id": "jm_projection",
+        "type": "REPRESENTATIONAL",
+        "name": "投影与三视图",
+        "description": "联系简单立体图形、投影和三视图，识别视图信息的限制。",
+        "evidence": [
+          "根据视图描述立体并指出歧义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据视图描述立体并指出歧义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_views",
+            "hard",
+            "承接观察方向"
+          ]
+        ]
+      },
+      {
+        "id": "jm_coordinates",
+        "type": "REPRESENTATIONAL",
+        "name": "平面直角坐标与变换",
+        "description": "用有符号数对定位点，解释平移对称和位似的坐标变化。",
+        "evidence": [
+          "选择坐标系并描述对应点变化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：选择坐标系并描述对应点变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_coordinates",
+            "hard",
+            "承接数对定位"
+          ],
+          [
+            "jm_rational",
+            "hard",
+            "需要有符号坐标"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "math",
+    "code": "S4-DATA",
+    "domain": "统计与概率",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      81,
+      82,
+      83,
+      84
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／初中部分／统计与概率",
+    "summary": "通过抽样推断、分布描述和概率计算发展数据观念，区分结论与不确定性。",
+    "items": [
+      {
+        "id": "jm_sample",
+        "type": "META",
+        "name": "总体样本与抽样偏差",
+        "description": "根据问题确定总体和样本，评估抽样代表性。",
+        "evidence": [
+          "指出便利抽样的偏差并改进方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出便利抽样的偏差并改进方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_collect",
+            "hard",
+            "承接数据收集"
+          ]
+        ]
+      },
+      {
+        "id": "jm_distribution",
+        "type": "REPRESENTATIONAL",
+        "name": "频数分布与直方图",
+        "description": "分组整理数据并用频数分布图呈现特征。",
+        "evidence": [
+          "解释分组边界和图形所保留的信息"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释分组边界和图形所保留的信息。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_sample",
+            "hard",
+            "需要明确样本"
+          ]
+        ]
+      },
+      {
+        "id": "jm_statistics",
+        "type": "PROCEDURAL",
+        "name": "集中趋势与离散程度",
+        "description": "比较平均数、中位数、众数和方差，选择合适指标描述样本。",
+        "evidence": [
+          "说明相同平均数为何可能有不同波动"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明相同平均数为何可能有不同波动。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_mean",
+            "hard",
+            "需要平均数"
+          ],
+          [
+            "jm_operations",
+            "hard",
+            "需要计算平方差"
+          ]
+        ]
+      },
+      {
+        "id": "jm_probability",
+        "type": "PROCEDURAL",
+        "name": "等可能结果与概率",
+        "description": "列举或用树状图统计等可能结果，计算简单事件概率。",
+        "evidence": [
+          "说明等可能假设并避免重复遗漏"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明等可能假设并避免重复遗漏。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_chance",
+            "hard",
+            "承接随机现象"
+          ],
+          [
+            "math_fraction_div",
+            "hard",
+            "需要比例计算"
+          ]
+        ]
+      },
+      {
+        "id": "jm_frequency",
+        "type": "META",
+        "name": "频率与概率估计",
+        "description": "用重复试验观察频率波动与稳定趋势，避免把一次结果当作规律。",
+        "evidence": [
+          "比较不同试验次数的频率并解释不确定性"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较不同试验次数的频率并解释不确定性。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_probability",
+            "hard",
+            "需要概率含义"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "math",
+    "code": "S4-PROJECT",
+    "domain": "综合与实践",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      84,
+      85,
+      86
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／初中部分／综合与实践",
+    "summary": "建立、检验和修正数学模型，以数据和条件支持实际决策。",
+    "items": [
+      {
+        "id": "jm_model",
+        "type": "META",
+        "name": "数学建模与结果检验",
+        "description": "明确问题和假设，选择模型求解，并检查现实适用范围。",
+        "evidence": [
+          "说明假设改变时结论如何变化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明假设改变时结论如何变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jm_function",
+            "hard",
+            "变量关系支持建模"
+          ],
+          [
+            "jm_sample",
+            "soft",
+            "数据支持验证"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chinese",
+    "code": "S4-LANGUAGE",
+    "domain": "语言积累与阅读",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "三、课程目标／第四学段（7—9年级）",
+    "summary": "联系语境积累语言，通过多种文本阅读发展解释、鉴赏与判断能力。",
+    "items": [
+      {
+        "id": "jz_language",
+        "type": "LANGUAGE",
+        "name": "语言积累与语境运用",
+        "description": "独立辨析字词句的语境意义，整理语言材料并用于表达。",
+        "evidence": [
+          "比较同一词在不同语境中的作用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较同一词在不同语境中的作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_independent_chars",
+            "hard",
+            "承接独立识字"
+          ],
+          [
+            "jz_reading",
+            "hard",
+            "阅读提供语境"
+          ]
+        ]
+      },
+      {
+        "id": "jz_reading",
+        "type": "PROCEDURAL",
+        "name": "精读略读与浏览策略",
+        "description": "依据目的选择阅读方式，区分主要信息、细节和线索。",
+        "evidence": [
+          "解释选择某种阅读策略的理由"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释选择某种阅读策略的理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_silent",
+            "hard",
+            "承接默读略读"
+          ]
+        ]
+      },
+      {
+        "id": "jz_narrative",
+        "type": "META",
+        "name": "叙事视角人物与情节",
+        "description": "结合细节、叙事顺序和表达方式解释人物与主题。",
+        "evidence": [
+          "用文本证据支持人物理解并回应另一解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用文本证据支持人物理解并回应另一解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_structure",
+            "hard",
+            "承接文章结构"
+          ],
+          [
+            "jz_reading",
+            "hard",
+            "需要阅读策略"
+          ]
+        ]
+      },
+      {
+        "id": "jz_poetry",
+        "type": "META",
+        "name": "诗歌意象与语言品味",
+        "description": "通过节奏、意象和语言表达体会诗歌情感与意蕴。",
+        "evidence": [
+          "关联具体诗句与解释而非只贴情感标签"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：关联具体诗句与解释而非只贴情感标签。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_poem",
+            "hard",
+            "承接诗歌想象"
+          ]
+        ]
+      },
+      {
+        "id": "jz_classical",
+        "type": "LANGUAGE",
+        "name": "文言词句与文本理解",
+        "description": "借助注释工具理解浅易文言文，联系上下文解释常见词句。",
+        "evidence": [
+          "说明译述依据并区分古今词义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明译述依据并区分古今词义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_dictionary",
+            "hard",
+            "需要工具书使用"
+          ],
+          [
+            "zh_inference",
+            "hard",
+            "需要语境推断"
+          ]
+        ]
+      },
+      {
+        "id": "jz_exposition",
+        "type": "META",
+        "name": "说明性文本的信息组织",
+        "description": "辨识对象特征、说明顺序和方法，检查信息表达的准确性。",
+        "evidence": [
+          "比较两种说明方式对理解的作用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两种说明方式对理解的作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_multimodal",
+            "hard",
+            "承接信息阅读"
+          ]
+        ]
+      },
+      {
+        "id": "jz_argument",
+        "type": "META",
+        "name": "观点理由与论据",
+        "description": "识别论点和论据，检查推理联系及材料可靠性。",
+        "evidence": [
+          "指出论据支持何种主张及其局限"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出论据支持何种主张及其局限。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_opinion",
+            "hard",
+            "承接观点表达"
+          ]
+        ]
+      },
+      {
+        "id": "jz_media",
+        "type": "META",
+        "name": "跨媒介信息比较",
+        "description": "比较不同媒介对同一事件的呈现，识别立场、信息遗漏与出处。",
+        "evidence": [
+          "交叉核对两份材料并说明可信依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：交叉核对两份材料并说明可信依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_source_search",
+            "hard",
+            "需要来源检索"
+          ],
+          [
+            "jz_argument",
+            "hard",
+            "需要证据评价"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chinese",
+    "code": "S4-EXPRESSION",
+    "domain": "表达交流与探究",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      22,
+      23,
+      24
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "三、课程目标／第四学段／表达与交流、梳理与探究",
+    "summary": "围绕目的与读者组织叙事、说明和议论，开展讨论、研究与修改。",
+    "items": [
+      {
+        "id": "jz_write",
+        "type": "PROCEDURAL",
+        "name": "目的对象与篇章组织",
+        "description": "根据表达目的选择材料、顺序和详略，写作记叙或说明文章。",
+        "evidence": [
+          "说明结构选择如何服务读者和中心"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明结构选择如何服务读者和中心。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_composition",
+            "hard",
+            "承接分段写作"
+          ],
+          [
+            "jz_narrative",
+            "hard",
+            "阅读经验支持组织"
+          ]
+        ]
+      },
+      {
+        "id": "jz_essay",
+        "type": "PROCEDURAL",
+        "name": "有证据的议论写作",
+        "description": "提出明确观点，选择可靠论据并解释论证关系。",
+        "evidence": [
+          "针对反对意见修改理由或限定结论"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：针对反对意见修改理由或限定结论。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jz_argument",
+            "hard",
+            "需要理解论证"
+          ],
+          [
+            "jz_write",
+            "hard",
+            "需要篇章组织"
+          ]
+        ]
+      },
+      {
+        "id": "jz_revision",
+        "type": "META",
+        "name": "写作过程与互评",
+        "description": "从搜集素材、构思起草到修改，区分内容结构与语言层面问题。",
+        "evidence": [
+          "保留修改前后文本并说明效果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：保留修改前后文本并说明效果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_peer_revision",
+            "hard",
+            "承接互改"
+          ],
+          [
+            "jz_write",
+            "hard",
+            "需要完整草稿"
+          ]
+        ]
+      },
+      {
+        "id": "jz_dialogue",
+        "type": "LANGUAGE",
+        "name": "倾听讨论与即席表达",
+        "description": "准确理解他人观点，围绕共同问题有条理回应并尊重差异。",
+        "evidence": [
+          "复述对方理由再提出自己的回应"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：复述对方理由再提出自己的回应。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_opinion",
+            "hard",
+            "承接观点交流"
+          ]
+        ]
+      },
+      {
+        "id": "jz_research",
+        "type": "META",
+        "name": "研究报告与引用",
+        "description": "提出问题、整理一手和间接材料，以适当媒介展示结论并注明出处。",
+        "evidence": [
+          "说明证据来源和结论边界"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明证据来源和结论边界。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_research",
+            "hard",
+            "承接研究报告"
+          ],
+          [
+            "jz_media",
+            "hard",
+            "需要来源判断"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chinese",
+    "code": "S4-TASKS",
+    "domain": "学习任务群",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／学习任务群／第四学段要求（章节范围）",
+    "summary": "以整本书、文学创作和跨学科任务整合语言实践，任务群不等于固定教材单元。",
+    "items": [
+      {
+        "id": "jz_book",
+        "type": "META",
+        "name": "整本书阅读与专题研讨",
+        "description": "制订阅读计划，梳理结构并围绕主题比较证据与见解。",
+        "evidence": [
+          "用全书多处依据支持专题解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用全书多处依据支持专题解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_book_recommend",
+            "hard",
+            "承接整本书阅读"
+          ],
+          [
+            "jz_narrative",
+            "hard",
+            "需要叙事分析"
+          ]
+        ]
+      },
+      {
+        "id": "jz_creation",
+        "type": "PROCEDURAL",
+        "name": "文学创作与展示",
+        "description": "在真实文学活动中尝试改写、诗歌或短篇创作，并反思语言效果。",
+        "evidence": [
+          "说明创作选择与读者反馈如何影响修改"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明创作选择与读者反馈如何影响修改。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jz_write",
+            "hard",
+            "需要篇章表达"
+          ],
+          [
+            "jz_poetry",
+            "hard",
+            "诗歌经验支持创作"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "english",
+    "code": "L3-KNOWLEDGE",
+    "domain": "语言知识与文化",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／主题、语篇、语言知识、文化知识／三级要求（章节范围）",
+    "summary": "在主题语境中运用语音词汇语法，理解语篇组织与文化差异。",
+    "items": [
+      {
+        "id": "je_pronunciation",
+        "type": "LANGUAGE",
+        "name": "语音语调与交际意图",
+        "description": "通过重音、停顿和语调传达重点与态度。",
+        "evidence": [
+          "比较不同重音表达的意义变化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较不同重音表达的意义变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_stress",
+            "hard",
+            "承接重音语调"
+          ]
+        ]
+      },
+      {
+        "id": "je_vocabulary",
+        "type": "LANGUAGE",
+        "name": "构词语境与词汇网络",
+        "description": "利用词根词缀、搭配和语境推断词义并检查解释。",
+        "evidence": [
+          "解释推词依据并在新语境中正确使用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释推词依据并在新语境中正确使用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_guess",
+            "hard",
+            "承接语境猜词"
+          ]
+        ]
+      },
+      {
+        "id": "je_time",
+        "type": "LANGUAGE",
+        "name": "时态与事件关系",
+        "description": "用适当时态表达习惯、经历、计划及事件先后，联系语境选择形式。",
+        "evidence": [
+          "比较两种时态改变的意义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两种时态改变的意义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_past_future",
+            "hard",
+            "承接过去未来表达"
+          ]
+        ]
+      },
+      {
+        "id": "je_structure",
+        "type": "LANGUAGE",
+        "name": "句子结构与逻辑关系",
+        "description": "用简单句和适当复合句表达因果、条件、比较及信息关系。",
+        "evidence": [
+          "连接句子并解释连接词的作用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：连接句子并解释连接词的作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_simple_sentence",
+            "hard",
+            "承接简单句"
+          ]
+        ]
+      },
+      {
+        "id": "je_voice",
+        "type": "LANGUAGE",
+        "name": "语态情态与表达重点",
+        "description": "根据交际目的选择主动被动或情态表达，说明责任、可能和建议。",
+        "evidence": [
+          "比较不同形式对语气与重点的影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较不同形式对语气与重点的影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "je_structure",
+            "hard",
+            "需要句子结构"
+          ]
+        ]
+      },
+      {
+        "id": "je_culture",
+        "type": "META",
+        "name": "文化比较与得体交流",
+        "description": "理解文化语境中的差异，尊重多样性并介绍中国文化。",
+        "evidence": [
+          "避免以个别例子概括群体并调整表达"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：避免以个别例子概括群体并调整表达。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_culture",
+            "hard",
+            "承接文化比较"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "english",
+    "code": "L3-SKILLS",
+    "domain": "理解表达与学习策略",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／语言技能与学习策略／三级要求（章节范围）",
+    "summary": "以听读看获取与推断信息，以说写形成连贯表达，并监控学习过程。",
+    "items": [
+      {
+        "id": "je_listen",
+        "type": "PROCEDURAL",
+        "name": "听力要点与说话者意图",
+        "description": "利用语境和语音线索获取要点、顺序与态度。",
+        "evidence": [
+          "说明推断意图所依据的线索"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明推断意图所依据的线索。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_information",
+            "hard",
+            "承接信息提取"
+          ],
+          [
+            "je_pronunciation",
+            "hard",
+            "需要语调辨识"
+          ]
+        ]
+      },
+      {
+        "id": "je_read",
+        "type": "META",
+        "name": "语篇结构与推断",
+        "description": "结合标题、段落关系和细节推断主旨、人物意图或观点。",
+        "evidence": [
+          "区分文本事实与个人推断"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分文本事实与个人推断。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_story_sequence",
+            "hard",
+            "承接情节概括"
+          ],
+          [
+            "je_vocabulary",
+            "hard",
+            "需要词义理解"
+          ]
+        ]
+      },
+      {
+        "id": "je_evaluate",
+        "type": "META",
+        "name": "英语信息的比较与评价",
+        "description": "比较语篇中的事实和观点，检查证据与目的。",
+        "evidence": [
+          "用两条材料说明判断依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用两条材料说明判断依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "je_read",
+            "hard",
+            "需要语篇理解"
+          ]
+        ]
+      },
+      {
+        "id": "je_speak",
+        "type": "LANGUAGE",
+        "name": "讨论协商与口头展示",
+        "description": "围绕熟悉主题连贯表达、提出澄清问题并协商任务。",
+        "evidence": [
+          "根据听众反馈调整说明"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据听众反馈调整说明。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_service",
+            "hard",
+            "承接情境交流"
+          ],
+          [
+            "je_structure",
+            "hard",
+            "需要逻辑连接"
+          ]
+        ]
+      },
+      {
+        "id": "je_write",
+        "type": "PROCEDURAL",
+        "name": "连贯篇章与应用写作",
+        "description": "依据目的组织叙述、说明或应用文本，使用衔接并修改。",
+        "evidence": [
+          "解释段落顺序并根据反馈修改"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释段落顺序并根据反馈修改。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "en_paragraph",
+            "hard",
+            "承接短文写作"
+          ],
+          [
+            "je_time",
+            "hard",
+            "需要时间关系"
+          ],
+          [
+            "je_structure",
+            "hard",
+            "需要衔接"
+          ]
+        ]
+      },
+      {
+        "id": "je_strategy",
+        "type": "META",
+        "name": "计划监控与反思",
+        "description": "制订可检查目标，利用资源和反馈调整语言学习策略。",
+        "evidence": [
+          "比较学习记录与目标并提出具体调整"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较学习记录与目标并提出具体调整。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "je_evaluate",
+            "soft",
+            "证据评价支持反思"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "computing",
+    "code": "S4-INTERNET",
+    "domain": "互联网应用与创新",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／互联网应用与创新",
+    "summary": "从协议与数据传输理解网络应用，负责任地组织数字协作和安全防护。",
+    "items": [
+      {
+        "id": "ji_network",
+        "type": "CONCEPTUAL",
+        "name": "网络协议与数据传输",
+        "description": "用分层交流与规则的思想解释网络设备间传输数据。",
+        "evidence": [
+          "画出简化传输过程并说明协议作用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：画出简化传输过程并说明协议作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "it_code",
+            "hard",
+            "承接数据编码"
+          ],
+          [
+            "it_system",
+            "hard",
+            "承接系统模型"
+          ]
+        ]
+      },
+      {
+        "id": "ji_application",
+        "type": "PROCEDURAL",
+        "name": "网络应用与协作设计",
+        "description": "分析需求，组织资源并设计可测试的网络应用方案。",
+        "evidence": [
+          "说明数据如何在用户和系统间流动"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明数据如何在用户和系统间流动。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ji_network",
+            "hard",
+            "需要网络过程"
+          ],
+          [
+            "it_collaborate",
+            "hard",
+            "需要协作"
+          ]
+        ]
+      },
+      {
+        "id": "ji_security",
+        "type": "META",
+        "name": "网络安全与责任",
+        "description": "从信息、身份和访问权限识别风险，保护隐私并尊重知识产权。",
+        "evidence": [
+          "对案例提出适当防护并说明边界"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对案例提出适当防护并说明边界。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "it_security",
+            "hard",
+            "承接在线安全"
+          ],
+          [
+            "it_data_protect",
+            "hard",
+            "承接数据保护"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "computing",
+    "code": "S4-IOT",
+    "domain": "物联网实践与探索",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      44,
+      45,
+      46
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／物联网实践与探索",
+    "summary": "以传感、通信、处理和执行解释物联系统，设计并测试简单应用。",
+    "items": [
+      {
+        "id": "ji_iot",
+        "type": "CONCEPTUAL",
+        "name": "物联网的感知通信与执行",
+        "description": "比较互联网和物联网，说明物理对象的数据采集与反馈控制。",
+        "evidence": [
+          "追踪一次传感数据到执行动作的过程"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：追踪一次传感数据到执行动作的过程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ji_network",
+            "hard",
+            "需要网络传输"
+          ],
+          [
+            "it_feedback",
+            "hard",
+            "承接反馈系统"
+          ]
+        ]
+      },
+      {
+        "id": "ji_sensor",
+        "type": "PROCEDURAL",
+        "name": "传感数据采集与校验",
+        "description": "依据任务选择传感量并检查异常数据和采样条件。",
+        "evidence": [
+          "通过对照测量解释误差来源"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：通过对照测量解释误差来源。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ji_iot",
+            "hard",
+            "需要物联系统"
+          ],
+          [
+            "sc_measure",
+            "hard",
+            "承接测量"
+          ]
+        ]
+      },
+      {
+        "id": "ji_iot_project",
+        "type": "PROCEDURAL",
+        "name": "物联系统集成与测试",
+        "description": "根据需求连接感知与执行模块，记录测试并改进方案。",
+        "evidence": [
+          "构造边界情境并说明系统反应"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：构造边界情境并说明系统反应。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ji_sensor",
+            "hard",
+            "需要可靠输入"
+          ],
+          [
+            "it_test",
+            "hard",
+            "承接测试"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "computing",
+    "code": "S4-AI",
+    "domain": "人工智能与智慧社会",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／人工智能与智慧社会及互联智能设计",
+    "summary": "通过实例理解数据算法算力，比较实现方式与社会影响。",
+    "items": [
+      {
+        "id": "ji_ai",
+        "type": "CONCEPTUAL",
+        "name": "人工智能的数据算法算力",
+        "description": "解释人工智能应用所需的三类技术基础，区分一般自动化与学习型应用。",
+        "evidence": [
+          "分析实例中的数据算法和计算资源"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：分析实例中的数据算法和计算资源。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "it_steps",
+            "hard",
+            "承接算法"
+          ],
+          [
+            "it_data",
+            "hard",
+            "承接数据"
+          ]
+        ]
+      },
+      {
+        "id": "ji_learning",
+        "type": "CONCEPTUAL",
+        "name": "训练预测与模型评价",
+        "description": "以简单案例比较传统规则和机器学习，使用新数据评价预测。",
+        "evidence": [
+          "说明为什么不能只用训练样本评价效果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明为什么不能只用训练样本评价效果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ji_ai",
+            "hard",
+            "需要AI基础"
+          ],
+          [
+            "jm_sample",
+            "soft",
+            "抽样概念支持评价"
+          ]
+        ]
+      },
+      {
+        "id": "ji_ethics",
+        "type": "META",
+        "name": "人工智能偏差伦理与安全",
+        "description": "分析数据偏差、隐私和责任问题，对输出保持独立核验。",
+        "evidence": [
+          "指出案例风险并提出可检查的改进"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出案例风险并提出可检查的改进。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ji_learning",
+            "hard",
+            "需要模型局限"
+          ],
+          [
+            "ji_security",
+            "hard",
+            "需要安全意识"
+          ]
+        ]
+      },
+      {
+        "id": "ji_project",
+        "type": "META",
+        "name": "互联智能项目方案",
+        "description": "围绕真实需求设计系统，比较可行性并解释技术与社会取舍。",
+        "evidence": [
+          "用测试证据与风险分析修改方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用测试证据与风险分析修改方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ji_iot_project",
+            "hard",
+            "系统实践支持设计"
+          ],
+          [
+            "ji_ai",
+            "hard",
+            "需要AI概念"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "physics",
+    "code": "S4-MATTER",
+    "domain": "物质",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／物质",
+    "summary": "通过测量、模型和实验理解物态、密度、物质结构与尺度。",
+    "items": [
+      {
+        "id": "jp_measure",
+        "type": "PROCEDURAL",
+        "name": "物理量测量与误差",
+        "description": "选择量程分度值，规范测量长度时间质量并记录单位和误差来源。",
+        "evidence": [
+          "比较多次读数并说明误差与错误的不同"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较多次读数并说明误差与错误的不同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_measure",
+            "hard",
+            "承接工具测量"
+          ]
+        ]
+      },
+      {
+        "id": "jp_states",
+        "type": "CONCEPTUAL",
+        "name": "物态变化与吸放热",
+        "description": "结合温度记录解释熔化凝固汽化液化升华凝华。",
+        "evidence": [
+          "以现象和温度变化支持物态判断"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：以现象和温度变化支持物态判断。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_states",
+            "hard",
+            "承接物态"
+          ],
+          [
+            "sc_temperature",
+            "hard",
+            "承接温度"
+          ]
+        ]
+      },
+      {
+        "id": "jp_density",
+        "type": "CONCEPTUAL",
+        "name": "质量体积与密度",
+        "description": "用单位体积质量描述物质属性，设计密度测量方案。",
+        "evidence": [
+          "说明同种物质质量变化为何通常不改变密度"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明同种物质质量变化为何通常不改变密度。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_measure",
+            "hard",
+            "需要测量"
+          ],
+          [
+            "math_ratio",
+            "hard",
+            "需要比值"
+          ]
+        ]
+      },
+      {
+        "id": "jp_particle",
+        "type": "CONCEPTUAL",
+        "name": "粒子模型与物质尺度",
+        "description": "用粒子运动和间隔解释扩散等现象，认识模型有适用范围。",
+        "evidence": [
+          "区分可见现象与模型解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分可见现象与模型解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_air_space",
+            "hard",
+            "承接空气经验"
+          ],
+          [
+            "jm_powers",
+            "soft",
+            "科学记数支持尺度比较"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "physics",
+    "code": "S4-MOTION",
+    "domain": "运动和相互作用",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／运动和相互作用",
+    "summary": "用模型、实验和定量关系解释机械运动、力、声光与电磁作用。",
+    "items": [
+      {
+        "id": "jp_motion",
+        "type": "REPRESENTATIONAL",
+        "name": "参照物与速度图象",
+        "description": "相对于选定参照物描述运动，联系路程时间速度与图象。",
+        "evidence": [
+          "说明同一物体运动描述不同的原因"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明同一物体运动描述不同的原因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_speed",
+            "hard",
+            "承接运动快慢"
+          ],
+          [
+            "math_speed",
+            "hard",
+            "承接速度模型"
+          ]
+        ]
+      },
+      {
+        "id": "jp_force",
+        "type": "CONCEPTUAL",
+        "name": "力的作用与相互性",
+        "description": "用力的示意图表达大小方向作用点，区分重力弹力和摩擦力。",
+        "evidence": [
+          "解释相互作用力作用于不同物体"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释相互作用力作用于不同物体。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_force_motion",
+            "hard",
+            "承接力与运动"
+          ]
+        ]
+      },
+      {
+        "id": "jp_newton",
+        "type": "CONCEPTUAL",
+        "name": "惯性平衡与运动状态",
+        "description": "区别力维持运动的误解，解释惯性及二力平衡条件。",
+        "evidence": [
+          "比较平衡力与相互作用力"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较平衡力与相互作用力。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_motion",
+            "hard",
+            "需要运动状态"
+          ],
+          [
+            "jp_force",
+            "hard",
+            "需要力的作用"
+          ]
+        ]
+      },
+      {
+        "id": "jp_pressure",
+        "type": "CONCEPTUAL",
+        "name": "压强与流体压力",
+        "description": "用受力面积解释压强，联系液体深度密度和大气压现象。",
+        "evidence": [
+          "比较压力与压强并说明控制变量"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较压力与压强并说明控制变量。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_force",
+            "hard",
+            "需要力"
+          ],
+          [
+            "jp_density",
+            "hard",
+            "需要密度"
+          ]
+        ]
+      },
+      {
+        "id": "jp_buoyancy",
+        "type": "CONCEPTUAL",
+        "name": "浮力与浮沉",
+        "description": "结合受力和排开液体解释浮力及物体浮沉条件。",
+        "evidence": [
+          "说明浮力变化条件并进行受力比较"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明浮力变化条件并进行受力比较。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_pressure",
+            "hard",
+            "需要液体压力"
+          ],
+          [
+            "jp_newton",
+            "hard",
+            "需要平衡"
+          ]
+        ]
+      },
+      {
+        "id": "jp_lever",
+        "type": "CONCEPTUAL",
+        "name": "杠杆平衡与简单机械",
+        "description": "识别力臂，以实验分析杠杆平衡及滑轮作用。",
+        "evidence": [
+          "解释省力与移动距离的联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释省力与移动距离的联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_machine",
+            "hard",
+            "承接简单机械"
+          ],
+          [
+            "jp_force",
+            "hard",
+            "需要力"
+          ]
+        ]
+      },
+      {
+        "id": "jp_sound",
+        "type": "CONCEPTUAL",
+        "name": "声音的产生传播与特性",
+        "description": "以振动、介质和波的直观模型解释音调响度音色及噪声控制。",
+        "evidence": [
+          "针对噪声案例区分声源传播和接收环节"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：针对噪声案例区分声源传播和接收环节。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_sound",
+            "hard",
+            "承接振动发声"
+          ]
+        ]
+      },
+      {
+        "id": "jp_reflection",
+        "type": "REPRESENTATIONAL",
+        "name": "反射折射与平面镜",
+        "description": "以规范光路图解释反射折射和平面镜成像。",
+        "evidence": [
+          "区分光路与虚像位置并用实验检验"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分光路与虚像位置并用实验检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_light",
+            "hard",
+            "承接光路"
+          ]
+        ]
+      },
+      {
+        "id": "jp_lens",
+        "type": "REPRESENTATIONAL",
+        "name": "透镜成像与应用",
+        "description": "比较物距变化时凸透镜成像，联系眼睛与光学器材。",
+        "evidence": [
+          "用实验或光路说明成像条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用实验或光路说明成像条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_reflection",
+            "hard",
+            "需要光路和像"
+          ]
+        ]
+      },
+      {
+        "id": "jp_circuit",
+        "type": "REPRESENTATIONAL",
+        "name": "电流电压与串并联",
+        "description": "用电路图表达连接，规范测量电流电压并解释串并联特点。",
+        "evidence": [
+          "从电路连接判断测量位置与量程"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从电路连接判断测量位置与量程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_circuit",
+            "hard",
+            "承接闭合电路"
+          ],
+          [
+            "jp_measure",
+            "hard",
+            "需要仪表读数"
+          ]
+        ]
+      },
+      {
+        "id": "jp_magnetism",
+        "type": "CONCEPTUAL",
+        "name": "磁场电流与电磁感应",
+        "description": "比较磁体和电流的磁效应，解释电动机与发电机的能量过程。",
+        "evidence": [
+          "区分通电受力与感应电流的条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分通电受力与感应电流的条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_poles",
+            "hard",
+            "承接磁极"
+          ],
+          [
+            "jp_circuit",
+            "hard",
+            "需要电流"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "physics",
+    "code": "S4-ENERGY",
+    "domain": "能量",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／能量",
+    "summary": "联系功、热和电学分析能量转移、转化、效率及可持续利用。",
+    "items": [
+      {
+        "id": "jp_work",
+        "type": "CONCEPTUAL",
+        "name": "功功率与机械效率",
+        "description": "区分做功多少、快慢和有用功比例。",
+        "evidence": [
+          "在同一装置中解释三个量的差别"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在同一装置中解释三个量的差别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_force",
+            "hard",
+            "需要力"
+          ],
+          [
+            "jp_motion",
+            "hard",
+            "需要位移和速度"
+          ]
+        ]
+      },
+      {
+        "id": "jp_mechanical",
+        "type": "CONCEPTUAL",
+        "name": "动能势能与转化",
+        "description": "分析物体运动和位置改变中的机械能变化。",
+        "evidence": [
+          "说明改变因素并描述转化链"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明改变因素并描述转化链。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_energy",
+            "hard",
+            "承接能量"
+          ],
+          [
+            "jp_work",
+            "hard",
+            "需要功的经验"
+          ]
+        ]
+      },
+      {
+        "id": "jp_heat",
+        "type": "CONCEPTUAL",
+        "name": "内能热量与比热容",
+        "description": "区分温度、内能和热量，用比热容解释升温差异。",
+        "evidence": [
+          "设计比较升温实验并说明控制条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：设计比较升温实验并说明控制条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_particle",
+            "hard",
+            "需要粒子运动"
+          ],
+          [
+            "jp_states",
+            "hard",
+            "需要热过程"
+          ]
+        ]
+      },
+      {
+        "id": "jp_ohm",
+        "type": "PROCEDURAL",
+        "name": "电阻与欧姆定律",
+        "description": "在条件适用时联系电流电压电阻，解释测量数据。",
+        "evidence": [
+          "以控制变量实验说明关系而非仅套公式"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：以控制变量实验说明关系而非仅套公式。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_circuit",
+            "hard",
+            "需要电流电压"
+          ],
+          [
+            "math_ratio",
+            "hard",
+            "需要比值"
+          ]
+        ]
+      },
+      {
+        "id": "jp_electric_power",
+        "type": "PROCEDURAL",
+        "name": "电功电功率与电热",
+        "description": "联系电能转化计算简单用电问题并识别额定值与实际值。",
+        "evidence": [
+          "解释铭牌信息及电能和功率的区别"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释铭牌信息及电能和功率的区别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_ohm",
+            "hard",
+            "需要电路量"
+          ],
+          [
+            "jp_work",
+            "hard",
+            "需要功率"
+          ]
+        ]
+      },
+      {
+        "id": "jp_conservation",
+        "type": "META",
+        "name": "能量守恒效率与能源",
+        "description": "追踪能量去向，区别能量守恒与可利用程度，比较能源方案。",
+        "evidence": [
+          "列出转化损失与环境取舍"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：列出转化损失与环境取舍。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_mechanical",
+            "hard",
+            "机械能提供实例"
+          ],
+          [
+            "jp_heat",
+            "hard",
+            "内能提供实例"
+          ],
+          [
+            "sc_energy_sources",
+            "hard",
+            "承接能源"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "physics",
+    "code": "S4-PRACTICE",
+    "domain": "实验探究与跨学科实践",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／实验探究及跨学科实践",
+    "summary": "以可检验问题、实验记录和模型迭代组织物理探究与工程实践。",
+    "items": [
+      {
+        "id": "jp_inquiry",
+        "type": "META",
+        "name": "物理实验设计与证据",
+        "description": "提出假设，控制变量并依据记录论证，说明误差和结论范围。",
+        "evidence": [
+          "区分观察结果与解释并提出改进"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分观察结果与解释并提出改进。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_measure",
+            "hard",
+            "需要规范测量"
+          ],
+          [
+            "sc_fairtest",
+            "hard",
+            "承接公平实验"
+          ]
+        ]
+      },
+      {
+        "id": "jp_design",
+        "type": "PROCEDURAL",
+        "name": "物理装置设计与评估",
+        "description": "围绕功能约束设计低风险模型，测试并按证据改进。",
+        "evidence": [
+          "比较方案性能成本与安全性"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较方案性能成本与安全性。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jp_inquiry",
+            "hard",
+            "需要实验评价"
+          ],
+          [
+            "sc_improve",
+            "hard",
+            "承接装置改进"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chemistry",
+    "code": "S4-INQUIRY",
+    "domain": "科学探究与化学实验",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／科学探究与化学实验",
+    "summary": "学习规范实验、观察与推理，以证据和模型探索物质变化。",
+    "items": [
+      {
+        "id": "jc_safety",
+        "type": "PROCEDURAL",
+        "name": "化学实验规范与风险识别",
+        "description": "识读标签和装置用途，依教师指导进行取用、加热和废物处理。",
+        "evidence": [
+          "在模拟任务中识别不规范操作并说明原因"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在模拟任务中识别不规范操作并说明原因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_fairtest",
+            "hard",
+            "承接实验意识"
+          ]
+        ]
+      },
+      {
+        "id": "jc_inquiry",
+        "type": "META",
+        "name": "化学探究与证据推理",
+        "description": "区分实验现象与结论，设计对照并评价证据能否支持假设。",
+        "evidence": [
+          "提出排除其他解释的对照方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：提出排除其他解释的对照方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_safety",
+            "hard",
+            "需要规范实验"
+          ],
+          [
+            "sc_new_substance",
+            "hard",
+            "承接物质变化"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chemistry",
+    "code": "S4-PROPERTIES",
+    "domain": "物质的性质与应用",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／物质的性质与应用",
+    "summary": "按组成和性质分类物质，认识常见气体、水溶液、金属及酸碱盐的应用。",
+    "items": [
+      {
+        "id": "jc_classify",
+        "type": "CONCEPTUAL",
+        "name": "物质分类与性质用途",
+        "description": "区分纯净物混合物、单质化合物及物理化学性质。",
+        "evidence": [
+          "说明采用的分类标准及性质用途联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明采用的分类标准及性质用途联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_air_mix",
+            "hard",
+            "承接混合物"
+          ],
+          [
+            "jc_atoms",
+            "hard",
+            "需要组成视角"
+          ]
+        ]
+      },
+      {
+        "id": "jc_gases",
+        "type": "CONCEPTUAL",
+        "name": "氧气二氧化碳与空气",
+        "description": "比较常见气体性质及用途，解释实验室制取与检验思路。",
+        "evidence": [
+          "根据性质选择收集检验方案并说明安全条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据性质选择收集检验方案并说明安全条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_safety",
+            "hard",
+            "需要实验规范"
+          ],
+          [
+            "sc_air_mix",
+            "hard",
+            "承接空气组成"
+          ]
+        ]
+      },
+      {
+        "id": "jc_water",
+        "type": "PROCEDURAL",
+        "name": "水的净化与组成探究",
+        "description": "比较净化方法与水的组成实验，区别混合物分离和化学变化。",
+        "evidence": [
+          "说明净化步骤能去除哪些杂质"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明净化步骤能去除哪些杂质。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_separate",
+            "hard",
+            "承接分离"
+          ],
+          [
+            "jc_safety",
+            "hard",
+            "需要规范实验"
+          ]
+        ]
+      },
+      {
+        "id": "jc_solution",
+        "type": "CONCEPTUAL",
+        "name": "溶液饱和与溶解度",
+        "description": "区分溶质溶剂、浓稀和饱和程度，分析温度等条件。",
+        "evidence": [
+          "说明饱和溶液未必更浓"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明饱和溶液未必更浓。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_dissolve",
+            "hard",
+            "承接溶解"
+          ]
+        ]
+      },
+      {
+        "id": "jc_concentration",
+        "type": "PROCEDURAL",
+        "name": "溶质质量分数与配制",
+        "description": "用质量比例表达浓度，计算并按规范配制简单溶液。",
+        "evidence": [
+          "说明溶质溶剂总质量及误差影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明溶质溶剂总质量及误差影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_solution",
+            "hard",
+            "需要溶液组成"
+          ],
+          [
+            "math_percent",
+            "hard",
+            "需要百分数"
+          ],
+          [
+            "jc_safety",
+            "hard",
+            "需要操作规范"
+          ]
+        ]
+      },
+      {
+        "id": "jc_metals",
+        "type": "CONCEPTUAL",
+        "name": "金属性质活动性与腐蚀",
+        "description": "比较金属及合金性能，依据实验分析活动性和防腐原理。",
+        "evidence": [
+          "从证据排序活动性并解释防锈方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从证据排序活动性并解释防锈方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_inquiry",
+            "hard",
+            "需要实验推理"
+          ]
+        ]
+      },
+      {
+        "id": "jc_acid_base",
+        "type": "CONCEPTUAL",
+        "name": "酸碱性质与酸碱性",
+        "description": "通过指示剂等信息判断酸碱性，解释常见酸碱性质和合理使用。",
+        "evidence": [
+          "区分物质类别与溶液酸碱性"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分物质类别与溶液酸碱性。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_safety",
+            "hard",
+            "需要规范使用"
+          ],
+          [
+            "jc_classify",
+            "hard",
+            "需要分类"
+          ]
+        ]
+      },
+      {
+        "id": "jc_salts",
+        "type": "CONCEPTUAL",
+        "name": "常见盐与物质转化",
+        "description": "联系常见盐、化肥的组成性质用途，解释简单转化条件。",
+        "evidence": [
+          "用性质证据说明用途与使用限制"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用性质证据说明用途与使用限制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_acid_base",
+            "hard",
+            "需要酸碱经验"
+          ],
+          [
+            "jc_reaction",
+            "hard",
+            "需要反应视角"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chemistry",
+    "code": "S4-STRUCTURE",
+    "domain": "物质的组成与结构",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／物质的组成与结构",
+    "summary": "在宏观物质、微观粒子和符号表示之间建立联系。",
+    "items": [
+      {
+        "id": "jc_atoms",
+        "type": "CONCEPTUAL",
+        "name": "元素原子分子与离子",
+        "description": "用微观模型描述物质构成，区别元素种类和粒子种类。",
+        "evidence": [
+          "解释原子核外电子变化与元素种类的区别"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释原子核外电子变化与元素种类的区别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_materials",
+            "hard",
+            "承接材料与物质"
+          ]
+        ]
+      },
+      {
+        "id": "jc_formula",
+        "type": "REPRESENTATIONAL",
+        "name": "元素符号化合价与化学式",
+        "description": "规范表示常见物质组成，并解释化学式的宏观和微观含义。",
+        "evidence": [
+          "用组成关系检查化学式并说明下标含义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用组成关系检查化学式并说明下标含义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_atoms",
+            "hard",
+            "需要微观构成"
+          ]
+        ]
+      },
+      {
+        "id": "jc_mass",
+        "type": "PROCEDURAL",
+        "name": "相对质量与组成计算",
+        "description": "依据化学式计算相对分子质量和元素质量比。",
+        "evidence": [
+          "区分原子数比和质量比"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分原子数比和质量比。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_formula",
+            "hard",
+            "需要化学式"
+          ],
+          [
+            "math_ratio",
+            "hard",
+            "需要比例"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chemistry",
+    "code": "S4-CHANGE",
+    "domain": "物质的化学变化",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／物质的化学变化",
+    "summary": "以原子重组和质量守恒解释反应，表示并定量分析变化。",
+    "items": [
+      {
+        "id": "jc_reaction",
+        "type": "CONCEPTUAL",
+        "name": "化学反应本质与类型",
+        "description": "从新物质生成和原子重组解释反应，辨识基本反应类型。",
+        "evidence": [
+          "用粒子图说明反应前后改变与不变的量"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用粒子图说明反应前后改变与不变的量。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_atoms",
+            "hard",
+            "需要粒子模型"
+          ],
+          [
+            "sc_new_substance",
+            "hard",
+            "承接新物质判断"
+          ]
+        ]
+      },
+      {
+        "id": "jc_conservation",
+        "type": "CONCEPTUAL",
+        "name": "质量守恒与实验系统",
+        "description": "从原子守恒解释质量守恒，分析开放系统中的质量变化。",
+        "evidence": [
+          "说明气体进出为什么影响称量结果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明气体进出为什么影响称量结果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_reaction",
+            "hard",
+            "需要原子重组"
+          ]
+        ]
+      },
+      {
+        "id": "jc_equation",
+        "type": "REPRESENTATIONAL",
+        "name": "化学方程式与配平",
+        "description": "依据事实和守恒写出并配平简单化学方程式。",
+        "evidence": [
+          "解释系数和下标不同含义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释系数和下标不同含义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_conservation",
+            "hard",
+            "需要守恒"
+          ],
+          [
+            "jc_formula",
+            "hard",
+            "需要化学式"
+          ]
+        ]
+      },
+      {
+        "id": "jc_calculate",
+        "type": "PROCEDURAL",
+        "name": "化学反应中的定量关系",
+        "description": "依据方程式和质量比进行简单计算，检查物质纯度及条件。",
+        "evidence": [
+          "说明比例来源并核验质量单位"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明比例来源并核验质量单位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_equation",
+            "hard",
+            "需要反应表示"
+          ],
+          [
+            "jc_mass",
+            "hard",
+            "需要相对质量"
+          ]
+        ]
+      },
+      {
+        "id": "jc_combustion",
+        "type": "CONCEPTUAL",
+        "name": "反应条件燃烧与调控",
+        "description": "通过对照认识燃烧条件与催化等因素，分析安全调控思路。",
+        "evidence": [
+          "用证据排除把现象等同原因的解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用证据排除把现象等同原因的解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_inquiry",
+            "hard",
+            "需要对照实验"
+          ],
+          [
+            "jc_reaction",
+            "hard",
+            "需要反应概念"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "chemistry",
+    "code": "S4-SOCIETY",
+    "domain": "化学与社会及跨学科实践",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／化学与社会·跨学科实践",
+    "summary": "以物质循环、材料性能和环境影响评价化学技术方案。",
+    "items": [
+      {
+        "id": "jc_materials",
+        "type": "META",
+        "name": "材料资源与绿色化学",
+        "description": "比较材料使用、回收及污染控制方案，联系组成性质和社会需求。",
+        "evidence": [
+          "用证据权衡性能成本和环境影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用证据权衡性能成本和环境影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_classify",
+            "hard",
+            "需要性质用途"
+          ],
+          [
+            "sc_sustainability",
+            "hard",
+            "承接资源环境"
+          ]
+        ]
+      },
+      {
+        "id": "jc_project",
+        "type": "PROCEDURAL",
+        "name": "化学跨学科项目",
+        "description": "提出问题，设计低风险方案，整理测试证据并评价可行性。",
+        "evidence": [
+          "说明方案限制和改进依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明方案限制和改进依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jc_inquiry",
+            "hard",
+            "需要探究方法"
+          ],
+          [
+            "jc_materials",
+            "hard",
+            "需要环境评价"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "biology",
+    "code": "S4-CELL",
+    "domain": "生物体的结构层次",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      16,
+      17,
+      18
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生物体的结构层次",
+    "summary": "由细胞结构功能进入组织器官和系统，认识部分与整体的联系。",
+    "items": [
+      {
+        "id": "jb_microscope",
+        "type": "PROCEDURAL",
+        "name": "显微镜与临时装片",
+        "description": "规范使用显微镜观察装片，区分真实结构与制片伪影。",
+        "evidence": [
+          "解释放大倍数与视野变化并记录观察"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释放大倍数与视野变化并记录观察。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_cells",
+            "hard",
+            "承接显微观察"
+          ]
+        ]
+      },
+      {
+        "id": "jb_cell",
+        "type": "CONCEPTUAL",
+        "name": "细胞结构与功能",
+        "description": "比较动植物细胞结构，说明细胞膜细胞质细胞核等功能。",
+        "evidence": [
+          "把结构特点与功能相联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把结构特点与功能相联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_microscope",
+            "hard",
+            "需要细胞观察"
+          ]
+        ]
+      },
+      {
+        "id": "jb_hierarchy",
+        "type": "CONCEPTUAL",
+        "name": "分裂分化与结构层次",
+        "description": "解释细胞分裂分化形成组织及器官系统的联系。",
+        "evidence": [
+          "比较植物和动物结构层次"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较植物和动物结构层次。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_cell",
+            "hard",
+            "需要细胞结构"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "biology",
+    "code": "S4-DIVERSITY",
+    "domain": "生物的多样性",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生物的多样性",
+    "summary": "依据形态结构比较类群，认识多样性及其保护价值。",
+    "items": [
+      {
+        "id": "jb_classify",
+        "type": "PROCEDURAL",
+        "name": "生物类群与分类依据",
+        "description": "比较主要动植物类群，使用可观察特征进行分类。",
+        "evidence": [
+          "说明分类标准并用检索表识别样本"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明分类标准并用检索表识别样本。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_life_classify",
+            "hard",
+            "承接生物分类"
+          ]
+        ]
+      },
+      {
+        "id": "jb_microbes",
+        "type": "CONCEPTUAL",
+        "name": "微生物病毒与生活",
+        "description": "比较细菌真菌和病毒的主要特征及与人类生活的联系。",
+        "evidence": [
+          "解释并非所有微生物都有害"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释并非所有微生物都有害。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_cell",
+            "hard",
+            "需要细胞概念"
+          ],
+          [
+            "sc_microbes",
+            "hard",
+            "承接微生物经验"
+          ]
+        ]
+      },
+      {
+        "id": "jb_diversity",
+        "type": "META",
+        "name": "多样性保护与证据",
+        "description": "分析生物多样性价值、威胁和保护措施。",
+        "evidence": [
+          "根据地方证据提出可行的保护建议"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据地方证据提出可行的保护建议。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_classify",
+            "hard",
+            "需要类群认识"
+          ],
+          [
+            "sc_biodiversity",
+            "hard",
+            "承接保护意识"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "biology",
+    "code": "S4-ECOLOGY",
+    "domain": "生物与环境",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生物与环境",
+    "summary": "以生态系统模型解释生物环境关系及调节能力的限制。",
+    "items": [
+      {
+        "id": "jb_ecosystem",
+        "type": "CONCEPTUAL",
+        "name": "生态系统与食物网",
+        "description": "区分生产者消费者分解者，描述食物网中的关系。",
+        "evidence": [
+          "说明食物网变化可能影响多个种群"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明食物网变化可能影响多个种群。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_foodchain",
+            "hard",
+            "承接食物链"
+          ]
+        ]
+      },
+      {
+        "id": "jb_flow",
+        "type": "REPRESENTATIONAL",
+        "name": "物质循环与能量流动",
+        "description": "比较生态系统中物质循环和能量流动，解释系统整体性。",
+        "evidence": [
+          "说明二者为何不能等同"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明二者为何不能等同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_ecosystem",
+            "hard",
+            "需要系统组成"
+          ]
+        ]
+      },
+      {
+        "id": "jb_balance",
+        "type": "META",
+        "name": "生态调节与人为影响",
+        "description": "分析生态系统自我调节的限度及人类活动影响。",
+        "evidence": [
+          "用证据比较保护或修复方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用证据比较保护或修复方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_flow",
+            "hard",
+            "需要系统过程"
+          ],
+          [
+            "jb_diversity",
+            "hard",
+            "需要保护价值"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "biology",
+    "code": "S4-PLANT",
+    "domain": "植物的生活",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／植物的生活",
+    "summary": "联系植物结构、物质运输和能量转化解释生长繁殖及环境作用。",
+    "items": [
+      {
+        "id": "jb_seed",
+        "type": "CONCEPTUAL",
+        "name": "种子萌发与植物生殖",
+        "description": "联系种子、花果结构解释萌发、传粉受精与生命周期。",
+        "evidence": [
+          "控制条件检验萌发假设"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：控制条件检验萌发假设。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_lifecycle",
+            "hard",
+            "承接生命周期"
+          ],
+          [
+            "jb_hierarchy",
+            "hard",
+            "需要结构层次"
+          ]
+        ]
+      },
+      {
+        "id": "jb_transport",
+        "type": "CONCEPTUAL",
+        "name": "植物吸收运输与蒸腾",
+        "description": "联系根茎叶结构解释水分无机盐运输及蒸腾作用。",
+        "evidence": [
+          "用结构证据说明运输途径"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用结构证据说明运输途径。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_plant_function",
+            "hard",
+            "承接结构功能"
+          ],
+          [
+            "jb_hierarchy",
+            "hard",
+            "需要组织器官"
+          ]
+        ]
+      },
+      {
+        "id": "jb_photosynthesis",
+        "type": "CONCEPTUAL",
+        "name": "光合作用与呼吸作用",
+        "description": "区分两类过程的物质和能量变化及发生条件。",
+        "evidence": [
+          "用对照实验解释证据并比较两个过程"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用对照实验解释证据并比较两个过程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_cell",
+            "hard",
+            "需要细胞"
+          ],
+          [
+            "sc_fairtest",
+            "hard",
+            "需要控制变量"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "biology",
+    "code": "S4-HUMAN",
+    "domain": "人体生理与健康",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／人体生理与健康",
+    "summary": "以系统协作解释人体获取、运输、排出和调节过程，形成科学健康观。",
+    "items": [
+      {
+        "id": "jb_nutrition",
+        "type": "CONCEPTUAL",
+        "name": "消化吸收与营养",
+        "description": "区分食物消化和营养吸收，解释消化器官分工。",
+        "evidence": [
+          "追踪营养物质进入血液的过程"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：追踪营养物质进入血液的过程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_body",
+            "hard",
+            "承接营养器官"
+          ],
+          [
+            "jb_hierarchy",
+            "hard",
+            "需要器官系统"
+          ]
+        ]
+      },
+      {
+        "id": "jb_circulation",
+        "type": "REPRESENTATIONAL",
+        "name": "循环与气体交换",
+        "description": "联系心脏血管和呼吸结构解释气体与物质运输。",
+        "evidence": [
+          "用流程图解释血液经过器官前后的变化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用流程图解释血液经过器官前后的变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_hierarchy",
+            "hard",
+            "需要器官系统"
+          ]
+        ]
+      },
+      {
+        "id": "jb_excretion",
+        "type": "CONCEPTUAL",
+        "name": "排泄与内部环境",
+        "description": "解释泌尿系统基本功能，区别排泄与排遗。",
+        "evidence": [
+          "说明排出代谢废物的意义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明排出代谢废物的意义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_circulation",
+            "hard",
+            "需要物质运输"
+          ]
+        ]
+      },
+      {
+        "id": "jb_regulation",
+        "type": "CONCEPTUAL",
+        "name": "神经激素调节与运动",
+        "description": "以反射及激素调节实例说明系统协调，联系骨关节肌肉运动。",
+        "evidence": [
+          "识别刺激信息处理和反应的联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：识别刺激信息处理和反应的联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_hierarchy",
+            "hard",
+            "需要系统概念"
+          ]
+        ]
+      },
+      {
+        "id": "jb_immunity",
+        "type": "CONCEPTUAL",
+        "name": "传染病免疫与预防",
+        "description": "识别传染链与免疫基本作用，评价科学健康信息。",
+        "evidence": [
+          "从传播环节解释预防措施的目的"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从传播环节解释预防措施的目的。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_microbes",
+            "hard",
+            "需要病原体基础"
+          ]
+        ]
+      },
+      {
+        "id": "jb_health",
+        "type": "META",
+        "name": "健康选择与安全求助",
+        "description": "依据可靠信息形成健康行为，识别需要专业支持的情况。",
+        "evidence": [
+          "比较信息依据并说明求助途径"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较信息依据并说明求助途径。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_immunity",
+            "hard",
+            "需要预防概念"
+          ],
+          [
+            "pe_health_decision",
+            "hard",
+            "承接健康判断"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "biology",
+    "code": "S4-HEREDITY",
+    "domain": "遗传与进化",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／遗传与进化",
+    "summary": "联系繁殖、遗传变异和自然选择解释生命延续及多样性。",
+    "items": [
+      {
+        "id": "jb_reproduction",
+        "type": "CONCEPTUAL",
+        "name": "生殖发育与青春期",
+        "description": "比较有性无性生殖，认识个体发育和青春期差异。",
+        "evidence": [
+          "用科学术语解释生命延续并尊重个体差异"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用科学术语解释生命延续并尊重个体差异。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_reproduction",
+            "hard",
+            "承接生殖"
+          ],
+          [
+            "sc_growth",
+            "hard",
+            "承接青春期"
+          ]
+        ]
+      },
+      {
+        "id": "jb_inheritance",
+        "type": "CONCEPTUAL",
+        "name": "基因性状与变异",
+        "description": "联系遗传信息、性状和环境，解释亲子相似与差异。",
+        "evidence": [
+          "区分遗传因素与环境因素的作用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分遗传因素与环境因素的作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_inheritance",
+            "hard",
+            "承接遗传现象"
+          ],
+          [
+            "jb_cell",
+            "hard",
+            "需要细胞核"
+          ]
+        ]
+      },
+      {
+        "id": "jb_evolution",
+        "type": "META",
+        "name": "进化证据与自然选择",
+        "description": "用化石等证据解释进化，通过可遗传变异和选择解释适应。",
+        "evidence": [
+          "避免将个体主动需要当作进化原因"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：避免将个体主动需要当作进化原因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_fossil",
+            "hard",
+            "承接化石"
+          ],
+          [
+            "jb_inheritance",
+            "hard",
+            "需要变异"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "biology",
+    "code": "S4-PRACTICE",
+    "domain": "生物学与社会及跨学科实践",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生物学与社会·跨学科实践",
+    "summary": "综合生物学原理设计实践，重视实验伦理、证据及环境影响。",
+    "items": [
+      {
+        "id": "jb_project",
+        "type": "META",
+        "name": "生物技术与实践评价",
+        "description": "针对种植、食品或生态问题制定实践计划，评价技术收益和限制。",
+        "evidence": [
+          "给出变量控制记录及伦理环境说明"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：给出变量控制记录及伦理环境说明。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jb_photosynthesis",
+            "hard",
+            "植物原理支持实践"
+          ],
+          [
+            "jb_balance",
+            "hard",
+            "需要环境评价"
+          ],
+          [
+            "sc_fairtest",
+            "hard",
+            "需要控制变量"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "history",
+    "code": "S4-ANCIENT-CN",
+    "domain": "中国古代史",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／中国古代史",
+    "summary": "以史料和时空线索理解古代国家发展、社会变迁与文明交流。",
+    "items": [
+      {
+        "id": "jh_evidence",
+        "type": "META",
+        "name": "史料来源与相互印证",
+        "description": "区分实物文献口述及后人叙述，分析来源和局限。",
+        "evidence": [
+          "以两种材料说明同一问题并指出证据边界"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：以两种材料说明同一问题并指出证据边界。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "zh_source_search",
+            "hard",
+            "承接查找资料"
+          ]
+        ]
+      },
+      {
+        "id": "jh_time",
+        "type": "REPRESENTATIONAL",
+        "name": "历史时间与空间定位",
+        "description": "使用年代纪年时间轴和历史地图定位事件，区分先后与因果。",
+        "evidence": [
+          "把事件置于时空背景并说明顺序不等于原因"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把事件置于时空背景并说明顺序不等于原因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_calendar",
+            "hard",
+            "承接时间"
+          ],
+          [
+            "math_mapscale",
+            "hard",
+            "承接地图"
+          ]
+        ]
+      },
+      {
+        "id": "jh_origins",
+        "type": "CONCEPTUAL",
+        "name": "考古与早期文明",
+        "description": "用遗址器物证据比较早期人类、农业聚落和国家形成。",
+        "evidence": [
+          "区分考古证据与传说中的历史信息"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分考古证据与传说中的历史信息。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要史料分析"
+          ]
+        ]
+      },
+      {
+        "id": "jh_zhou",
+        "type": "CONCEPTUAL",
+        "name": "夏商周与春秋战国变迁",
+        "description": "联系生产、制度和思想变化理解分封、变法与百家争鸣。",
+        "evidence": [
+          "用材料说明不同变化之间的联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用材料说明不同变化之间的联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要时序"
+          ],
+          [
+            "jh_evidence",
+            "hard",
+            "需要证据"
+          ]
+        ]
+      },
+      {
+        "id": "jh_qinhan",
+        "type": "CONCEPTUAL",
+        "name": "秦汉统一与治理",
+        "description": "比较秦汉治理措施、社会经济和对外交流，分析统一的影响。",
+        "evidence": [
+          "从不同材料解释措施的作用与局限"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从不同材料解释措施的作用与局限。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要时空定位"
+          ],
+          [
+            "jh_zhou",
+            "soft",
+            "前期制度帮助比较"
+          ]
+        ]
+      },
+      {
+        "id": "jh_division",
+        "type": "CONCEPTUAL",
+        "name": "魏晋南北朝与隋唐发展",
+        "description": "分析政权分立、民族交往和隋唐制度经济文化交流。",
+        "evidence": [
+          "以具体史事解释延续与变化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：以具体史事解释延续与变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要材料依据"
+          ],
+          [
+            "jh_qinhan",
+            "soft",
+            "前期治理提供背景"
+          ]
+        ]
+      },
+      {
+        "id": "jh_songyuan",
+        "type": "CONCEPTUAL",
+        "name": "宋元经济社会与交流",
+        "description": "联系经济重心、技术传播、政权关系与统一过程。",
+        "evidence": [
+          "用地图和资料解释交流影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用地图和资料解释交流影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要时空定位"
+          ],
+          [
+            "jh_division",
+            "soft",
+            "前期变化提供背景"
+          ]
+        ]
+      },
+      {
+        "id": "jh_mingqing",
+        "type": "CONCEPTUAL",
+        "name": "明清国家治理与社会变化",
+        "description": "比较制度、经济、边疆治理和对外联系，分析发展及危机。",
+        "evidence": [
+          "区分多种因素并说明证据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分多种因素并说明证据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要史料"
+          ],
+          [
+            "jh_songyuan",
+            "soft",
+            "前期格局提供背景"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "history",
+    "code": "S4-MODERN-CN",
+    "domain": "中国近代史",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／中国近代史",
+    "summary": "联系外来侵略、社会转型与救亡探索，运用材料解释历史事件的意义与局限。",
+    "items": [
+      {
+        "id": "jh_crisis",
+        "type": "CONCEPTUAL",
+        "name": "近代危机与改革探索",
+        "description": "比较战争条约影响及洋务、维新等探索的目标与局限。",
+        "evidence": [
+          "基于史料区分短期结果和长期影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：基于史料区分短期结果和长期影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要史料评价"
+          ],
+          [
+            "jh_mingqing",
+            "soft",
+            "晚清背景有帮助"
+          ]
+        ]
+      },
+      {
+        "id": "jh_republic",
+        "type": "CONCEPTUAL",
+        "name": "辛亥革命与思想社会变迁",
+        "description": "联系革命、共和建立、新文化和社会生活变化。",
+        "evidence": [
+          "说明制度变化与社会变化并非完全同步"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明制度变化与社会变化并非完全同步。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要时序"
+          ],
+          [
+            "jh_crisis",
+            "soft",
+            "前期探索提供背景"
+          ]
+        ]
+      },
+      {
+        "id": "jh_revolution",
+        "type": "CONCEPTUAL",
+        "name": "五四运动与革命道路探索",
+        "description": "梳理五四、中国共产党成立、国共合作及革命道路探索。",
+        "evidence": [
+          "用材料说明不同阶段目标和方式"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用材料说明不同阶段目标和方式。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要材料分析"
+          ],
+          [
+            "jh_republic",
+            "soft",
+            "思想背景有帮助"
+          ]
+        ]
+      },
+      {
+        "id": "jh_war",
+        "type": "CONCEPTUAL",
+        "name": "抗日战争与民族解放",
+        "description": "联系抗日战争、世界反法西斯战争及解放战争，分析民族独立历程。",
+        "evidence": [
+          "结合地图和史料解释进程与影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：结合地图和史料解释进程与影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要时空定位"
+          ],
+          [
+            "jh_revolution",
+            "soft",
+            "前期背景有帮助"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "history",
+    "code": "S4-CONTEMP-CN",
+    "domain": "中国现代史",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／中国现代史",
+    "summary": "以制度、经济社会与普通人生活材料理解建设、探索、改革和发展。",
+    "items": [
+      {
+        "id": "jh_founding",
+        "type": "CONCEPTUAL",
+        "name": "新中国成立与制度建立",
+        "description": "梳理建国、政权巩固和社会主义制度建立的重要史事。",
+        "evidence": [
+          "用文献与时间轴解释变化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用文献与时间轴解释变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要文献分析"
+          ],
+          [
+            "jh_war",
+            "soft",
+            "近代背景有帮助"
+          ]
+        ]
+      },
+      {
+        "id": "jh_exploration",
+        "type": "META",
+        "name": "建设探索的成就与曲折",
+        "description": "结合史实分析建设成就、探索中的错误及历史教训。",
+        "evidence": [
+          "区分成就与问题并依据材料作解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分成就与问题并依据材料作解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要证据"
+          ],
+          [
+            "jh_founding",
+            "soft",
+            "需要时代背景"
+          ]
+        ]
+      },
+      {
+        "id": "jh_reform",
+        "type": "CONCEPTUAL",
+        "name": "改革开放与社会发展",
+        "description": "联系政策、经济社会数据和生活材料解释改革开放及新时代发展。",
+        "evidence": [
+          "比较不同时期材料并说明统计口径限制"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较不同时期材料并说明统计口径限制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要史料判断"
+          ],
+          [
+            "jh_exploration",
+            "soft",
+            "前期经验帮助理解"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "history",
+    "code": "S4-ANCIENT-WORLD",
+    "domain": "世界古代史",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／世界古代史",
+    "summary": "比较多样古代文明、制度和交流，避免以单一路径概括所有社会。",
+    "items": [
+      {
+        "id": "jh_civilizations",
+        "type": "CONCEPTUAL",
+        "name": "早期世界文明与地理背景",
+        "description": "比较大河文明、希腊罗马等文明的社会与文化特点。",
+        "evidence": [
+          "用具体材料比较异同而非简单排优劣"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用具体材料比较异同而非简单排优劣。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要地图和年代"
+          ],
+          [
+            "jh_evidence",
+            "hard",
+            "需要史料"
+          ]
+        ]
+      },
+      {
+        "id": "jh_medieval",
+        "type": "CONCEPTUAL",
+        "name": "中世纪社会与跨区域交流",
+        "description": "比较欧洲、亚洲及其他地区社会组织、宗教文化与交流。",
+        "evidence": [
+          "解释交流对不同地区的影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释交流对不同地区的影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要材料"
+          ],
+          [
+            "jh_civilizations",
+            "soft",
+            "前期文明帮助比较"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "history",
+    "code": "S4-MODERN-WORLD",
+    "domain": "世界近代史",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／世界近代史",
+    "summary": "联系思想变革、全球联系、革命改革与工业化分析近代世界形成。",
+    "items": [
+      {
+        "id": "jh_global",
+        "type": "CONCEPTUAL",
+        "name": "思想变革新航路与殖民扩张",
+        "description": "比较文艺复兴、新航路开辟与殖民扩张的多重影响。",
+        "evidence": [
+          "分别分析交流扩大和殖民掠夺的后果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：分别分析交流扩大和殖民掠夺的后果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要多角度材料"
+          ],
+          [
+            "jh_medieval",
+            "soft",
+            "时代背景有帮助"
+          ]
+        ]
+      },
+      {
+        "id": "jh_revolutions",
+        "type": "CONCEPTUAL",
+        "name": "近代革命改革与制度",
+        "description": "比较英美法革命及近代国家改革的背景、制度和局限。",
+        "evidence": [
+          "依据材料比较不同制度变革"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据材料比较不同制度变革。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要时序"
+          ],
+          [
+            "jh_global",
+            "soft",
+            "思想与联系提供背景"
+          ]
+        ]
+      },
+      {
+        "id": "jh_industrial",
+        "type": "CONCEPTUAL",
+        "name": "工业革命与社会结构",
+        "description": "联系技术、生产组织、劳动生活和社会思想变化。",
+        "evidence": [
+          "用史料解释技术进步的收益和社会代价"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用史料解释技术进步的收益和社会代价。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要证据"
+          ],
+          [
+            "jh_revolutions",
+            "soft",
+            "制度背景有帮助"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "history",
+    "code": "S4-CONTEMP-WORLD",
+    "domain": "世界现代史",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／世界现代史",
+    "summary": "比较战争、革命、国际秩序与全球联系，区分事实证据和历史解释。",
+    "items": [
+      {
+        "id": "jh_worldwars",
+        "type": "CONCEPTUAL",
+        "name": "世界大战与国际秩序",
+        "description": "分析两次世界大战的背景、进程和国际秩序变化。",
+        "evidence": [
+          "区分长期原因、直接触发与影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分长期原因、直接触发与影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_time",
+            "hard",
+            "需要时空"
+          ],
+          [
+            "jh_industrial",
+            "soft",
+            "经济社会背景有帮助"
+          ]
+        ]
+      },
+      {
+        "id": "jh_socialism",
+        "type": "CONCEPTUAL",
+        "name": "俄国革命与社会主义探索",
+        "description": "依据材料认识俄国革命、苏联建设及发展中的问题。",
+        "evidence": [
+          "比较政策目标、实施结果与历史条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较政策目标、实施结果与历史条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要材料"
+          ],
+          [
+            "jh_industrial",
+            "soft",
+            "社会背景有帮助"
+          ]
+        ]
+      },
+      {
+        "id": "jh_postwar",
+        "type": "CONCEPTUAL",
+        "name": "战后格局独立运动与全球化",
+        "description": "联系冷战、民族独立、社会变化与全球问题，解释合作和冲突。",
+        "evidence": [
+          "用多个地区材料检验概括的适用范围"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用多个地区材料检验概括的适用范围。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要证据"
+          ],
+          [
+            "jh_worldwars",
+            "soft",
+            "战后秩序承接大战"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "history",
+    "code": "S4-PRACTICE",
+    "domain": "历史跨学科探究",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／跨学科主题学习",
+    "summary": "通过地方史、文物和口述材料开展研究，公开来源和解释边界。",
+    "items": [
+      {
+        "id": "jh_project",
+        "type": "META",
+        "name": "地方史调查与公共展示",
+        "description": "提出历史问题，收集和核验材料，以展板报告等形式呈现。",
+        "evidence": [
+          "标注来源并区分回忆事实与研究解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：标注来源并区分回忆事实与研究解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jh_evidence",
+            "hard",
+            "需要史料辨析"
+          ],
+          [
+            "jh_time",
+            "hard",
+            "需要时空框架"
+          ],
+          [
+            "jz_research",
+            "soft",
+            "研究表达有帮助"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "geography",
+    "code": "S4-TOOLS",
+    "domain": "地理工具与实践",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      26,
+      27,
+      28
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／地理工具与地理实践",
+    "summary": "用地球仪、地图与实地记录定位、量测和表达空间信息。",
+    "items": [
+      {
+        "id": "jg_coordinates",
+        "type": "REPRESENTATIONAL",
+        "name": "经纬网与地理定位",
+        "description": "区别经纬线方向和数值，使用经纬度定位地点。",
+        "evidence": [
+          "在不同地图上核对同一位置"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在不同地图上核对同一位置。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_coordinates",
+            "hard",
+            "承接数对定位"
+          ]
+        ]
+      },
+      {
+        "id": "jg_map",
+        "type": "PROCEDURAL",
+        "name": "比例尺图例与等高线",
+        "description": "选用适合任务的地图，结合比例尺方向和等高线解释空间。",
+        "evidence": [
+          "估算距离并说明坡度和地形依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：估算距离并说明坡度和地形依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "math_mapscale",
+            "hard",
+            "承接比例尺"
+          ]
+        ]
+      },
+      {
+        "id": "jg_field",
+        "type": "META",
+        "name": "地理观察调查与证据",
+        "description": "确定问题和观察路线，规范记录并结合资料分析。",
+        "evidence": [
+          "区分观察样本与区域整体结论"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分观察样本与区域整体结论。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_map",
+            "hard",
+            "需要地图"
+          ],
+          [
+            "zh_research",
+            "hard",
+            "承接调查"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "geography",
+    "code": "S4-EARTH",
+    "domain": "认识全球：地球与运动",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      15,
+      16,
+      17
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／认识全球／地球的宇宙环境及地球的运动",
+    "summary": "结合模型和实际现象理解地球位置、自转公转及其生活影响。",
+    "items": [
+      {
+        "id": "jg_earth",
+        "type": "CONCEPTUAL",
+        "name": "地球形状宇宙位置与探索",
+        "description": "用历史证据和尺度描述地球，认识航天探索的科学意义。",
+        "evidence": [
+          "区分模型比例和真实空间尺度"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分模型比例和真实空间尺度。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_solar_system",
+            "hard",
+            "承接太阳系"
+          ]
+        ]
+      },
+      {
+        "id": "jg_motion",
+        "type": "REPRESENTATIONAL",
+        "name": "地球运动与自然现象",
+        "description": "使用模型解释自转公转、昼夜和季节变化及生活影响。",
+        "evidence": [
+          "用模型条件说明现象成因"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用模型条件说明现象成因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_daynight",
+            "hard",
+            "承接自转"
+          ],
+          [
+            "sc_seasons",
+            "hard",
+            "承接公转"
+          ],
+          [
+            "jg_coordinates",
+            "hard",
+            "需要纬度"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "geography",
+    "code": "S4-GLOBAL",
+    "domain": "认识全球：地球表层",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      18,
+      19,
+      20
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／认识全球／地球的表层",
+    "summary": "从空间分布认识海陆地形、气候、人口文化和全球发展差异。",
+    "items": [
+      {
+        "id": "jg_land",
+        "type": "CONCEPTUAL",
+        "name": "海陆地形与地表变化",
+        "description": "读图描述大洲大洋地形及变化证据，联系板块活动实例。",
+        "evidence": [
+          "区分分布描述与成因解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分分布描述与成因解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_map",
+            "hard",
+            "需要地图"
+          ],
+          [
+            "sc_earth_inside",
+            "hard",
+            "承接地表变化"
+          ]
+        ]
+      },
+      {
+        "id": "jg_climate",
+        "type": "REPRESENTATIONAL",
+        "name": "天气气候与分布",
+        "description": "区分天气和气候，以气温降水图比较地区特征并分析影响因素。",
+        "evidence": [
+          "依据多年资料描述气候而非一天观测"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据多年资料描述气候而非一天观测。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_weather_data",
+            "hard",
+            "承接天气记录"
+          ],
+          [
+            "math_linechart",
+            "hard",
+            "需要图表"
+          ]
+        ]
+      },
+      {
+        "id": "jg_population",
+        "type": "META",
+        "name": "人口聚落与文化多样性",
+        "description": "用分布资料分析人口聚落与自然社会条件，尊重文化差异。",
+        "evidence": [
+          "说明分布相关不等于单一决定关系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明分布相关不等于单一决定关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_map",
+            "hard",
+            "需要空间信息"
+          ]
+        ]
+      },
+      {
+        "id": "jg_development",
+        "type": "META",
+        "name": "发展差异与全球联系",
+        "description": "比较发展指标、区域分工与相互联系，解释合作的重要性。",
+        "evidence": [
+          "指出指标范围并用实例说明联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出指标范围并用实例说明联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_population",
+            "hard",
+            "需要人文分布"
+          ],
+          [
+            "math_percent",
+            "hard",
+            "需要数据比较"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "geography",
+    "code": "S4-WORLD",
+    "domain": "认识世界区域",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／认识区域／认识世界",
+    "summary": "以位置、自然条件、人类活动和区域联系比较大洲地区国家。",
+    "items": [
+      {
+        "id": "jg_region",
+        "type": "META",
+        "name": "区域地理分析方法",
+        "description": "综合地图和资料从位置、环境、活动和联系分析区域。",
+        "evidence": [
+          "比较两个区域并说明分析证据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两个区域并说明分析证据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_land",
+            "hard",
+            "需要地形"
+          ],
+          [
+            "jg_climate",
+            "hard",
+            "需要气候"
+          ],
+          [
+            "jg_population",
+            "hard",
+            "需要人文"
+          ]
+        ]
+      },
+      {
+        "id": "jg_asia",
+        "type": "CONCEPTUAL",
+        "name": "亚洲及世界区域比较",
+        "description": "以亚洲为基础并选取其他区域，比较自然与人文地理特征。",
+        "evidence": [
+          "运用同一框架解释区域差异"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：运用同一框架解释区域差异。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_region",
+            "hard",
+            "需要区域分析"
+          ]
+        ]
+      },
+      {
+        "id": "jg_polar",
+        "type": "META",
+        "name": "极地环境与科学考察",
+        "description": "分析极地自然特点、考察意义和环境保护问题。",
+        "evidence": [
+          "用环境条件解释活动限制"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用环境条件解释活动限制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_region",
+            "hard",
+            "需要区域分析"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "geography",
+    "code": "S4-CHINA",
+    "domain": "认识中国与家乡",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／认识区域／认识中国",
+    "summary": "认识疆域、自然人文格局、区域差异和家乡发展，分析因地制宜与协同发展。",
+    "items": [
+      {
+        "id": "jg_china",
+        "type": "REPRESENTATIONAL",
+        "name": "中国疆域与行政空间",
+        "description": "用规范地图描述位置、疆域和行政区划，说明区位特点。",
+        "evidence": [
+          "按地图信息定位并解释邻接关系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按地图信息定位并解释邻接关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_coordinates",
+            "hard",
+            "需要定位"
+          ],
+          [
+            "jg_map",
+            "hard",
+            "需要地图"
+          ]
+        ]
+      },
+      {
+        "id": "jg_china_nature",
+        "type": "CONCEPTUAL",
+        "name": "中国地形气候河流与资源",
+        "description": "综合地图分析自然格局及资源分布，联系生产生活。",
+        "evidence": [
+          "说明自然要素之间的联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明自然要素之间的联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_land",
+            "hard",
+            "需要地形"
+          ],
+          [
+            "jg_climate",
+            "hard",
+            "需要气候"
+          ],
+          [
+            "jg_china",
+            "hard",
+            "需要国家空间"
+          ]
+        ]
+      },
+      {
+        "id": "jg_economy",
+        "type": "META",
+        "name": "中国人口产业与交通",
+        "description": "结合人口产业交通资料解释分布及区域联系。",
+        "evidence": [
+          "比较两地发展条件并避免单因素解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两地发展条件并避免单因素解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_china_nature",
+            "hard",
+            "需要自然条件"
+          ],
+          [
+            "jg_development",
+            "hard",
+            "需要经济联系"
+          ]
+        ]
+      },
+      {
+        "id": "jg_subregions",
+        "type": "META",
+        "name": "中国分区与区域协同",
+        "description": "用重要地理界线比较分区，认识北京、港澳台等区域特征和联系。",
+        "evidence": [
+          "根据位置环境与人文资料解释区域特色"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据位置环境与人文资料解释区域特色。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_economy",
+            "hard",
+            "需要经济格局"
+          ]
+        ]
+      },
+      {
+        "id": "jg_hometown",
+        "type": "META",
+        "name": "家乡调查与防灾环保",
+        "description": "调查家乡典型自然人文现象，提出有证据的环境或防灾建议。",
+        "evidence": [
+          "说明调查局限并评价建议可行性"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明调查局限并评价建议可行性。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_field",
+            "hard",
+            "需要调查"
+          ],
+          [
+            "jg_china_nature",
+            "hard",
+            "需要自然联系"
+          ],
+          [
+            "sc_disaster",
+            "hard",
+            "承接防灾"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "geography",
+    "code": "S4-PROJECT",
+    "domain": "地理跨学科主题",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／跨学科主题学习",
+    "summary": "通过真实区域问题整合模型、观测和资料分析，解释人地协调。",
+    "items": [
+      {
+        "id": "jg_project",
+        "type": "META",
+        "name": "人地协调的跨学科方案",
+        "description": "围绕资源、交通或聚落问题提出方案，分析利益、环境与长期影响。",
+        "evidence": [
+          "列出证据和约束并比较替代方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：列出证据和约束并比较替代方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jg_region",
+            "hard",
+            "需要综合区域分析"
+          ],
+          [
+            "jg_field",
+            "hard",
+            "需要调查证据"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "ethics",
+    "code": "S4-LIFE",
+    "domain": "生命安全与健康教育",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      41,
+      42
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／生命安全与健康教育",
+    "summary": "在青春期成长、交往和集体生活中认识自我，调节情绪并承担责任。",
+    "items": [
+      {
+        "id": "je_self",
+        "type": "META",
+        "name": "青春期自我认识与调节",
+        "description": "认识青春期身心变化和个体差异，形成恰当自我评价与求助意识。",
+        "evidence": [
+          "区分事实评价与情绪判断并选择支持方法"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分事实评价与情绪判断并选择支持方法。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_reflect",
+            "hard",
+            "承接反思"
+          ],
+          [
+            "sc_growth",
+            "hard",
+            "承接成长"
+          ]
+        ]
+      },
+      {
+        "id": "je_relationship",
+        "type": "META",
+        "name": "交往边界与集体责任",
+        "description": "分析同伴家庭集体中的角色、冲突和边界，选择尊重与合作的回应。",
+        "evidence": [
+          "说明他人感受、权利及自己的责任"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明他人感受、权利及自己的责任。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_boundaries",
+            "hard",
+            "承接个人边界"
+          ],
+          [
+            "et_cooperate",
+            "hard",
+            "承接合作"
+          ]
+        ]
+      },
+      {
+        "id": "je_life",
+        "type": "META",
+        "name": "生命价值与社会参与",
+        "description": "联系生命安全、挫折应对和亲社会行为，规划适龄行动。",
+        "evidence": [
+          "说明行动对自己与他人的影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明行动对自己与他人的影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_service",
+            "hard",
+            "承接公益"
+          ],
+          [
+            "je_self",
+            "hard",
+            "需要自我认识"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "ethics",
+    "code": "S4-LAW",
+    "domain": "法治教育",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／法治教育",
+    "summary": "认识宪法、国家制度与权利义务，在案例讨论中理解依法治理和合法参与。",
+    "items": [
+      {
+        "id": "je_constitution",
+        "type": "CONCEPTUAL",
+        "name": "宪法地位与权力约束",
+        "description": "理解宪法基本地位，认识国家机关行使权力的依据和边界。",
+        "evidence": [
+          "在教学案例中区分机关职责与个人意愿"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在教学案例中区分机关职责与个人意愿。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_law",
+            "hard",
+            "承接法律宪法"
+          ]
+        ]
+      },
+      {
+        "id": "je_democracy",
+        "type": "CONCEPTUAL",
+        "name": "国家制度与公民参与",
+        "description": "认识人民代表大会等制度，理解有序参与与监督的意义。",
+        "evidence": [
+          "说明制度渠道和参与责任"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明制度渠道和参与责任。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "je_constitution",
+            "hard",
+            "需要宪法地位"
+          ]
+        ]
+      },
+      {
+        "id": "je_rights",
+        "type": "META",
+        "name": "权利义务与法治判断",
+        "description": "分析具体情境中的权利义务关系，理解依法行使权利。",
+        "evidence": [
+          "说明不同主体权益并提出合法求助路径"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明不同主体权益并提出合法求助路径。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_rights",
+            "hard",
+            "承接权利义务"
+          ],
+          [
+            "et_protection",
+            "hard",
+            "承接保护"
+          ]
+        ]
+      },
+      {
+        "id": "je_security",
+        "type": "CONCEPTUAL",
+        "name": "国家统一团结与安全",
+        "description": "结合课标中的国家统一、民族团结及安全主题认识责任。",
+        "evidence": [
+          "区分概念和具体行动并说明事实依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分概念和具体行动并说明事实依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_national_responsibility",
+            "hard",
+            "承接社会责任"
+          ],
+          [
+            "je_constitution",
+            "hard",
+            "需要制度认识"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "ethics",
+    "code": "S4-CULTURE",
+    "domain": "文化革命传统与国情",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／中华优秀传统文化、革命传统及国情教育",
+    "summary": "联系文化传统、历史和当代发展理解社会责任，学会以证据讨论公共问题。",
+    "items": [
+      {
+        "id": "je_cultural",
+        "type": "META",
+        "name": "传统文化与当代价值",
+        "description": "结合文化材料探讨诚信、仁爱等观念的情境意义。",
+        "evidence": [
+          "说明传统观念应用中的条件与边界"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明传统观念应用中的条件与边界。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_civilizations",
+            "hard",
+            "承接文化认识"
+          ]
+        ]
+      },
+      {
+        "id": "je_history",
+        "type": "CONCEPTUAL",
+        "name": "革命建设改革与精神传承",
+        "description": "联系具体史事理解革命、建设、改革历程及其精神。",
+        "evidence": [
+          "以史实说明人物选择与时代条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：以史实说明人物选择与时代条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_history",
+            "hard",
+            "承接历史经验"
+          ],
+          [
+            "jh_reform",
+            "soft",
+            "历史分析提供背景"
+          ]
+        ]
+      },
+      {
+        "id": "je_development",
+        "type": "META",
+        "name": "国情创新与生态责任",
+        "description": "从国情、创新、发展和生态文明等视角分析社会议题。",
+        "evidence": [
+          "用数据和事实比较行动方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用数据和事实比较行动方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_national_responsibility",
+            "hard",
+            "承接责任"
+          ],
+          [
+            "sc_sustainability",
+            "hard",
+            "承接环境"
+          ]
+        ]
+      },
+      {
+        "id": "je_world",
+        "type": "META",
+        "name": "全球联系与共同责任",
+        "description": "分析和平发展、文化交流和全球问题中的合作与责任。",
+        "evidence": [
+          "说明不同主体利益及合作理由"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明不同主体利益及合作理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "et_civilizations",
+            "hard",
+            "承接文明交流"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "labor",
+    "code": "S4-DAILY",
+    "domain": "日常生活劳动",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      35,
+      36,
+      37
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／整理收纳、烹饪营养、家用器具",
+    "summary": "根据家庭需要规划收纳餐食和器具维护，重视安全、效率与劳动责任。",
+    "items": [
+      {
+        "id": "jl_organize",
+        "type": "PROCEDURAL",
+        "name": "空间美化与出行收纳",
+        "description": "根据使用者与行程需求规划空间、分类收纳并调整。",
+        "evidence": [
+          "解释方案取舍并通过使用检验"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释方案取舍并通过使用检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_plan_space",
+            "hard",
+            "承接空间整理"
+          ]
+        ]
+      },
+      {
+        "id": "jl_meal",
+        "type": "PROCEDURAL",
+        "name": "家庭膳食与餐食制作",
+        "description": "依据家庭需求规划营养搭配，在安全条件下协作完成餐食。",
+        "evidence": [
+          "记录计划采购制作与评价的联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：记录计划采购制作与评价的联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_meal",
+            "hard",
+            "承接家庭餐食"
+          ],
+          [
+            "lb_cook",
+            "hard",
+            "需要烹饪基础"
+          ]
+        ]
+      },
+      {
+        "id": "jl_maintenance",
+        "type": "PROCEDURAL",
+        "name": "家用器具检查与维护",
+        "description": "按说明进行适龄的安全检查、清洁与维护，识别需专业处理的故障。",
+        "evidence": [
+          "说明断电防护和停止操作的条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明断电防护和停止操作的条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_manual",
+            "hard",
+            "承接说明书使用"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "labor",
+    "code": "S4-PRODUCTION",
+    "domain": "生产劳动",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／农业、传统工艺、工业与新技术",
+    "summary": "以完整劳动过程理解生产，依据需求设计、加工、测试并改进作品。",
+    "items": [
+      {
+        "id": "jl_agriculture",
+        "type": "PROCEDURAL",
+        "name": "系列种植养殖实践",
+        "description": "结合当地条件制定长期生产计划，记录生长与管理效果。",
+        "evidence": [
+          "依据记录调整管理并说明环境安全要求"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据记录调整管理并说明环境安全要求。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_sustained",
+            "hard",
+            "承接持续劳动"
+          ]
+        ]
+      },
+      {
+        "id": "jl_craft",
+        "type": "PROCEDURAL",
+        "name": "传统工艺设计与制作",
+        "description": "绘制方案，选择材料技法完成作品并评价质量和文化价值。",
+        "evidence": [
+          "展示设计与成品差异及改进"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：展示设计与成品差异及改进。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_designcraft",
+            "hard",
+            "承接工艺设计"
+          ]
+        ]
+      },
+      {
+        "id": "jl_industry",
+        "type": "CONCEPTUAL",
+        "name": "工业生产流程与质量",
+        "description": "认识适龄生产流程、分工和质量标准，完成安全的模拟制作。",
+        "evidence": [
+          "说明工序衔接与质量检查的关系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明工序衔接与质量检查的关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_prototype",
+            "hard",
+            "承接模型组装"
+          ]
+        ]
+      },
+      {
+        "id": "jl_technology",
+        "type": "PROCEDURAL",
+        "name": "新技术加工与测试",
+        "description": "在教师指导和设备防护下体验数字加工等技术，比较成本性能并优化。",
+        "evidence": [
+          "记录参数方案与测试证据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：记录参数方案与测试证据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_newtech",
+            "hard",
+            "承接技术体验"
+          ],
+          [
+            "jl_industry",
+            "hard",
+            "需要流程和质量"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "labor",
+    "code": "S4-SERVICE",
+    "domain": "服务性劳动",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      40,
+      41
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／第四学段／现代服务业及公益志愿服务",
+    "summary": "从服务对象需求出发组织劳动，履行职责并反思服务效果。",
+    "items": [
+      {
+        "id": "jl_service",
+        "type": "META",
+        "name": "现代服务劳动与职业体验",
+        "description": "分析服务流程和岗位责任，按规则完成适龄服务任务。",
+        "evidence": [
+          "说明服务标准、沟通与反馈的关系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明服务标准、沟通与反馈的关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_service",
+            "hard",
+            "承接集体分工"
+          ]
+        ]
+      },
+      {
+        "id": "jl_volunteer",
+        "type": "PROCEDURAL",
+        "name": "公益项目组织与评价",
+        "description": "调查实际需求，协调分工资源，实施服务并收集反馈。",
+        "evidence": [
+          "区分活动完成量与服务实际效果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分活动完成量与服务实际效果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "lb_public_service",
+            "hard",
+            "承接公益策划"
+          ],
+          [
+            "jl_service",
+            "hard",
+            "需要服务意识"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "pe",
+    "code": "L4-FITNESS",
+    "domain": "体能与健康",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      24,
+      25,
+      26
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／体能／水平四",
+    "summary": "根据身体状况和练习反馈制订适宜计划，综合发展体能并保持安全。",
+    "items": [
+      {
+        "id": "jpe_plan",
+        "type": "META",
+        "name": "体能计划与自我监控",
+        "description": "依据体能基础设置适宜目标，安排频率强度并监控身体反应。",
+        "evidence": [
+          "根据练习记录解释调整理由"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据练习记录解释调整理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "pe_plan",
+            "hard",
+            "承接体能计划"
+          ],
+          [
+            "pe_pace",
+            "hard",
+            "承接身体感受"
+          ]
+        ]
+      },
+      {
+        "id": "jpe_fitness",
+        "type": "PROCEDURAL",
+        "name": "体能组合练习与恢复",
+        "description": "按指导组合耐力力量柔韧灵敏等练习，注意循序渐进与恢复。",
+        "evidence": [
+          "解释组合目的和需要停止或求助的信号"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释组合目的和需要停止或求助的信号。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "pe_fitness",
+            "hard",
+            "承接体能类别"
+          ],
+          [
+            "jpe_plan",
+            "hard",
+            "需要适宜计划"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "pe",
+    "code": "L4-HEALTH",
+    "domain": "健康教育",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      32,
+      33
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／健康教育／水平四",
+    "summary": "评价影响健康的因素，调节情绪，保护身体边界并应对安全风险。",
+    "items": [
+      {
+        "id": "jpe_health",
+        "type": "META",
+        "name": "健康因素与生活方式评价",
+        "description": "结合运动休息饮食及可靠信息评价生活方式，形成公共卫生意识。",
+        "evidence": [
+          "指出信息依据并给出可实施的改善建议"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出信息依据并给出可实施的改善建议。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "pe_health_decision",
+            "hard",
+            "承接健康判断"
+          ]
+        ]
+      },
+      {
+        "id": "jpe_emotion",
+        "type": "META",
+        "name": "运动合作与情绪调节",
+        "description": "通过适宜运动、交流和支持应对压力挫折，尊重个体差异。",
+        "evidence": [
+          "记录有效策略并说明需要求助的情境"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：记录有效策略并说明需要求助的情境。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "pe_feelings",
+            "hard",
+            "承接情绪表达"
+          ],
+          [
+            "pe_fairplay",
+            "hard",
+            "承接合作"
+          ]
+        ]
+      },
+      {
+        "id": "jpe_safety",
+        "type": "PROCEDURAL",
+        "name": "运动伤害预防与应急求助",
+        "description": "识别运动、环境和身体边界风险，在指导下练习避险与求助。",
+        "evidence": [
+          "在模拟情境中说明停止活动与呼救的判断"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在模拟情境中说明停止活动与呼救的判断。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "pe_emergency",
+            "hard",
+            "承接求助"
+          ],
+          [
+            "pe_boundary",
+            "hard",
+            "承接边界"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "pe",
+    "code": "L4-BALL",
+    "domain": "专项运动：球类",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／专项运动技能／球类／水平四",
+    "summary": "在选学球类项目中整合技术、战术、规则和比赛观察，项目按学校条件选择。",
+    "items": [
+      {
+        "id": "jpe_ball",
+        "type": "PROCEDURAL",
+        "name": "球类组合技术与情境运用",
+        "description": "在所学球类中根据来球、空间和同伴位置选择组合技术。",
+        "evidence": [
+          "解释动作选择并通过练习改进"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释动作选择并通过练习改进。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "pe_object",
+            "hard",
+            "承接操控"
+          ],
+          [
+            "pe_coordination",
+            "hard",
+            "承接组合动作"
+          ]
+        ]
+      },
+      {
+        "id": "jpe_tactics",
+        "type": "META",
+        "name": "球类攻防与合作决策",
+        "description": "在适龄对抗中观察情境，运用配合并复盘决策。",
+        "evidence": [
+          "说明一次配合成功或失误的依据"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明一次配合成功或失误的依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jpe_ball",
+            "hard",
+            "需要技术基础"
+          ],
+          [
+            "pe_fairplay",
+            "hard",
+            "需要公平合作"
+          ]
+        ]
+      },
+      {
+        "id": "jpe_rules",
+        "type": "PROCEDURAL",
+        "name": "比赛规则裁判与评价",
+        "description": "学习所选项目规则，参与教学比赛组织并分析表现。",
+        "evidence": [
+          "依据规则说明判罚或评价理由"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据规则说明判罚或评价理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "pe_fairplay",
+            "hard",
+            "承接规则"
+          ],
+          [
+            "jpe_ball",
+            "hard",
+            "需要项目经验"
+          ]
+        ]
+      }
+    ],
+    "selection": "school-selected-sport"
+  },
+  {
+    "source": "pe",
+    "code": "L4-CROSS",
+    "domain": "体育跨学科主题",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／跨学科主题学习／水平四相关示例（章节范围）",
+    "summary": "在适龄主题活动中综合运动技能、合作与健康知识，反思参与体验。",
+    "items": [
+      {
+        "id": "jpe_project",
+        "type": "META",
+        "name": "体育主题活动设计与反思",
+        "description": "依据参与者能力设计安全活动，协调任务并评价活动效果。",
+        "evidence": [
+          "说明风险控制和参与者反馈如何改变方案"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明风险控制和参与者反馈如何改变方案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jpe_plan",
+            "hard",
+            "需要计划"
+          ],
+          [
+            "jpe_safety",
+            "hard",
+            "需要安全判断"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "arts",
+    "code": "S3-MUSIC-G7",
+    "domain": "音乐",
+    "grades": [
+      7,
+      7
+    ],
+    "pages": [
+      30,
+      31,
+      32
+    ],
+    "sourceGrades": [
+      6,
+      7
+    ],
+    "section": "五、课程内容／音乐／听赏与评述／第三学段7年级要求",
+    "summary": "七年级进一步分析音乐要素、形式和文化背景，以听觉证据作评述。",
+    "items": [
+      {
+        "id": "ja_listen7",
+        "type": "META",
+        "name": "音乐结构风格与文化评述",
+        "description": "结合主题、音色、调式和结构解释音乐表达，比较文化情境。",
+        "evidence": [
+          "用可听见的证据支持评述"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用可听见的证据支持评述。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_music_analysis",
+            "hard",
+            "承接小学音乐分析"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "arts",
+    "code": "S3-PERFORM-G7",
+    "domain": "音乐",
+    "grades": [
+      7,
+      7
+    ],
+    "pages": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "sourceGrades": [
+      6,
+      7
+    ],
+    "section": "五、课程内容／音乐／演唱演奏与编创／第三学段7年级要求（章节范围）",
+    "summary": "在合作表演和编创中运用音乐语言，关注声部配合与表达意图。",
+    "items": [
+      {
+        "id": "ja_ensemble7",
+        "type": "PROCEDURAL",
+        "name": "合作演唱演奏与声部配合",
+        "description": "根据音乐表达调整节奏音准力度，理解自己声部的作用。",
+        "evidence": [
+          "用排练记录说明如何改善配合"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用排练记录说明如何改善配合。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_ensemble",
+            "hard",
+            "承接合作演唱"
+          ],
+          [
+            "ja_listen7",
+            "hard",
+            "需要听赏分析"
+          ]
+        ]
+      },
+      {
+        "id": "ja_create7",
+        "type": "PROCEDURAL",
+        "name": "音乐编创记录与修改",
+        "description": "围绕主题编创节奏旋律或配乐，记录作品并根据反馈修改。",
+        "evidence": [
+          "说明重复变化等选择如何服务主题"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明重复变化等选择如何服务主题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_elements",
+            "hard",
+            "承接音乐要素"
+          ],
+          [
+            "ja_ensemble7",
+            "hard",
+            "表演帮助检验"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "arts",
+    "code": "S3-VISUAL-G7",
+    "domain": "美术",
+    "grades": [
+      7,
+      7
+    ],
+    "pages": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "sourceGrades": [
+      6,
+      7
+    ],
+    "section": "五、课程内容／美术／第三学段7年级要求",
+    "summary": "七年级以多样媒介表达创意，在环境、工艺和校园影像任务中综合探索。",
+    "items": [
+      {
+        "id": "ja_visual7",
+        "type": "PROCEDURAL",
+        "name": "创意表现与传统工艺创新",
+        "description": "结合文化背景选择材料和表现方式，探索传统工艺的创新。",
+        "evidence": [
+          "展示构思变化并解释文化与形式联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：展示构思变化并解释文化与形式联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_diversity",
+            "hard",
+            "承接多样性"
+          ],
+          [
+            "ar_craft",
+            "hard",
+            "承接工艺"
+          ]
+        ]
+      },
+      {
+        "id": "ja_environment7",
+        "type": "PROCEDURAL",
+        "name": "校园社区环境设计",
+        "description": "调查环境问题，以草图模型提出方案，讨论使用者和环境影响。",
+        "evidence": [
+          "用调查证据解释设计取舍"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用调查证据解释设计取舍。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_environment",
+            "hard",
+            "承接环境设计"
+          ]
+        ]
+      },
+      {
+        "id": "ja_film7",
+        "type": "PROCEDURAL",
+        "name": "校园微电影与视听叙事",
+        "description": "通过脚本分镜、拍摄剪辑合作表达校园主题。",
+        "evidence": [
+          "比较剪辑顺序改变的叙事效果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较剪辑顺序改变的叙事效果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_film",
+            "hard",
+            "承接影像"
+          ],
+          [
+            "jz_narrative",
+            "soft",
+            "叙事分析支持创作"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "arts",
+    "code": "S4-MUSIC",
+    "domain": "音乐",
+    "grades": [
+      8,
+      9
+    ],
+    "pages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "sourceGrades": [
+      8,
+      9
+    ],
+    "section": "五、课程内容／音乐／第四学段各学习任务（章节范围）",
+    "summary": "音乐选项深化欣赏、表演、编创和生活中的音乐探究。",
+    "items": [
+      {
+        "id": "ja_music_context",
+        "type": "META",
+        "name": "音乐作品与社会文化",
+        "description": "联系音乐表现要素、历史文化和使用情境评价作品。",
+        "evidence": [
+          "用音乐与背景材料支持解释"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用音乐与背景材料支持解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ja_listen7",
+            "hard",
+            "承接听赏"
+          ]
+        ]
+      },
+      {
+        "id": "ja_music_perform",
+        "type": "PROCEDURAL",
+        "name": "音乐表演策划与呈现",
+        "description": "根据作品和团队条件制定排演方案，协调声部并反思表达。",
+        "evidence": [
+          "说明排练证据与演出效果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明排练证据与演出效果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ja_ensemble7",
+            "hard",
+            "承接合作表演"
+          ]
+        ]
+      },
+      {
+        "id": "ja_music_create",
+        "type": "PROCEDURAL",
+        "name": "主题音乐作品创编",
+        "description": "运用动机发展、结构和媒介完成主题编创并修改。",
+        "evidence": [
+          "解释结构和配器等选择"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释结构和配器等选择。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ja_create7",
+            "hard",
+            "承接编创"
+          ],
+          [
+            "ja_music_context",
+            "hard",
+            "文化理解支持表达"
+          ]
+        ]
+      }
+    ],
+    "selection": "arts-option-8-9"
+  },
+  {
+    "source": "arts",
+    "code": "S4-VISUAL",
+    "domain": "美术",
+    "grades": [
+      8,
+      9
+    ],
+    "pages": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "sourceGrades": [
+      8,
+      9
+    ],
+    "section": "五、课程内容／美术／第四学段",
+    "summary": "美术选项联系中外美术史、媒介表现、设计和展览实践。",
+    "items": [
+      {
+        "id": "ja_art_history",
+        "type": "META",
+        "name": "中外美术史与作品语境",
+        "description": "比较不同历史文化背景中的作品，区分形式描述与解释。",
+        "evidence": [
+          "用作品和背景证据支持比较"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用作品和背景证据支持比较。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_diversity",
+            "hard",
+            "承接文化多样性"
+          ]
+        ]
+      },
+      {
+        "id": "ja_visual_create",
+        "type": "PROCEDURAL",
+        "name": "构图透视与多媒介创意",
+        "description": "根据主题运用构图色彩空间和媒介特性创作作品。",
+        "evidence": [
+          "比较不同方案对表达的作用"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较不同方案对表达的作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ja_visual7",
+            "hard",
+            "承接创意表现"
+          ],
+          [
+            "ar_space",
+            "hard",
+            "承接空间"
+          ]
+        ]
+      },
+      {
+        "id": "ja_design",
+        "type": "PROCEDURAL",
+        "name": "设计沟通与展示策划",
+        "description": "围绕需求设计产品或传播方案，组织展示并收集反馈。",
+        "evidence": [
+          "解释受众功能和视觉选择的联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释受众功能和视觉选择的联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ja_environment7",
+            "hard",
+            "承接设计"
+          ],
+          [
+            "ja_visual_create",
+            "hard",
+            "需要表现手段"
+          ]
+        ]
+      }
+    ],
+    "selection": "arts-option-8-9"
+  },
+  {
+    "source": "arts",
+    "code": "S3-DANCE-G7",
+    "domain": "舞蹈",
+    "grades": [
+      7,
+      7
+    ],
+    "pages": [
+      82,
+      83
+    ],
+    "sourceGrades": [
+      7,
+      7
+    ],
+    "section": "五、课程内容／舞蹈／7年级（有条件学校开设）",
+    "summary": "有条件学校的七年级舞蹈学习通过体验风格和合作编创积累动作语汇。",
+    "items": [
+      {
+        "id": "ja_dance7",
+        "type": "PROCEDURAL",
+        "name": "多舞种体验与舞段编创",
+        "description": "在适宜活动中体验舞蹈风格，合作组织主题动作。",
+        "evidence": [
+          "说明节奏空间和动作如何表达主题"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明节奏空间和动作如何表达主题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_perform",
+            "hard",
+            "承接情境表演"
+          ],
+          [
+            "pe_coordination",
+            "hard",
+            "承接协调"
+          ]
+        ]
+      }
+    ],
+    "selection": "school-conditional-7"
+  },
+  {
+    "source": "arts",
+    "code": "S4-DANCE",
+    "domain": "舞蹈",
+    "grades": [
+      8,
+      9
+    ],
+    "pages": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "sourceGrades": [
+      8,
+      9
+    ],
+    "section": "五、课程内容／舞蹈／8—9年级",
+    "summary": "舞蹈选项结合经典欣赏、风格表现与小品编创。",
+    "items": [
+      {
+        "id": "ja_dance_appraise",
+        "type": "META",
+        "name": "舞蹈风格与作品欣赏",
+        "description": "结合动作、空间节奏及文化背景解释舞蹈作品。",
+        "evidence": [
+          "用具体动作证据说明风格"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用具体动作证据说明风格。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_perform",
+            "hard",
+            "已有综合表演经验"
+          ]
+        ]
+      },
+      {
+        "id": "ja_dance_create",
+        "type": "PROCEDURAL",
+        "name": "舞蹈小品编创与合作",
+        "description": "根据主题设计动作结构和空间调度，合作表演并修改。",
+        "evidence": [
+          "解释动作之间的联系与排练反馈"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释动作之间的联系与排练反馈。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ja_dance_appraise",
+            "hard",
+            "需要作品理解"
+          ],
+          [
+            "pe_coordination",
+            "hard",
+            "需要身体协调"
+          ],
+          [
+            "ja_dance7",
+            "soft",
+            "可选七年级经验有帮助"
+          ]
+        ]
+      }
+    ],
+    "selection": "arts-option-8-9"
+  },
+  {
+    "source": "arts",
+    "code": "S3-DRAMA-G7",
+    "domain": "戏剧",
+    "grades": [
+      7,
+      7
+    ],
+    "pages": [
+      90,
+      91
+    ],
+    "sourceGrades": [
+      7,
+      7
+    ],
+    "section": "五、课程内容／戏剧（含戏曲）／7年级（有条件学校开设）",
+    "summary": "通过戏剧游戏体验声音肢体与角色表达，发展合作和表演意识。",
+    "items": [
+      {
+        "id": "ja_drama7",
+        "type": "PROCEDURAL",
+        "name": "戏剧游戏与角色表达",
+        "description": "通过语言肢体和情境模拟塑造角色，理解表演约定。",
+        "evidence": [
+          "说明角色行动与情境的关系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明角色行动与情境的关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_perform",
+            "hard",
+            "承接表演"
+          ],
+          [
+            "zh_story",
+            "hard",
+            "承接人物理解"
+          ]
+        ]
+      }
+    ],
+    "selection": "school-conditional-7"
+  },
+  {
+    "source": "arts",
+    "code": "S4-DRAMA",
+    "domain": "戏剧",
+    "grades": [
+      8,
+      9
+    ],
+    "pages": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "sourceGrades": [
+      8,
+      9
+    ],
+    "section": "五、课程内容／戏剧（含戏曲）／8—9年级",
+    "summary": "戏剧选项通过剧本、舞台表演和观剧评价整合艺术表达。",
+    "items": [
+      {
+        "id": "ja_drama_script",
+        "type": "PROCEDURAL",
+        "name": "故事脚本与舞台行动",
+        "description": "将故事改编为可表演脚本，明确角色目标冲突和行动。",
+        "evidence": [
+          "解释对白和行动怎样推进情节"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释对白和行动怎样推进情节。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "jz_narrative",
+            "hard",
+            "需要人物情节理解"
+          ],
+          [
+            "ja_drama7",
+            "soft",
+            "可选七年级经验支持"
+          ]
+        ]
+      },
+      {
+        "id": "ja_drama_stage",
+        "type": "PROCEDURAL",
+        "name": "舞台演出与观剧评价",
+        "description": "协调表演、舞台元素和合作任务，以证据评价演出。",
+        "evidence": [
+          "比较不同表演选择的效果"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较不同表演选择的效果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ja_drama_script",
+            "hard",
+            "需要脚本与角色"
+          ]
+        ]
+      }
+    ],
+    "selection": "arts-option-8-9"
+  },
+  {
+    "source": "arts",
+    "code": "S3-FILM-G7",
+    "domain": "影视与数字媒体",
+    "grades": [
+      7,
+      7
+    ],
+    "pages": [
+      99,
+      100
+    ],
+    "sourceGrades": [
+      7,
+      7
+    ],
+    "section": "五、课程内容／影视（含数字媒体艺术）／7年级（有条件学校开设）",
+    "summary": "通过拍摄声音画面和初步剪辑理解视听技术。",
+    "items": [
+      {
+        "id": "ja_media7",
+        "type": "PROCEDURAL",
+        "name": "视听采集与初步合成",
+        "description": "记录生活中的声音画面并组接，说明技术选择的表达作用。",
+        "evidence": [
+          "解释镜头与声音组合带来的意义"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释镜头与声音组合带来的意义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_media",
+            "hard",
+            "承接动态表达"
+          ]
+        ]
+      }
+    ],
+    "selection": "school-conditional-7"
+  },
+  {
+    "source": "arts",
+    "code": "S4-FILM",
+    "domain": "影视与数字媒体",
+    "grades": [
+      8,
+      9
+    ],
+    "pages": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "sourceGrades": [
+      8,
+      9
+    ],
+    "section": "五、课程内容／影视（含数字媒体艺术）／8—9年级",
+    "summary": "影视选项通过记录生活、历史表达、故事编导和数字媒体探索综合创作。",
+    "items": [
+      {
+        "id": "ja_documentary",
+        "type": "META",
+        "name": "影像记录与历史表达",
+        "description": "区分记录、重构和虚构，结合资料组织影像表达并标明来源。",
+        "evidence": [
+          "说明素材选择对观众理解的影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明素材选择对观众理解的影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_film",
+            "hard",
+            "承接影像"
+          ],
+          [
+            "jh_evidence",
+            "soft",
+            "史料辨析支持历史表达"
+          ]
+        ]
+      },
+      {
+        "id": "ja_digital",
+        "type": "PROCEDURAL",
+        "name": "数字媒体作品与互动表达",
+        "description": "围绕主题整合声音画面或交互形式，测试并改进表达效果。",
+        "evidence": [
+          "说明受众反馈与技术选择的关系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明受众反馈与技术选择的关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "ar_media",
+            "hard",
+            "承接媒体"
+          ],
+          [
+            "ja_media7",
+            "soft",
+            "可选七年级技术经验有帮助"
+          ]
+        ]
+      }
+    ],
+    "selection": "arts-option-8-9"
+  },
+  {
+    "source": "science",
+    "code": "S4-MATTER",
+    "domain": "物质的结构与性质",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／物质的结构与性质／7—9年级（章节范围）",
+    "summary": "综合科学路径以粒子、组成和性质联系解释物质多样性。",
+    "items": [
+      {
+        "id": "js_matter",
+        "type": "CONCEPTUAL",
+        "name": "物质分类粒子与性质",
+        "description": "以组成粒子和性质建立物质分类，联系密度、化学式及用途。",
+        "evidence": [
+          "用宏观证据和微观模型解释性质"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用宏观证据和微观模型解释性质。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_materials",
+            "hard",
+            "承接物质"
+          ],
+          [
+            "sc_measure",
+            "hard",
+            "承接测量"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-CHANGE",
+    "domain": "物质的变化与化学反应",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／物质的变化与化学反应／7—9年级（章节范围）",
+    "summary": "以变化、条件和守恒建立综合科学中的化学反应观念。",
+    "items": [
+      {
+        "id": "js_change",
+        "type": "REPRESENTATIONAL",
+        "name": "物质转化反应与守恒",
+        "description": "用原子重组和质量关系解释反应，以符号表示简单变化。",
+        "evidence": [
+          "区分变化现象与反应本质并核验守恒"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分变化现象与反应本质并核验守恒。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "js_matter",
+            "hard",
+            "需要组成粒子"
+          ],
+          [
+            "sc_new_substance",
+            "hard",
+            "承接变化"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-MOTION",
+    "domain": "物质的运动与相互作用",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／物质的运动与相互作用／7—9年级（章节范围）",
+    "summary": "从运动、力、光声和电磁现象认识相互作用及定量描述。",
+    "items": [
+      {
+        "id": "js_motion",
+        "type": "CONCEPTUAL",
+        "name": "运动力与平衡模型",
+        "description": "结合参照物、速度和受力解释运动状态及平衡。",
+        "evidence": [
+          "以图或数据说明模型适用条件"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：以图或数据说明模型适用条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_force_motion",
+            "hard",
+            "承接力运动"
+          ],
+          [
+            "math_speed",
+            "hard",
+            "承接速度"
+          ]
+        ]
+      },
+      {
+        "id": "js_waves",
+        "type": "REPRESENTATIONAL",
+        "name": "声光与电磁现象模型",
+        "description": "通过实验和图示解释传播、成像以及电磁相互作用。",
+        "evidence": [
+          "用证据区分观察与模型假设"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用证据区分观察与模型假设。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_light",
+            "hard",
+            "承接光"
+          ],
+          [
+            "sc_sound",
+            "hard",
+            "承接声"
+          ],
+          [
+            "sc_circuit",
+            "hard",
+            "承接电路"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-ENERGY",
+    "domain": "能的转化与能量守恒",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／能的转化与能量守恒／7—9年级（章节范围）",
+    "summary": "联系机械、热和电过程追踪能量，评价能源利用。",
+    "items": [
+      {
+        "id": "js_energy",
+        "type": "META",
+        "name": "能量转化定量关系与效率",
+        "description": "通过功热电的实例解释能量守恒和效率，分析能源方案。",
+        "evidence": [
+          "说明能量去向和使用限制"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明能量去向和使用限制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_energy",
+            "hard",
+            "承接能量"
+          ],
+          [
+            "js_motion",
+            "hard",
+            "需要运动模型"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-CELL",
+    "domain": "生命系统的构成层次",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生命系统的构成层次／7—9年级（章节范围）",
+    "summary": "联系细胞结构与组织器官系统解释生命整体性。",
+    "items": [
+      {
+        "id": "js_life",
+        "type": "CONCEPTUAL",
+        "name": "细胞结构与生命层次",
+        "description": "比较细胞与组织器官系统，解释分工协作。",
+        "evidence": [
+          "用模型说明结构功能联系"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用模型说明结构功能联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_cells",
+            "hard",
+            "承接细胞"
+          ],
+          [
+            "sc_body",
+            "hard",
+            "承接身体器官"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-REGULATION",
+    "domain": "生物体的稳态与调节",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生物体的稳态与调节／7—9年级（章节范围）",
+    "summary": "通过生命活动与调节过程理解生物维持稳定的方式。",
+    "items": [
+      {
+        "id": "js_regulation",
+        "type": "CONCEPTUAL",
+        "name": "生命活动稳态与调节",
+        "description": "联系营养物质运输和神经激素调节，说明内外环境变化的应对。",
+        "evidence": [
+          "追踪刺激到反应并说明系统协作"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：追踪刺激到反应并说明系统协作。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "js_life",
+            "hard",
+            "需要结构层次"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-ECOLOGY",
+    "domain": "生物与环境的相互关系",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生物与环境的相互关系／7—9年级（章节范围）",
+    "summary": "以食物网、物质循环和能量流动理解生态系统。",
+    "items": [
+      {
+        "id": "js_ecology",
+        "type": "CONCEPTUAL",
+        "name": "生态系统的循环与调节",
+        "description": "描述生态系统组成、物质循环、能量流动与调节限度。",
+        "evidence": [
+          "说明某种扰动对多个环节的影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明某种扰动对多个环节的影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_foodchain",
+            "hard",
+            "承接食物链"
+          ],
+          [
+            "js_life",
+            "hard",
+            "需要生命系统"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-HEREDITY",
+    "domain": "生命的延续与进化",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／生命的延续与进化／7—9年级（章节范围）",
+    "summary": "以生殖、遗传变异与选择解释生命延续和进化。",
+    "items": [
+      {
+        "id": "js_evolution",
+        "type": "META",
+        "name": "遗传变异与进化证据",
+        "description": "比较生殖方式，联系遗传信息和自然选择解释多样性。",
+        "evidence": [
+          "用证据区分个体变化与群体进化"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用证据区分个体变化与群体进化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_inheritance",
+            "hard",
+            "承接遗传"
+          ],
+          [
+            "sc_fossil",
+            "hard",
+            "承接化石"
+          ],
+          [
+            "js_life",
+            "hard",
+            "需要细胞"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-UNIVERSE",
+    "domain": "宇宙中的地球",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／宇宙中的地球／7—9年级（章节范围）",
+    "summary": "通过尺度、位置与运动模型解释地球和天体关系。",
+    "items": [
+      {
+        "id": "js_universe",
+        "type": "REPRESENTATIONAL",
+        "name": "天体系统与相对运动",
+        "description": "用模型解释地月日关系和相关现象，区分观测与模型。",
+        "evidence": [
+          "说明模型尺度和运动条件的限制"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明模型尺度和运动条件的限制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_solar_system",
+            "hard",
+            "承接太阳系"
+          ],
+          [
+            "sc_moonphase",
+            "hard",
+            "承接月相"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-EARTH",
+    "domain": "地球系统",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／地球系统／7—9年级（章节范围）",
+    "summary": "联系地形、天气气候和水循环解释地球各部分的相互影响。",
+    "items": [
+      {
+        "id": "js_earth",
+        "type": "META",
+        "name": "地球圈层地形与气候过程",
+        "description": "用图表和模型联系岩石水空气及气候变化过程。",
+        "evidence": [
+          "依据气象地形资料比较地区特征"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据气象地形资料比较地区特征。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_earth_inside",
+            "hard",
+            "承接地表"
+          ],
+          [
+            "sc_weather_data",
+            "hard",
+            "承接天气"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-ENVIRONMENT",
+    "domain": "人类活动与环境",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／人类活动与环境／7—9年级（章节范围）",
+    "summary": "结合资源和污染证据评价人类活动与环境的关系。",
+    "items": [
+      {
+        "id": "js_environment",
+        "type": "META",
+        "name": "资源环境与可持续行动",
+        "description": "根据资料比较资源利用、生态保护和污染治理方案。",
+        "evidence": [
+          "说明证据、利益差异与长期影响"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明证据、利益差异与长期影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_sustainability",
+            "hard",
+            "承接环境"
+          ],
+          [
+            "js_ecology",
+            "hard",
+            "需要生态系统"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-TECH",
+    "domain": "技术工程与社会",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／技术、工程与社会／7—9年级（章节范围）",
+    "summary": "从科学、技术与社会的关系理解工程方案的价值和取舍。",
+    "items": [
+      {
+        "id": "js_technology",
+        "type": "META",
+        "name": "技术系统与社会影响",
+        "description": "分析技术产品功能及科学依据，比较技术进步的利益与风险。",
+        "evidence": [
+          "从多个使用者角度说明设计取舍"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从多个使用者角度说明设计取舍。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "sc_system",
+            "hard",
+            "承接系统"
+          ],
+          [
+            "sc_improve",
+            "hard",
+            "承接改进"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source": "science",
+    "code": "S4-ENGINEERING",
+    "domain": "工程设计与物化",
+    "grades": [
+      7,
+      9
+    ],
+    "pages": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ],
+    "sourceGrades": [
+      7,
+      9
+    ],
+    "section": "四、课程内容／工程设计与物化／7—9年级（章节范围）",
+    "summary": "在条件约束下提出设计、制作测试并依据证据迭代。",
+    "items": [
+      {
+        "id": "js_engineering",
+        "type": "PROCEDURAL",
+        "name": "工程约束原型测试与优化",
+        "description": "明确需求和约束，比较方案并制作安全原型，记录测试改进。",
+        "evidence": [
+          "用指标解释改进是否达到目标"
+        ],
+        "assessment": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用指标解释改进是否达到目标。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+        "prerequisites": [
+          [
+            "js_technology",
+            "hard",
+            "需要技术取舍"
+          ],
+          [
+            "sc_improve",
+            "hard",
+            "承接证据改进"
+          ]
+        ]
+      }
+    ]
+  }
+]

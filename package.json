@@ -10,6 +10,8 @@
     "validate": "node scripts/validate.mjs",
     "build:cn": "python3 authoring/cn-primary/compile_records.py && python3 scripts/build-cn-primary.py",
     "validate:cn": "node scripts/validate.mjs data/cn-primary && node scripts/validate-cn.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "build:cn-all": "npm run build:cn && python3 authoring/cn-junior/compile_records.py && python3 scripts/build-cn-compulsory.py",
+    "validate:cn-all": "npm run validate:cn && node scripts/validate.mjs data/cn-compulsory && node scripts/validate-cn.mjs data/cn-compulsory"
   }
 }

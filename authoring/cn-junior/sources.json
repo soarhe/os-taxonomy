@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "history",
+    "subject": "历史",
+    "title": "义务教育历史课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+    "sha256": "c807b9162d7f7a652c9acedc187c39b28d29b73edfa9e6964045f9a8672a90ef",
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section-level draft mapping pending expert review.",
+    "pdfPageCount": 86,
+    "printedPageOffset": 7
+  },
+  {
+    "slug": "geography",
+    "subject": "地理",
+    "title": "义务教育地理课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582354066450.pdf",
+    "sha256": "5aade5cb5cfa103c48277c8ff663783df69cafb0fec2411f4aad1924d75c67b8",
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section-level draft mapping pending expert review.",
+    "pdfPageCount": 65,
+    "printedPageOffset": 7
+  },
+  {
+    "slug": "physics",
+    "subject": "物理",
+    "title": "义务教育物理课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582357585169.pdf",
+    "sha256": "884069da6c924acb27b966ea20b9c7a4d8f0d6dfc828c80cd252aa72bf990340",
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section-level draft mapping pending expert review.",
+    "pdfPageCount": 71,
+    "printedPageOffset": 7
+  },
+  {
+    "slug": "chemistry",
+    "subject": "化学",
+    "title": "义务教育化学课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020230605524875861384.pdf",
+    "sha256": "8e04592efba9a6baf41ebf6970d868f2461fbd8e43328fb2ddb57165aa0c2b5c",
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section-level draft mapping pending expert review.",
+    "pdfPageCount": 87,
+    "printedPageOffset": 7
+  },
+  {
+    "slug": "biology",
+    "subject": "生物学",
+    "title": "义务教育生物学课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "sha256": "95993bea87c30104631fa10f2f20f11b98d0718d69c4aeeac46c53a387f43c00",
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section-level draft mapping pending expert review.",
+    "pdfPageCount": 76,
+    "printedPageOffset": 7
+  }
+]

@@ -11,6 +11,9 @@ export function validateDataset(data, schemas) {
   if(errors.length) return errors;
   const ts=data.topics.topics, ds=data.dependencies.dependencies, cs=data.clusters.clusters;
   const p=data.provenance, m=data.manifest, curr=data['curriculum-standards'].curricula;
+  const combined=p.version==='cn-compulsory-2022-draft.1';
+  const maxGrade=combined?9:6;
+  if(combined)check(JSON.stringify(p.scope?.gradeRange)==='[1,9]','invalid combined scope');
   errors.push(...graphErrors(ts,ds));
   const topicIds=new Set(ts.map(t=>t.id)), mapById=new Map(p.topicMappings.map(x=>[x.topicId,x]));
   const locByKey=new Map(p.standardLocators.map(x=>[x.key,x]));
@@ -23,6 +26,11 @@ export function validateDataset(data, schemas) {
   check(p.standardLocators.length===standardKeys.size,'standard locator count mismatch');
   check(p.status==='draft' && m.status==='draft','unreviewed dataset must remain draft');
   check(p.dependencyPolicy.origin==='author-inferred' && p.dependencyPolicy.expertReviewed===false,'incorrect dependency provenance');
+  check(sources.size===p.sources.length,'duplicate source');
+  for(const c of curr) {
+    const source=sources.get(c.slug);
+    check(source?.url===c.sourceUrl && source?.title===c.name,`curriculum source mismatch ${c.slug}`);
+  }
   for(const s of p.sources) {
     check(/^https:\/\/www\.moe\.gov\.cn\//.test(s.url),`non-MOE source ${s.slug}`);
     check(/^[a-f0-9]{64}$/.test(s.sha256),`invalid source checksum ${s.slug}`);
@@ -37,7 +45,7 @@ export function validateDataset(data, schemas) {
     const map=mapById.get(t.id);
     if(!map) {errors.push(`missing mapping ${t.id}`);continue;}
     const [lo,hi]=map.gradeRange??[];
-    check(Number.isInteger(lo)&&Number.isInteger(hi)&&lo>=1&&hi<=6&&lo<=hi,`invalid grade range ${t.id}`);
+    check(Number.isInteger(lo)&&Number.isInteger(hi)&&lo>=1&&hi<=maxGrade&&lo<=hi,`invalid grade range ${t.id}`);
     check(t.ageRangeStart===lo+5 && t.ageRangeEnd===hi+6,`age convention mismatch ${t.id}`);
     check(JSON.stringify(map.standardKeys)===JSON.stringify(t.standards),`mapping key mismatch ${t.id}`);
     check(map.reviewStatus==='pending-subject-expert-review',`review status missing ${t.id}`);
@@ -71,6 +79,28 @@ export function validateDataset(data, schemas) {
   for(const [k,v] of Object.entries(counts))check(m.counts[k]===v,`manifest count mismatch ${k}`);
   const subjects={};for(const t of ts)subjects[t.subject]=(subjects[t.subject]??0)+1;
   check(JSON.stringify(Object.entries(subjects).sort())===JSON.stringify(Object.entries(m.counts.topicsBySubject).sort()),'subject counts mismatch');
+  if(combined) {
+    const options=p.scope.topicOptions??[], byOption=new Map(options.map(x=>[x.topicId,x]));
+    const junior=ts.filter(t=>mapById.get(t.id)?.gradeRange[0]>=7);
+    check(m.counts.topicsByStage?.junior===junior.length && m.counts.topicsByStage?.primary===ts.length-junior.length,'stage count mismatch');
+    check(m.counts.crossStageDependencies===ds.filter(d=>mapById.get(d.topicId)?.gradeRange[0]>=7 && mapById.get(d.prerequisiteId)?.gradeRange[1]<=6).length,'cross-stage count mismatch');
+    check(byOption.size===options.length && options.length===junior.length,'junior option count mismatch');
+    for(const t of junior) {
+      const o=byOption.get(t.id), g=mapById.get(t.id).gradeRange;
+      check(!!o,`missing junior option ${t.id}`);
+      const path=t.subject==='科学'?'integrated':['物理','化学','生物学'].includes(t.subject)?'disciplinary':null;
+      check(o?.sciencePathway===path,`incorrect science pathway ${t.id}`);
+      check(['stage-framework','arts-option-8-9','school-conditional-7','school-selected-sport'].includes(o?.selection),`invalid selection ${t.id}`);
+      if(t.subject==='艺术' && g[0]===8)check(o?.selection==='arts-option-8-9',`unmarked arts option ${t.id}`);
+      if(o?.selection==='school-conditional-7')check(t.subject==='艺术' && g[0]===7 && g[1]===7,`conditional arts grade mismatch ${t.id}`);
+    }
+    for(const d of ds) {
+      const a=byOption.get(d.topicId), b=byOption.get(d.prerequisiteId);
+      if(a?.sciencePathway && b?.sciencePathway)check(a.sciencePathway===b.sciencePathway,`cross-pathway dependency ${d.topicId}`);
+      if(b?.selection==='school-conditional-7')check(d.strength==='soft',`optional course made mandatory ${d.topicId}`);
+      if(mapById.get(d.topicId)?.gradeRange[1]<=6)check(mapById.get(d.prerequisiteId)?.gradeRange[1]<=6,`junior prerequisite imposed on primary ${d.topicId}`);
+    }
+  }
   return errors;
 }
 export function loadDataset(dir=resolve(ROOT,'data/cn-primary')) {

@@ -1,0 +1,930 @@
+{
+  "version": "cn-compulsory-2022-draft.1",
+  "clusterCount": 154,
+  "clusters": [
+    {
+      "subject": "数学",
+      "domain": "数与代数",
+      "ageRangeStart": 6,
+      "summary": "孩子将把具体数量表示成数，理解数位与四则运算，使用实物或图画解释计算及简单生活问题。"
+    },
+    {
+      "subject": "数学",
+      "domain": "数与代数",
+      "ageRangeStart": 8,
+      "summary": "孩子在多位数计算中理解算理，建立小数与分数单位的概念，并用数量关系解决两步或三步以内的问题。"
+    },
+    {
+      "subject": "数学",
+      "domain": "数与代数",
+      "ageRangeStart": 10,
+      "summary": "孩子通过因数倍数、分数小数运算与比，理解计数单位和数量关系的一致性，并解释符号表达。"
+    },
+    {
+      "subject": "数学",
+      "domain": "图形与几何",
+      "ageRangeStart": 6,
+      "summary": "孩子辨认日常图形，经历用统一单位测量长度，并通过拼摆认识整体与部分。"
+    },
+    {
+      "subject": "数学",
+      "domain": "图形与几何",
+      "ageRangeStart": 8,
+      "summary": "孩子研究线、角和图形特征，区分周长与面积，认识生活中的平移、旋转与对称。"
+    },
+    {
+      "subject": "数学",
+      "domain": "图形与几何",
+      "ageRangeStart": 10,
+      "summary": "孩子用转化解释面积与体积公式，通过数对、比例尺和图形运动表达空间关系。"
+    },
+    {
+      "subject": "数学",
+      "domain": "统计与概率",
+      "ageRangeStart": 6,
+      "summary": "孩子根据明确的标准分类，说明分类依据，并用简单记录交流结果。"
+    },
+    {
+      "subject": "数学",
+      "domain": "统计与概率",
+      "ageRangeStart": 8,
+      "summary": "孩子围绕问题收集数据，用条形图表达数量，并理解平均数的统计意义。"
+    },
+    {
+      "subject": "数学",
+      "domain": "统计与概率",
+      "ageRangeStart": 10,
+      "summary": "孩子用折线图、扇形图和百分数表达数据，区分确定与随机事件，并依据数据作有边界的判断。"
+    },
+    {
+      "subject": "数学",
+      "domain": "综合与实践",
+      "ageRangeStart": 6,
+      "summary": "孩子通过购物、读钟表和描述教室位置，把数学用于真实活动并反思过程。"
+    },
+    {
+      "subject": "数学",
+      "domain": "综合与实践",
+      "ageRangeStart": 8,
+      "summary": "孩子在日历、称重和方向活动中选择单位、制定方案并解释实际结果。"
+    },
+    {
+      "subject": "数学",
+      "domain": "综合与实践",
+      "ageRangeStart": 10,
+      "summary": "孩子综合测量、比例和数据分析设计方案，理解负数表达，并检验方案是否满足现实约束。"
+    },
+    {
+      "subject": "语文",
+      "domain": "识字与写字",
+      "ageRangeStart": 6,
+      "summary": "孩子用拼音和字形线索识字，建立规范书写习惯，并学习查字典独立解决生字问题。"
+    },
+    {
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "ageRangeStart": 6,
+      "summary": "孩子借助图画和上下文理解短文，在朗读、故事与诗歌中表达感受，并开始阅读整本书。"
+    },
+    {
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "ageRangeStart": 6,
+      "summary": "孩子认真倾听，较完整地讲述经历，用文字或图画表达想法，并对生活中的问题展开讨论。"
+    },
+    {
+      "subject": "语文",
+      "domain": "识字与阅读",
+      "ageRangeStart": 8,
+      "summary": "孩子提高独立识字能力，学习默读、略读与批注，抓住主要内容并从词句中体会情感。"
+    },
+    {
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "ageRangeStart": 8,
+      "summary": "孩子把观察和想象写清楚，学习便条书信，修改明显错误，并通过资料与讨论解决问题。"
+    },
+    {
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "ageRangeStart": 10,
+      "summary": "孩子根据目的浏览和精读，从文字、图表等材料提取信息，讨论表达方法并说明判断依据。"
+    },
+    {
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "ageRangeStart": 10,
+      "summary": "孩子有条理地表达观点，按内容分段写作，通过互改和专题探究提升信息组织能力。"
+    },
+    {
+      "subject": "英语",
+      "domain": "语言知识",
+      "ageRangeStart": 8,
+      "summary": "孩子在熟悉语境中学习字母、拼读和简单句，用一般现在时与现在进行时表达不同意思。"
+    },
+    {
+      "subject": "英语",
+      "domain": "听说读看写",
+      "ageRangeStart": 8,
+      "summary": "孩子通过图片、声音和短文获取信息，听懂课堂指令，介绍熟悉生活并仿写简单句子。"
+    },
+    {
+      "subject": "英语",
+      "domain": "语言知识与文化",
+      "ageRangeStart": 10,
+      "summary": "孩子进一步用语调和语言表达情感，在真实交流中描述过去经历和未来计划，比较文化习俗。"
+    },
+    {
+      "subject": "英语",
+      "domain": "听说读看写",
+      "ageRangeStart": 10,
+      "summary": "孩子依据上下文推测词义，归纳故事情节，用连贯的句子和多种媒介表达信息。"
+    },
+    {
+      "subject": "科学",
+      "domain": "物质与变化",
+      "ageRangeStart": 6,
+      "summary": "孩子观察物体的外部特征，辨认常见材料，并用看得见的证据描述水与空气。 孩子通过对比观察辨认溶解现象，不把肉眼看不见简单解释成物质消失。"
+    },
+    {
+      "subject": "科学",
+      "domain": "物质与变化",
+      "ageRangeStart": 8,
+      "summary": "孩子使用工具测量物体特征，依据材料性质选择用途或分离方法，理解空气占据空间。 孩子比较固液气的形态，观察受热冷却的变化，用控制条件的方法研究溶解快慢。"
+    },
+    {
+      "subject": "科学",
+      "domain": "物质与变化",
+      "ageRangeStart": 10,
+      "summary": "孩子区分物态变化与出现新物质的变化，联系蒸发凝结和空气组成解释生活现象。"
+    },
+    {
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "ageRangeStart": 6,
+      "summary": "孩子从推拉、位置变化和磁铁吸引认识物体之间的作用。"
+    },
+    {
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "ageRangeStart": 8,
+      "summary": "孩子测量运动，认识磁极和简单电路，并通过振动与光影观察理解声光现象。"
+    },
+    {
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "ageRangeStart": 10,
+      "summary": "孩子研究力改变运动的证据，使用测力工具，并用光路解释看见物体与反射。"
+    },
+    {
+      "subject": "科学",
+      "domain": "能量与技术",
+      "ageRangeStart": 8,
+      "summary": "孩子用温度计描述冷热，通过观察比较热胀冷缩，认识生活中的能量现象。"
+    },
+    {
+      "subject": "科学",
+      "domain": "能量与技术",
+      "ageRangeStart": 10,
+      "summary": "孩子在装置和生活中辨认能量转化、热传递与简单机械，并比较能源的用途。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生命与环境",
+      "ageRangeStart": 6,
+      "summary": "孩子观察动植物和感官，以具体特征描述生物，学习保护自己的感官。 孩子观察植物与动物的生存需要，并为照护生物提出基本条件。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生命与环境",
+      "ageRangeStart": 8,
+      "summary": "孩子按特征分类生物，辨认植物器官和人体部分器官，理解环境变化影响生存。 孩子联系生存环境解释结构与功能，观察植物需求和动物应对环境变化的方式。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生命的延续",
+      "ageRangeStart": 8,
+      "summary": "孩子长期观察生物生命过程，比较植物繁殖和动物不同繁殖方式。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生命与环境",
+      "ageRangeStart": 10,
+      "summary": "孩子借助观察工具认识细胞与微生物，连接生物和栖息地，并用食物链表达关系。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生命的延续",
+      "ageRangeStart": 10,
+      "summary": "孩子比较亲代与子代特征，借助化石认识过去的生物，并了解成长阶段变化。"
+    },
+    {
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "ageRangeStart": 6,
+      "summary": "孩子持续观察太阳位置、月亮外观与季节变化，记录规律而不凭一次观察下结论。"
+    },
+    {
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "ageRangeStart": 8,
+      "summary": "孩子认识地球与月球的位置关系，观察影长变化，并用模型表达天体。"
+    },
+    {
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "ageRangeStart": 10,
+      "summary": "孩子用地球运动模型解释昼夜与季节，识别月相变化，并比较太阳系天体。"
+    },
+    {
+      "subject": "科学",
+      "domain": "地球系统",
+      "ageRangeStart": 6,
+      "summary": "孩子描述常见天气和土壤中的生命，联系天气变化安排日常活动。"
+    },
+    {
+      "subject": "科学",
+      "domain": "地球系统",
+      "ageRangeStart": 8,
+      "summary": "孩子测量天气数据，认识主要水体与土壤组成，用证据比较环境。"
+    },
+    {
+      "subject": "科学",
+      "domain": "地球系统",
+      "ageRangeStart": 10,
+      "summary": "孩子联系物态变化解释降水，比较岩石，认识地球内部变化及地表塑造。"
+    },
+    {
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "ageRangeStart": 6,
+      "summary": "孩子认识人和动植物共享环境，从身边材料回收中体验节约。"
+    },
+    {
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "ageRangeStart": 8,
+      "summary": "孩子联系用水、土壤与矿产资源，观察生活中的浪费并提出改进。"
+    },
+    {
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "ageRangeStart": 10,
+      "summary": "孩子讨论资源更新速度、生态保护和自然灾害，用事实支持环境行动。"
+    },
+    {
+      "subject": "科学",
+      "domain": "技术与工程",
+      "ageRangeStart": 6,
+      "summary": "孩子区分自然物与人造物，学习安全使用简单工具，说明工具怎样帮助完成任务。"
+    },
+    {
+      "subject": "科学",
+      "domain": "技术与工程",
+      "ageRangeStart": 8,
+      "summary": "孩子拆解安全的简单模型，联系科学原理设计作品，比较使用工具前后的效果。"
+    },
+    {
+      "subject": "科学",
+      "domain": "技术与工程",
+      "ageRangeStart": 10,
+      "summary": "孩子将科学知识用于改进装置，比较效率，并认识工程由相互配合的系统构成。"
+    },
+    {
+      "subject": "信息科技",
+      "domain": "信息交流与安全",
+      "ageRangeStart": 6,
+      "summary": "孩子在成人指导下用数字设备记录和交流，认识个人信息，形成健康使用与礼貌交流习惯。"
+    },
+    {
+      "subject": "信息科技",
+      "domain": "在线学习与生活",
+      "ageRangeStart": 8,
+      "summary": "孩子围绕问题搜索信息，通过在线工具合作，并关注来源可信度和安全。"
+    },
+    {
+      "subject": "信息科技",
+      "domain": "数据与编码",
+      "ageRangeStart": 8,
+      "summary": "孩子理解编码如何唯一标识对象，组织数据表达信息，并保护数据安全。"
+    },
+    {
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "ageRangeStart": 10,
+      "summary": "孩子用清晰步骤和流程图表达算法，理解顺序分支循环，并通过测试改进简单控制系统。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "入学适应与道德生活",
+      "ageRangeStart": 6,
+      "summary": "孩子适应校园生活，学习安排任务、诚实合作和表达情绪，遇到困难懂得求助。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "规则与文化认同",
+      "ageRangeStart": 6,
+      "summary": "孩子理解约定和校园规则，认识国家象征，在家庭和文化活动中体验责任与节约。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "公共生活与自我保护",
+      "ageRangeStart": 8,
+      "summary": "孩子在扩大的生活范围中尊重劳动和平等交往，合理消费，参与制定规则并保护隐私。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "ageRangeStart": 8,
+      "summary": "孩子通过家乡调查和文化资料认识国家与文化，学习用具体事例理解价值观。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "法治与公共参与",
+      "ageRangeStart": 10,
+      "summary": "孩子反思自己的选择，理解法律、权利义务和未成年人保护，参与适合年龄的公共服务。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "ageRangeStart": 10,
+      "summary": "孩子了解文化与历史背景，比较文明成果，在资料和具体故事中认识国家发展与社会责任。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "ageRangeStart": 6,
+      "summary": "孩子动手清洁、整理和参与简单食材处理，体验劳动全过程并形成持续习惯。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "种植与工艺劳动",
+      "ageRangeStart": 6,
+      "summary": "孩子持续照护植物，体验纸泥等材料制作，珍惜劳动成果。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "ageRangeStart": 8,
+      "summary": "孩子扩大清洁收纳范围，在成人指导下做简单餐食并学习规范使用家用器具。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "ageRangeStart": 8,
+      "summary": "孩子通过持续种植、工艺制作和集体服务体验分工，记录过程并改进劳动方法。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "ageRangeStart": 10,
+      "summary": "孩子根据家庭需要规划空间与餐食，阅读器具说明并合理选择功能，承担更完整的家庭任务。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "ageRangeStart": 10,
+      "summary": "孩子在真实约束下设计并制作作品，体验生产和服务流程，以质量、协作和持续改进评价劳动。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "基本运动技能",
+      "ageRangeStart": 6,
+      "summary": "孩子通过游戏发展移动、平衡与操控技能，关注空间、规则和安全距离。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "ageRangeStart": 6,
+      "summary": "孩子建立卫生、护眼、休息与户外活动习惯，能表达身体感受并及时求助。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "体能与合作",
+      "ageRangeStart": 8,
+      "summary": "孩子体验不同体能练习，依据感受调整节奏，在规则内合作和竞争。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "ageRangeStart": 8,
+      "summary": "孩子结合生活情境理解运动、睡眠和饮食的联系，认识身体边界与自我保护。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "体能与合作",
+      "ageRangeStart": 10,
+      "summary": "孩子将体能知识用于活动，在教师指导下选择方法，记录练习并进行合作反思。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "ageRangeStart": 10,
+      "summary": "孩子理解饮食多样、科学锻炼和成长变化，遇到意外按训练与教师指导求助。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "音乐",
+      "ageRangeStart": 6,
+      "summary": "孩子通过唱游、聆听、动作和情境表演体验音乐，用声音表达感受并与同伴合作。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "音乐",
+      "ageRangeStart": 8,
+      "summary": "孩子听辨音乐要素、主题和段落，联系文化背景表达有依据的欣赏感受。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "音乐表现",
+      "ageRangeStart": 8,
+      "summary": "孩子在独唱与合作演唱中保持节奏音准，倾听同伴并协调表达。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "音乐",
+      "ageRangeStart": 11,
+      "summary": "六年级孩子进一步依据音乐要素分析情绪和结构，比较作品风格并联系其他艺术。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "美术",
+      "ageRangeStart": 6,
+      "summary": "孩子发现身边线条形状色彩和肌理，用多种材料表达感受、设计用品并体验传统工艺。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "美术",
+      "ageRangeStart": 8,
+      "summary": "孩子运用色彩、空间和不同媒介表达，比较美术作品，并围绕生活需求开展设计。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "美术",
+      "ageRangeStart": 11,
+      "summary": "六年级孩子比较多样美术形式，传递创意，设计环境并在传统工艺与校园影像中合作实践。"
+    },
+    {
+      "subject": "数学",
+      "domain": "数与式",
+      "ageRangeStart": 12,
+      "summary": "从小学正数运算扩展到有理数与实数，借助数轴、根式和代数式表达数量关系。"
+    },
+    {
+      "subject": "数学",
+      "domain": "方程与不等式",
+      "ageRangeStart": 12,
+      "summary": "用等式和不等式表达约束，求解后回到情境检查解的意义。"
+    },
+    {
+      "subject": "数学",
+      "domain": "函数",
+      "ageRangeStart": 12,
+      "summary": "协调表格、图象与解析式，解释变量关系、变化趋势及实际约束。"
+    },
+    {
+      "subject": "数学",
+      "domain": "图形的性质",
+      "ageRangeStart": 12,
+      "summary": "从直观认识进入几何推理，区分命题、证明与反例，并研究基本图形。"
+    },
+    {
+      "subject": "数学",
+      "domain": "图形的变化与坐标",
+      "ageRangeStart": 12,
+      "summary": "用变换、相似、投影和坐标建立几何与代数的联系。"
+    },
+    {
+      "subject": "数学",
+      "domain": "统计与概率",
+      "ageRangeStart": 12,
+      "summary": "通过抽样推断、分布描述和概率计算发展数据观念，区分结论与不确定性。"
+    },
+    {
+      "subject": "数学",
+      "domain": "综合与实践",
+      "ageRangeStart": 12,
+      "summary": "建立、检验和修正数学模型，以数据和条件支持实际决策。"
+    },
+    {
+      "subject": "语文",
+      "domain": "语言积累与阅读",
+      "ageRangeStart": 12,
+      "summary": "联系语境积累语言，通过多种文本阅读发展解释、鉴赏与判断能力。"
+    },
+    {
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "ageRangeStart": 12,
+      "summary": "围绕目的与读者组织叙事、说明和议论，开展讨论、研究与修改。"
+    },
+    {
+      "subject": "语文",
+      "domain": "学习任务群",
+      "ageRangeStart": 12,
+      "summary": "以整本书、文学创作和跨学科任务整合语言实践，任务群不等于固定教材单元。"
+    },
+    {
+      "subject": "英语",
+      "domain": "语言知识与文化",
+      "ageRangeStart": 12,
+      "summary": "在主题语境中运用语音词汇语法，理解语篇组织与文化差异。"
+    },
+    {
+      "subject": "英语",
+      "domain": "理解表达与学习策略",
+      "ageRangeStart": 12,
+      "summary": "以听读看获取与推断信息，以说写形成连贯表达，并监控学习过程。"
+    },
+    {
+      "subject": "信息科技",
+      "domain": "互联网应用与创新",
+      "ageRangeStart": 12,
+      "summary": "从协议与数据传输理解网络应用，负责任地组织数字协作和安全防护。"
+    },
+    {
+      "subject": "信息科技",
+      "domain": "物联网实践与探索",
+      "ageRangeStart": 12,
+      "summary": "以传感、通信、处理和执行解释物联系统，设计并测试简单应用。"
+    },
+    {
+      "subject": "信息科技",
+      "domain": "人工智能与智慧社会",
+      "ageRangeStart": 12,
+      "summary": "通过实例理解数据算法算力，比较实现方式与社会影响。"
+    },
+    {
+      "subject": "物理",
+      "domain": "物质",
+      "ageRangeStart": 12,
+      "summary": "通过测量、模型和实验理解物态、密度、物质结构与尺度。"
+    },
+    {
+      "subject": "物理",
+      "domain": "运动和相互作用",
+      "ageRangeStart": 12,
+      "summary": "用模型、实验和定量关系解释机械运动、力、声光与电磁作用。"
+    },
+    {
+      "subject": "物理",
+      "domain": "能量",
+      "ageRangeStart": 12,
+      "summary": "联系功、热和电学分析能量转移、转化、效率及可持续利用。"
+    },
+    {
+      "subject": "物理",
+      "domain": "实验探究与跨学科实践",
+      "ageRangeStart": 12,
+      "summary": "以可检验问题、实验记录和模型迭代组织物理探究与工程实践。"
+    },
+    {
+      "subject": "化学",
+      "domain": "科学探究与化学实验",
+      "ageRangeStart": 12,
+      "summary": "学习规范实验、观察与推理，以证据和模型探索物质变化。"
+    },
+    {
+      "subject": "化学",
+      "domain": "物质的性质与应用",
+      "ageRangeStart": 12,
+      "summary": "按组成和性质分类物质，认识常见气体、水溶液、金属及酸碱盐的应用。"
+    },
+    {
+      "subject": "化学",
+      "domain": "物质的组成与结构",
+      "ageRangeStart": 12,
+      "summary": "在宏观物质、微观粒子和符号表示之间建立联系。"
+    },
+    {
+      "subject": "化学",
+      "domain": "物质的化学变化",
+      "ageRangeStart": 12,
+      "summary": "以原子重组和质量守恒解释反应，表示并定量分析变化。"
+    },
+    {
+      "subject": "化学",
+      "domain": "化学与社会及跨学科实践",
+      "ageRangeStart": 12,
+      "summary": "以物质循环、材料性能和环境影响评价化学技术方案。"
+    },
+    {
+      "subject": "生物学",
+      "domain": "生物体的结构层次",
+      "ageRangeStart": 12,
+      "summary": "由细胞结构功能进入组织器官和系统，认识部分与整体的联系。"
+    },
+    {
+      "subject": "生物学",
+      "domain": "生物的多样性",
+      "ageRangeStart": 12,
+      "summary": "依据形态结构比较类群，认识多样性及其保护价值。"
+    },
+    {
+      "subject": "生物学",
+      "domain": "生物与环境",
+      "ageRangeStart": 12,
+      "summary": "以生态系统模型解释生物环境关系及调节能力的限制。"
+    },
+    {
+      "subject": "生物学",
+      "domain": "植物的生活",
+      "ageRangeStart": 12,
+      "summary": "联系植物结构、物质运输和能量转化解释生长繁殖及环境作用。"
+    },
+    {
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "ageRangeStart": 12,
+      "summary": "以系统协作解释人体获取、运输、排出和调节过程，形成科学健康观。"
+    },
+    {
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "ageRangeStart": 12,
+      "summary": "联系繁殖、遗传变异和自然选择解释生命延续及多样性。"
+    },
+    {
+      "subject": "生物学",
+      "domain": "生物学与社会及跨学科实践",
+      "ageRangeStart": 12,
+      "summary": "综合生物学原理设计实践，重视实验伦理、证据及环境影响。"
+    },
+    {
+      "subject": "历史",
+      "domain": "中国古代史",
+      "ageRangeStart": 12,
+      "summary": "以史料和时空线索理解古代国家发展、社会变迁与文明交流。"
+    },
+    {
+      "subject": "历史",
+      "domain": "中国近代史",
+      "ageRangeStart": 12,
+      "summary": "联系外来侵略、社会转型与救亡探索，运用材料解释历史事件的意义与局限。"
+    },
+    {
+      "subject": "历史",
+      "domain": "中国现代史",
+      "ageRangeStart": 12,
+      "summary": "以制度、经济社会与普通人生活材料理解建设、探索、改革和发展。"
+    },
+    {
+      "subject": "历史",
+      "domain": "世界古代史",
+      "ageRangeStart": 12,
+      "summary": "比较多样古代文明、制度和交流，避免以单一路径概括所有社会。"
+    },
+    {
+      "subject": "历史",
+      "domain": "世界近代史",
+      "ageRangeStart": 12,
+      "summary": "联系思想变革、全球联系、革命改革与工业化分析近代世界形成。"
+    },
+    {
+      "subject": "历史",
+      "domain": "世界现代史",
+      "ageRangeStart": 12,
+      "summary": "比较战争、革命、国际秩序与全球联系，区分事实证据和历史解释。"
+    },
+    {
+      "subject": "历史",
+      "domain": "历史跨学科探究",
+      "ageRangeStart": 12,
+      "summary": "通过地方史、文物和口述材料开展研究，公开来源和解释边界。"
+    },
+    {
+      "subject": "地理",
+      "domain": "地理工具与实践",
+      "ageRangeStart": 12,
+      "summary": "用地球仪、地图与实地记录定位、量测和表达空间信息。"
+    },
+    {
+      "subject": "地理",
+      "domain": "认识全球：地球与运动",
+      "ageRangeStart": 12,
+      "summary": "结合模型和实际现象理解地球位置、自转公转及其生活影响。"
+    },
+    {
+      "subject": "地理",
+      "domain": "认识全球：地球表层",
+      "ageRangeStart": 12,
+      "summary": "从空间分布认识海陆地形、气候、人口文化和全球发展差异。"
+    },
+    {
+      "subject": "地理",
+      "domain": "认识世界区域",
+      "ageRangeStart": 12,
+      "summary": "以位置、自然条件、人类活动和区域联系比较大洲地区国家。"
+    },
+    {
+      "subject": "地理",
+      "domain": "认识中国与家乡",
+      "ageRangeStart": 12,
+      "summary": "认识疆域、自然人文格局、区域差异和家乡发展，分析因地制宜与协同发展。"
+    },
+    {
+      "subject": "地理",
+      "domain": "地理跨学科主题",
+      "ageRangeStart": 12,
+      "summary": "通过真实区域问题整合模型、观测和资料分析，解释人地协调。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "生命安全与健康教育",
+      "ageRangeStart": 12,
+      "summary": "在青春期成长、交往和集体生活中认识自我，调节情绪并承担责任。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "ageRangeStart": 12,
+      "summary": "认识宪法、国家制度与权利义务，在案例讨论中理解依法治理和合法参与。"
+    },
+    {
+      "subject": "道德与法治",
+      "domain": "文化革命传统与国情",
+      "ageRangeStart": 12,
+      "summary": "联系文化传统、历史和当代发展理解社会责任，学会以证据讨论公共问题。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "ageRangeStart": 12,
+      "summary": "根据家庭需要规划收纳餐食和器具维护，重视安全、效率与劳动责任。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "生产劳动",
+      "ageRangeStart": 12,
+      "summary": "以完整劳动过程理解生产，依据需求设计、加工、测试并改进作品。"
+    },
+    {
+      "subject": "劳动",
+      "domain": "服务性劳动",
+      "ageRangeStart": 12,
+      "summary": "从服务对象需求出发组织劳动，履行职责并反思服务效果。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "体能与健康",
+      "ageRangeStart": 12,
+      "summary": "根据身体状况和练习反馈制订适宜计划，综合发展体能并保持安全。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "健康教育",
+      "ageRangeStart": 12,
+      "summary": "评价影响健康的因素，调节情绪，保护身体边界并应对安全风险。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "专项运动：球类",
+      "ageRangeStart": 12,
+      "summary": "在选学球类项目中整合技术、战术、规则和比赛观察，项目按学校条件选择。"
+    },
+    {
+      "subject": "体育与健康",
+      "domain": "体育跨学科主题",
+      "ageRangeStart": 12,
+      "summary": "在适龄主题活动中综合运动技能、合作与健康知识，反思参与体验。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "音乐",
+      "ageRangeStart": 12,
+      "summary": "七年级进一步分析音乐要素、形式和文化背景，以听觉证据作评述。 在合作表演和编创中运用音乐语言，关注声部配合与表达意图。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "美术",
+      "ageRangeStart": 12,
+      "summary": "七年级以多样媒介表达创意，在环境、工艺和校园影像任务中综合探索。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "音乐",
+      "ageRangeStart": 13,
+      "summary": "音乐选项深化欣赏、表演、编创和生活中的音乐探究。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "美术",
+      "ageRangeStart": 13,
+      "summary": "美术选项联系中外美术史、媒介表现、设计和展览实践。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "舞蹈",
+      "ageRangeStart": 12,
+      "summary": "有条件学校的七年级舞蹈学习通过体验风格和合作编创积累动作语汇。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "舞蹈",
+      "ageRangeStart": 13,
+      "summary": "舞蹈选项结合经典欣赏、风格表现与小品编创。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "戏剧",
+      "ageRangeStart": 12,
+      "summary": "通过戏剧游戏体验声音肢体与角色表达，发展合作和表演意识。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "戏剧",
+      "ageRangeStart": 13,
+      "summary": "戏剧选项通过剧本、舞台表演和观剧评价整合艺术表达。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "影视与数字媒体",
+      "ageRangeStart": 12,
+      "summary": "通过拍摄声音画面和初步剪辑理解视听技术。"
+    },
+    {
+      "subject": "艺术",
+      "domain": "影视与数字媒体",
+      "ageRangeStart": 13,
+      "summary": "影视选项通过记录生活、历史表达、故事编导和数字媒体探索综合创作。"
+    },
+    {
+      "subject": "科学",
+      "domain": "物质的结构与性质",
+      "ageRangeStart": 12,
+      "summary": "综合科学路径以粒子、组成和性质联系解释物质多样性。"
+    },
+    {
+      "subject": "科学",
+      "domain": "物质的变化与化学反应",
+      "ageRangeStart": 12,
+      "summary": "以变化、条件和守恒建立综合科学中的化学反应观念。"
+    },
+    {
+      "subject": "科学",
+      "domain": "物质的运动与相互作用",
+      "ageRangeStart": 12,
+      "summary": "从运动、力、光声和电磁现象认识相互作用及定量描述。"
+    },
+    {
+      "subject": "科学",
+      "domain": "能的转化与能量守恒",
+      "ageRangeStart": 12,
+      "summary": "联系机械、热和电过程追踪能量，评价能源利用。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生命系统的构成层次",
+      "ageRangeStart": 12,
+      "summary": "联系细胞结构与组织器官系统解释生命整体性。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生物体的稳态与调节",
+      "ageRangeStart": 12,
+      "summary": "通过生命活动与调节过程理解生物维持稳定的方式。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生物与环境的相互关系",
+      "ageRangeStart": 12,
+      "summary": "以食物网、物质循环和能量流动理解生态系统。"
+    },
+    {
+      "subject": "科学",
+      "domain": "生命的延续与进化",
+      "ageRangeStart": 12,
+      "summary": "以生殖、遗传变异与选择解释生命延续和进化。"
+    },
+    {
+      "subject": "科学",
+      "domain": "宇宙中的地球",
+      "ageRangeStart": 12,
+      "summary": "通过尺度、位置与运动模型解释地球和天体关系。"
+    },
+    {
+      "subject": "科学",
+      "domain": "地球系统",
+      "ageRangeStart": 12,
+      "summary": "联系地形、天气气候和水循环解释地球各部分的相互影响。"
+    },
+    {
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "ageRangeStart": 12,
+      "summary": "结合资源和污染证据评价人类活动与环境的关系。"
+    },
+    {
+      "subject": "科学",
+      "domain": "技术工程与社会",
+      "ageRangeStart": 12,
+      "summary": "从科学、技术与社会的关系理解工程方案的价值和取舍。"
+    },
+    {
+      "subject": "科学",
+      "domain": "工程设计与物化",
+      "ageRangeStart": 12,
+      "summary": "在条件约束下提出设计、制作测试并依据证据迭代。"
+    }
+  ]
+}

@@ -4,6 +4,10 @@ All notable changes to the Marble Skill Taxonomy dataset are documented here.
 Dataset releases are versioned independently of the taxonomy `version` field
 (the underlying taxonomy is `v1`).
 
+## [cn-compulsory-2022-draft.1] — 2026-10-19
+
+Added 249 junior-stage topics and 432 dependencies (188 primary-to-junior links). The combined dataset has 557 topics, 812 edges, 14 source curricula, 159 project section locators and 154 clusters. Preserved primary artifacts and IDs; added five official source PDFs as metadata, stage/option/science-pathway provenance, combined builds and queries, and 10 regression tests. Remains an unreviewed, non-exhaustive draft; grade ranges are stage scope rather than textbook schedules.
+
 ## [cn-primary-2022-draft.1] — 2026-10-19
 
 Added an isolated Chinese primary curriculum draft: 308 topics, 380 dependencies, 9 sources, 81 project-assigned section locators and 77 clusters. Includes page-level provenance, deterministic authoring/build scripts, graph queries and validation tests. No expert review or exhaustive clause coverage claimed. Original upstream data retained.
