@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "ethics",
+    "subject": "道德与法治",
+    "title": "义务教育道德与法治课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582343475848.pdf",
+    "sha256": "16c0a291b522ce5b0afe3b1a28e696d8cca0d4d63cc01ff552a1d6ce06506cf0",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 73
+  },
+  {
+    "slug": "chinese",
+    "subject": "语文",
+    "title": "义务教育语文课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf",
+    "sha256": "3ef0ec8a30b5a950211202658df07d99f5427f750f8ba0c3cfda12736b7bd71a",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 109
+  },
+  {
+    "slug": "math",
+    "subject": "数学",
+    "title": "义务教育数学课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+    "sha256": "1183b95c58a65eaac4c456f2d2b329bbe42f65a6482993edb537e3eaf8baa144",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 189
+  },
+  {
+    "slug": "english",
+    "subject": "英语",
+    "title": "义务教育英语课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+    "sha256": "59ec3971e0dbd6ca487c4e4972cbc80effaf2fd62418d07e5f62c6698fa222fb",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 201
+  },
+  {
+    "slug": "science",
+    "subject": "科学",
+    "title": "义务教育科学课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582355009892.pdf",
+    "sha256": "630b2fb082aed2f0b6aaff1cd30cdea530c41459ee0ffd5847e3e07b7324546f",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 193
+  },
+  {
+    "slug": "computing",
+    "subject": "信息科技",
+    "title": "义务教育信息科技课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582361024968.pdf",
+    "sha256": "065f9df22d35da8813508c23782c7853dab3c54e34f552a627f8dd1698fa1e01",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 74
+  },
+  {
+    "slug": "pe",
+    "subject": "体育与健康",
+    "title": "义务教育体育与健康课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582362336303.pdf",
+    "sha256": "bc53754f8fb55e32f1ac49abfbbd120ee587d0385ed5dfbea620baa16624e03d",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 148
+  },
+  {
+    "slug": "arts",
+    "subject": "艺术",
+    "title": "义务教育艺术课程标准（2022年版）",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582364678888.pdf",
+    "sha256": "7c5c688f5e1b9d8e5c2a0ef908055322df67bb36d5b85ca1c540f1c35807230d",
+    "printedPageOffset": 7,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 131
+  },
+  {
+    "slug": "labor",
+    "subject": "劳动",
+    "title": "义务教育劳动课程标准(2022年版)",
+    "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582367012450.pdf",
+    "sha256": "d5f080fee80df073ef67f6b0dbe303250913777aee32f98bea4f22df1c6247d8",
+    "printedPageOffset": 8,
+    "retrievedAt": "2026-10-19",
+    "publisher": "中华人民共和国教育部",
+    "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+    "pdfPageCount": 68
+  }
+]

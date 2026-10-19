@@ -1,0 +1,5556 @@
+{
+  "version": "cn-primary-2022-draft.1",
+  "topicCount": 308,
+  "topics": [
+    {
+      "id": "mt_cn_math_count",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数量与顺序",
+      "description": "将物体的多少与排列中的位置分别表示为数。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "逐一对应数出物体并解释最后一个数表示总量",
+        "区分几个和第几个"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：逐一对应数出物体并解释最后一个数表示总量；区分几个和第几个。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_place",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "十进制数位",
+      "description": "把十个一重新组成一个十，理解万以内数字所在位置的意义。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用计数材料表示同一数字在个位与十位的不同数值"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用计数材料表示同一数字在个位与十位的不同数值。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "万以内数的比较",
+      "description": "依据数位和各位数字比较数的大小，并选择关系符号。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "对一组数排序并解释先比较哪一位"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对一组数排序并解释先比较哪一位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_add",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "加法表示合并与增加",
+      "description": "把合并或增加的数量关系表示为加法算式。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "为合并情境写算式并说明每个数的含义"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：为合并情境写算式并说明每个数的含义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_sub",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "减法与加法的关系",
+      "description": "用减法表达拿走或比较差，并用加法检验。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用实物解释减法并写出对应的加法关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用实物解释减法并写出对应的加法关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_add20",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "20以内加减的分解策略",
+      "description": "借助数的分解与合成完成20以内加减。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用凑十或拆分方法解释计算而非只报答案"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用凑十或拆分方法解释计算而非只报答案。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_written_add",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "多位数加减的进退位",
+      "description": "按相同数位对齐计算两三位数加减，解释进位和退位。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用十进位材料解释进一与退一的单位变化"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用十进位材料解释进一与退一的单位变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_equal_groups",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "相同数量的分组",
+      "description": "识别每组一样多的集合并区分组数与每组数量。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用图表示几个几并指出两类数量"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图表示几个几并指出两类数量。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_multiply",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "乘法作为相同加数的合并",
+      "description": "将若干相同数量的合并表示为乘法。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "把相同加数连加改写成乘法并解释因素含义"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把相同加数连加改写成乘法并解释因素含义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_divide",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "除法表示平均分与包含",
+      "description": "在平均分和按份数分组情境中解释除法。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "分别画出已知组数和已知每组数量的分法"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：分别画出已知组数和已知每组数量的分法。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_tables",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "表内乘除法",
+      "description": "利用乘法关系进行表内计算并检验除法结果。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用图或已知乘法推导一条未熟记的算式"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图或已知乘法推导一条未熟记的算式。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_model1",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "生活问题的数量关系",
+      "description": "从简单生活事件中确定已知量、所求量及运算。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "画图表达部分与整体或相等分组关系并解释结果"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：画图表达部分与整体或相等分组关系并解释结果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_pattern",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "重复与变化规律",
+      "description": "在图案或数列中识别重复单元和简单变化。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明规律并构造符合规律的新项目"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明规律并构造符合规律的新项目。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_large",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "大数与计数单位",
+      "description": "认识万以上的数及万、亿等单位，解释数字位置。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "把大数分解为不同计数单位并读写"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把大数分解为不同计数单位并读写。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_multi_mul",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "多位数乘法",
+      "description": "将多位数乘法分解为部分积再合并。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用面积模型或分解算式解释竖式每一行"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用面积模型或分解算式解释竖式每一行。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_multi_div",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "多位数除法",
+      "description": "以分组和乘除互逆解释试商及余数。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明每一步商的单位并用乘法检验"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明每一步商的单位并用乘法检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_unit",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整体与分数单位",
+      "description": "把指定整体平均分成若干份，以其中一份作为分数单位。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "辨别平均分与不平均分",
+        "说明同一分数在不同整体中对应的量可能不同"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：辨别平均分与不平均分；说明同一分数在不同整体中对应的量可能不同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_repr",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数的多种表示",
+      "description": "用面积图、长度图或数轴表示若干个分数单位。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在图与分数符号之间转换并解释分子分母"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在图与分数符号之间转换并解释分子分母。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_compare",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "简单分数比较",
+      "description": "在同一整体下用单位份比较同分母或简单分数。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用图解释比较依据并保持整体一致"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图解释比较依据并保持整体一致。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_add",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "同分母分数加减",
+      "description": "把相同分数单位的个数相加减，保持单位不变。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用图解释为什么分母不相加",
+        "独立完成改变表示方式后的同类题"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图解释为什么分母不相加；独立完成改变表示方式后的同类题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_decimal_intro",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一位小数与十分之一",
+      "description": "以十等分的量解释一位小数及其大小。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "把十分之一的图示写成小数并解释各位意义"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把十分之一的图示写成小数并解释各位意义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_decimal_add1",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一位小数加减",
+      "description": "将相同计数单位上的数量相加减。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明小数点对齐实际是在对齐单位"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明小数点对齐实际是在对齐单位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_order",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整数混合运算",
+      "description": "解释运算顺序和括号表达的数量关系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "把两步情境写成综合算式并说明括号作用"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把两步情境写成综合算式并说明括号作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_laws",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "运算律的表达与应用",
+      "description": "从实例概括交换、结合和分配关系并用字母表达。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用图说明分配律并指出不适用的错误改写"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图说明分配律并指出不适用的错误改写。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_price",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "单价数量总价模型",
+      "description": "识别单价、数量和总价之间的乘法关系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "从购物情境选择相应数量并解释单位"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从购物情境选择相应数量并解释单位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_speed",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "速度时间路程模型",
+      "description": "用每单位时间的路程连接总路程和时间。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释速度的单位并用图表示路程关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释速度的单位并用图表示路程关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_estimate",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "选择有意义的估算",
+      "description": "根据现实问题选择近似单位并检查结果合理性。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明估算精度为什么满足实际决策需要"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明估算精度为什么满足实际决策需要。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_equal_relation",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "等量关系的传递",
+      "description": "在具体情境中利用两个量分别等于同一个量进行推理。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用图或实物解释等量替换的理由"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图或实物解释等量替换的理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_calculator",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "计算器探索与检验",
+      "description": "合理输入算式，用估算检验输出并探索规律。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "发现输入错误产生的不合理结果并修正"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：发现输入错误产生的不合理结果并修正。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_factors",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "因数与倍数",
+      "description": "用整数乘除关系判断因数与倍数，明确讨论的数范围。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "列出一个正整数的全部因数并说明没有遗漏"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：列出一个正整数的全部因数并说明没有遗漏。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_divisibility",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "倍数特征与奇偶",
+      "description": "探索2、3、5的倍数特征，区分奇数和偶数。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用数位或实例说明一种倍数判别方法"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用数位或实例说明一种倍数判别方法。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_prime",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "质数与合数",
+      "description": "依据正因数个数分类，解释1不属于两类。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "列举因数后判断并解释1的特殊性"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：列举因数后判断并解释1的特殊性。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_common",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "公因数与公倍数",
+      "description": "在两个数的因数或倍数中寻找共同元素及极值。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用列表说明最大公因数与最小公倍数的区别"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用列表说明最大公因数与最小公倍数的区别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_division",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数与整数除法",
+      "description": "把平均分的结果用分数表示，联系除法与分数。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用分物情境解释被除数与分子的对应关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用分物情境解释被除数与分子的对应关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_equivalent",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "等值分数",
+      "description": "通过细分或合并单位份保持所表示的量不变。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用图解释分子分母同时变化的等值关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图解释分子分母同时变化的等值关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_common_den",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "约分与通分",
+      "description": "借助等值分数选择共同单位或较简表示。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释通分改变表示却不改变量"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释通分改变表示却不改变量。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_add2",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "异分母分数加减",
+      "description": "先转为相同单位份，再进行个数加减。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释为何必须统一单位并检验结果范围"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释为何必须统一单位并检验结果范围。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_mul",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数乘法的量义",
+      "description": "把求一个量的几分之几表示为乘法，解释积的大小。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用面积或线段图解释一个分数乘另一个分数"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用面积或线段图解释一个分数乘另一个分数。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_div",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数除法的量义",
+      "description": "用已知部分求整体或按单位量分组解释分数除法。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "从图示推出除法算式并用乘法检验"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从图示推出除法算式并用乘法检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_decimal",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数计数单位与大小",
+      "description": "把十进制扩展到百分位等，比较小数并说明末尾零。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释0.5与0.50量相同以及位数多未必数大"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释0.5与0.50量相同以及位数多未必数大。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_decimal_ops",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数四则运算",
+      "description": "在理解单位和位值的基础上处理小数四则运算。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明小数点位置的数量依据并用估算检验"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明小数点位置的数量依据并用估算检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_fraction_decimal",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数小数互化",
+      "description": "把同一个量写成分数或小数并解释转换。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "把有限小数转分数并用除法检验转换"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把有限小数转分数并用除法检验转换。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_equation_property",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "等式保持相等",
+      "description": "在具体问题中解释两边同时作相同合法运算的效果。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用天平或数量关系说明等式变换"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用天平或数量关系说明等式变换。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_letter",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "字母表达一般关系",
+      "description": "用字母表示变化的数以及数量关系、公式和规律。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明式中字母意义并代入数值检验"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明式中字母意义并代入数值检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_ratio",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "比与比值",
+      "description": "比较两个量的倍数关系，区分比、比值与实际数量。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释配料比并判断两个配方是否保持同样比例"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释配料比并判断两个配方是否保持同样比例。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_proportion",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "按比例分配",
+      "description": "把总量按份数关系分成若干部分并检验总量。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "画份数图说明每部分占比以及分配结果"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：画份数图说明每部分占比以及分配结果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_direct",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "正比例关系",
+      "description": "在具体情境中识别比值固定的两个变化量。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用表格和图表示正比例并给出非例"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用表格和图表示正比例并给出非例。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-NUM"
+      ]
+    },
+    {
+      "id": "mt_cn_math_shapes",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平面与立体图形辨认",
+      "description": "从生活物体中辨认常见立体和平面图形。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "改变方向和大小后仍能按特征分类"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：改变方向和大小后仍能按特征分类。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_composition",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "图形拼组与分解",
+      "description": "用简单图形拼成新图形并识别组成部分。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用两种拼法形成同一轮廓并说出组成图形"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用两种拼法形成同一轮廓并说出组成图形。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_length",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "统一长度单位",
+      "description": "通过重复摆放相同单位测量长度，理解测量起点。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "解释单位不同导致读数不同",
+        "用尺测量并处理非零起点"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释单位不同导致读数不同；用尺测量并处理非零起点。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_cm_m",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "厘米和米的选择与换算",
+      "description": "根据实际长度选择米或厘米并作简单换算。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "估计身边物体长度后测量并解释误差"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：估计身边物体长度后测量并解释误差。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_lines",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "线段射线直线",
+      "description": "根据端点和延伸性质区分三类线，理解两点间距离。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用图解释三类线的异同与线段最短"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用图解释三类线的异同与线段最短。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_parallel",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行与垂直",
+      "description": "在同一平面内辨认两直线的平行或垂直关系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明图中关系并通过延长或直角工具检验"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明图中关系并通过延长或直角工具检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_angle",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "角与角的大小",
+      "description": "以两条射线的张开程度理解角，区分角与边长。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "改变边长而保持张开程度时判断角不变"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：改变边长而保持张开程度时判断角不变。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_angle_measure",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "量角与画角",
+      "description": "正确选择量角器起点和刻度，画指定角。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释内外圈刻度的选择并检验所画角"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释内外圈刻度的选择并检验所画角。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_triangle",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形和四边形分类",
+      "description": "按边与角的性质分类，并认识类别之间的包含关系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释正方形与长方形的关系并提供非例"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释正方形与长方形的关系并提供非例。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_perimeter",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "周长与边界",
+      "description": "把封闭图形边界的长度相加，解释长方形周长公式。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "指出边界并在变形问题中解释周长变化"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出边界并在变形问题中解释周长变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_area",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "面积与平方单位",
+      "description": "用不重不漏的单位方格度量覆盖范围。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "区分面积与周长",
+        "解释面积单位与长度单位不同"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分面积与周长；解释面积单位与长度单位不同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_rectangle_area",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方形面积",
+      "description": "从行列单位方格数推出长乘宽。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用方格解释乘法公式并处理缺少部分的图形"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用方格解释乘法公式并处理缺少部分的图形。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_units2",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长度和面积单位换算",
+      "description": "选择毫米至千米等长度单位及常用平方单位。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用单位方格说明面积换算不能照搬长度换算"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用单位方格说明面积换算不能照搬长度换算。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_views",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "不同方向观察物体",
+      "description": "将简单物体与从不同方向看到的形状对应。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "依据观察方向匹配图像并解释遮挡"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据观察方向匹配图像并解释遮挡。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_transform",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平移旋转轴对称现象",
+      "description": "从生活动作中辨认图形运动并描述保持不变的特征。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "给出三种变化的实例并说明区别"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：给出三种变化的实例并说明区别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_triangle_properties",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形边角关系",
+      "description": "用操作和推理解释两边和大于第三边及内角和。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "判断三条线段能否围成三角形并说明理由"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：判断三条线段能否围成三角形并说明理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_polygon_area",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行四边形三角形梯形面积",
+      "description": "通过剪拼转化为已知图形推导面积公式。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "标明底和对应高并解释除以二的由来"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：标明底和对应高并解释除以二的由来。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_circle",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆的要素与圆周率",
+      "description": "理解圆心、半径、直径及周长与直径的比例关系。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释固定圆心与半径画圆的方法"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释固定圆心与半径画圆的方法。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_circle_area",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆周长和面积",
+      "description": "用分割转化解释圆的周长与面积计算。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "区分圆周长和面积的公式与单位"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分圆周长和面积的公式与单位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_volume",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "体积容积与立方单位",
+      "description": "用单位小正方体理解占据空间的大小并区别容积。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释立方单位",
+        "用排水前后差估计不规则物体体积"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释立方单位；用排水前后差估计不规则物体体积。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_cuboid",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方体表面积和体积",
+      "description": "联系展开图与空间层数推导表面积、体积。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释表面积与体积计算不同且单位不同"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释表面积与体积计算不同且单位不同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_cylinder",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆柱圆锥的度量",
+      "description": "联系底面积、高和展开图计算圆柱，比较等底等高圆锥体积。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明圆柱侧面积的展开关系与圆锥公式的条件"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明圆柱侧面积的展开关系与圆锥公式的条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_coordinates",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "有序数对定位",
+      "description": "在方格平面用有序数对表示位置，明确两个数的顺序。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "将点与数对双向对应并解释交换顺序的变化"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：将点与数对双向对应并解释交换顺序的变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_mapscale",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "方向距离与比例尺",
+      "description": "从参照点用方向距离定位，并解释图上与实际距离比。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "按给定比例绘制简单路线并解释单位统一"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按给定比例绘制简单路线并解释单位统一。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_grid_transform",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "方格图形变换",
+      "description": "在方格纸上平移、旋转及补全轴对称图形。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "标明旋转中心方向角度或对称轴再作图"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：标明旋转中心方向角度或对称轴再作图。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-GEO"
+      ]
+    },
+    {
+      "id": "mt_cn_math_classify",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "分类标准",
+      "description": "按一个明确标准整理物体或数据，比较不同分类结果。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "给同一批物体提出两种分类标准并保持一致"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：给同一批物体提出两种分类标准并保持一致。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_tally",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "分类结果的记录",
+      "description": "用图画或简单表格记录各类数量。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "根据记录回答哪类多并追溯原始对象"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据记录回答哪类多并追溯原始对象。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_collect",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "数据收集与整理",
+      "description": "围绕明确问题选择观察或调查方法，保留计数规则。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "设计不重不漏的记录表并说明样本来源"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：设计不重不漏的记录表并说明样本来源。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_bar",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "条形统计图",
+      "description": "用统一刻度表示各类数量，解读图中信息。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "发现不一致刻度导致的误读并解释数据意义"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：发现不一致刻度导致的误读并解释数据意义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_mean",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "平均数的意义",
+      "description": "用移多补少或总量均分解释一组数据的代表值。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释平均数不一定是实际出现的数且位于最大最小值之间"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释平均数不一定是实际出现的数且位于最大最小值之间。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_linechart",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "折线图与变化趋势",
+      "description": "以有序时间或条件组织数据，描述变化趋势。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "区分整体趋势与个别波动并说明坐标单位"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分整体趋势与个别波动并说明坐标单位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_percent",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "百分数的统计意义",
+      "description": "把部分与整体的关系表示成每百份中的份数。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明百分数的基准整体并比较基准不同的情境"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明百分数的基准整体并比较基准不同的情境。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_pie",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "扇形图与整体构成",
+      "description": "根据扇形表示的份额读出整体组成。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "指出图中整体并用百分数解释各部分"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出图中整体并用百分数解释各部分。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_chance",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "随机现象与可能性",
+      "description": "区分必然、不可能和可能发生，定性比较机会。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释一次结果不能证明下一次必然相同"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释一次结果不能证明下一次必然相同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_math_money",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "人民币与购物",
+      "description": "在模拟购物中使用元角分，核对付款和找零。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明购物预算与找零的数量关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明购物预算与找零的数量关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_time",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "时分秒与时间表达",
+      "description": "认识钟表和时间单位，区分时刻与经过时间。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用钟面或时间线解释简单时间间隔"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用钟面或时间线解释简单时间间隔。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_direction",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "相对位置与四方",
+      "description": "用前后左右及东南西北描述相对位置。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "更换参照对象后重新描述位置"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：更换参照对象后重新描述位置。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S1-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_calendar",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "年月日与24时记时",
+      "description": "使用日历和24时记时法安排活动并计算简单间隔。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "跨日期说明活动时间且检查月份天数"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：跨日期说明活动时间且检查月份天数。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_mass",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "质量单位与等量替换",
+      "description": "认识克千克吨，利用可称量部分组合测量总质量。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释称量方案为什么保持总量相等"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释称量方案为什么保持总量相等。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_eight_directions",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "八个方向与路线",
+      "description": "在四方基础上加入中间方向并描述路线。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "根据参照点解释东北等方向并设计路线图"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据参照点解释东北等方向并设计路线图。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S2-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_negative",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "相反意义的量与负数",
+      "description": "用温度、海拔等情境理解负数相对于基准的含义。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释零点选择与正负号的实际意义"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释零点选择与正负号的实际意义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_campus_plan",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "校园平面图项目",
+      "description": "制定测量和绘图方案，以比例和方向表达真实校园。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释绘图比例并检查图上距离与实测的对应"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释绘图比例并检查图上距离与实测的对应。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_math_survey_project",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "调查与方案改进",
+      "description": "围绕用水或午餐问题收集资料，分析数据并提出可检验建议。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明证据如何支持建议以及尚未调查的限制"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明证据如何支持建议以及尚未调查的限制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-math:S3-PRACTICE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_pinyin",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "拼音的音节与声调",
+      "description": "在有意义的词语中辨别声韵调并拼读音节。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "给新词拼读音节并区分改变声调后的读音"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：给新词拼读音节并区分改变声调后的读音。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_components",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "笔画部件与结构",
+      "description": "观察汉字部件的组合和位置，按笔顺规范书写。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "比较形近字的部件差别并正确书写"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较形近字的部件差别并正确书写。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_character",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "汉字音形义联系",
+      "description": "将常见汉字的读音、字形与生活中的意义联系。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "在不同句子中认读同一汉字并说明词义线索"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在不同句子中认读同一汉字并说明词义线索。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_dictionary",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "音序与部首查字",
+      "description": "根据已知读音或字形选择检字方法。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "独立查出陌生字并按语境选择解释"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：独立查出陌生字并按语境选择解释。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_read_aloud",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "朗读与标点语气",
+      "description": "结合标点和意义朗读短句，体会陈述、疑问和感叹。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "对同一句的不同标点读出相应语气"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对同一句的不同标点读出相应语气。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_context",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "上下文理解词句",
+      "description": "结合前后句、图画与生活经验解释词句。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "指出帮助理解词义的上下文信息"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出帮助理解词义的上下文信息。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_story",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "故事大意与人物感受",
+      "description": "把握浅近故事的主要事件，并表达有依据的感受。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "复述主要事件并说明喜欢某人物的原因"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：复述主要事件并说明喜欢某人物的原因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_poem",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "诗歌想象与节奏",
+      "description": "在儿歌和浅近诗歌中感受节奏，想象所描绘的情境。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用画或自己的话描述诗中情境"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用画或自己的话描述诗中情境。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_book",
+      "type": "META",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "整本书阅读习惯",
+      "description": "持续阅读适合的书，记录兴趣点并分享。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "介绍读过的书并指出一个具体内容"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：介绍读过的书并指出一个具体内容。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_listen",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "倾听与复述",
+      "description": "听取故事或讲话，抓住主要内容再表达。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "复述别人讲话大意并对不清楚处提问"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：复述别人讲话大意并对不清楚处提问。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_speak",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "完整讲述见闻",
+      "description": "按简单顺序讲述发生的事，交代关键人物与事件。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "让未经历事件的人听懂发生了什么"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：让未经历事件的人听懂发生了什么。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_sentence",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "写话与基本标点",
+      "description": "把想表达的意思写成句子，选择逗号句号等标点。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "为图片写通顺的话并解释句末标点选择"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：为图片写通顺的话并解释句末标点选择。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_question",
+      "type": "META",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "观察与提出问题",
+      "description": "从生活观察提出可讨论的问题，用图文整理见闻。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "区分观察到的事实与自己的问题"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分观察到的事实与自己的问题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_independent_chars",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与阅读",
+      "name": "独立识字与字词积累",
+      "description": "综合字形、拼音、词典和语境学习新字词。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "比较两个候选词义并说明选择依据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两个候选词义并说明选择依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_silent",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与阅读",
+      "name": "默读与略读",
+      "description": "根据阅读目的选择细读或快速把握大意。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "读后概括大意并指出需要精读的部分"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：读后概括大意并指出需要精读的部分。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_mainidea",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "识字与阅读",
+      "name": "主要内容与叙事顺序",
+      "description": "把握主要事件，区分主要内容与细节。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "简要复述并说明省略某细节的原因"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：简要复述并说明省略某细节的原因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_annotation",
+      "type": "META",
+      "subject": "语文",
+      "domain": "识字与阅读",
+      "name": "圈点批注与质疑",
+      "description": "记录不理解处和重要词句，结合文本提出问题。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用批注提出问题并引用文本讨论"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用批注提出问题并引用文本讨论。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_expression_effect",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "识字与阅读",
+      "name": "关键词句的表达作用",
+      "description": "结合上下文比较不同表达带来的情感变化。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "替换一个词后说明语气或形象的变化"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：替换一个词后说明语气或形象的变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_retell",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "转述与请教",
+      "description": "听取要点后向第三人转述，对不理解之处礼貌请教。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "转述信息时保持原意并区分自己的意见"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：转述信息时保持原意并区分自己的意见。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_paragraph",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "具体写出见闻",
+      "description": "围绕印象深的事写清经过与感受。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "补充能帮助读者理解的细节"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：补充能帮助读者理解的细节。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_note",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "便条与简短书信",
+      "description": "根据对象和目的写简短实用文字。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "让收信人知道时间事项与需采取的行动"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：让收信人知道时间事项与需采取的行动。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_revision",
+      "type": "META",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "修改词句和标点",
+      "description": "检查意思不清或明显错误的词句，并解释修改。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "指出修改前后读者理解的差别"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出修改前后读者理解的差别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_source_search",
+      "type": "META",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "围绕问题收集资料",
+      "description": "带着问题寻找信息，与同伴整理和交流。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明一条资料与问题的关系及来源"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明一条资料与问题的关系及来源。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_inference",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "有依据地推想词句",
+      "description": "利用上下文和已有知识推想含义并区分推测与原文。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "指出支持推测的词句及不确定处"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出支持推测的词句及不确定处。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_structure",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文章结构与表达方法",
+      "description": "分析叙事顺序、细节和说明方法怎样服务表达。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用具体段落解释顺序或细节的作用"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用具体段落解释顺序或细节的作用。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_multimodal",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "非连续性文本阅读",
+      "description": "综合图表、说明和文字提取解决问题的信息。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "从两个材料核对同一信息并解释差异"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：从两个材料核对同一信息并解释差异。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_book_recommend",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "整本书理解与推荐",
+      "description": "概括整本书并针对读者说明推荐理由。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "引用书中具体内容支持推荐"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：引用书中具体内容支持推荐。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-READ"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_opinion",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "表达观点并回应",
+      "description": "在讨论中清楚提出观点、理由并回应不同意见。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "复述对方观点后给出自己的依据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：复述对方观点后给出自己的依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_composition",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "分段组织记实与想象",
+      "description": "围绕表达目的选择材料，分段组织具体内容。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明段落之间的关系与材料取舍"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明段落之间的关系与材料取舍。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_peer_revision",
+      "type": "META",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "自改与互改",
+      "description": "从读者理解出发检查习作，与同伴交换修改意见。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "依据反馈修改并说明保留或拒绝建议的理由"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据反馈修改并说明保留或拒绝建议的理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_zh_research",
+      "type": "META",
+      "subject": "语文",
+      "domain": "表达交流与探究",
+      "name": "简单研究报告",
+      "description": "围绕问题查找资料，标明来源并组织发现与结论。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "区分资料中的事实与自己的结论"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分资料中的事实与自己的结论。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_letters",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识",
+      "name": "字母与书写",
+      "description": "辨认并书写大小写字母，区分字母名和词中的声音。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "为听到的字母匹配大小写形式"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：为听到的字母匹配大小写形式。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_phonics",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识",
+      "name": "字母与常见拼读联系",
+      "description": "感知常见音形关系并尝试拼读简单词。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用已学规则尝试读新词并接受规则存在例外"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用已学规则尝试读新词并接受规则存在例外。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_vocabulary",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识",
+      "name": "语境中的词义",
+      "description": "把词语与实物、图像和情境联系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在两种情境中选择合适词语而非只背中文对应"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在两种情境中选择合适词语而非只背中文对应。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_simple_sentence",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识",
+      "name": "简单句表达意义",
+      "description": "用简单句说明人或物及其动作特征。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "为新图片组织一句符合意思的话"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：为新图片组织一句符合意思的话。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_present",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识",
+      "name": "日常习惯与正在发生",
+      "description": "在语境中区分经常做的事和当前正在做的事。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "根据时间情境选择表达并说明意义差别"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据时间情境选择表达并说明意义差别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_politeness",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识",
+      "name": "问候感谢与回应",
+      "description": "根据交际对象使用问候、道歉、致谢及回应。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在角色活动中作出合适回应"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在角色活动中作出合适回应。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_instruction",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "听懂简单指令",
+      "description": "利用词语、语调和动作理解课堂中的指令。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "对未按固定顺序出现的指令作出相应操作"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对未按固定顺序出现的指令作出相应操作。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_picture_read",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "图片与标题预测",
+      "description": "借助图片标题预测主题并在阅读后核对。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "指出预测的线索并修正不符合内容的预测"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出预测的线索并修正不符合内容的预测。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_information",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "提取明确的信息",
+      "description": "从简短听读材料中找到所需人物、物品或地点信息。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "回答问题时指出材料中的依据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：回答问题时指出材料中的依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_selfintro",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "介绍熟悉生活",
+      "description": "用简短话语介绍个人喜好、家庭或学校生活。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "根据交流对象组织相关信息并回答追问"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据交流对象组织相关信息并回答追问。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_copy_sentence",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "仿写简单句",
+      "description": "根据图片或语境调整例句中的信息，注意大小写与拼写。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "改变内容后保持句意和书写基本正确"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：改变内容后保持句意和书写基本正确。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_stress",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识与文化",
+      "name": "重音语调与意义",
+      "description": "用重读和语调传达重点与情感。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "对同一句改变重读并解释强调的信息"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对同一句改变重读并解释强调的信息。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_past_future",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识与文化",
+      "name": "过去经历与未来计划",
+      "description": "根据时间语境表达已发生事件或计划。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "描述昨天和明天的活动并保持时间意义清楚"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：描述昨天和明天的活动并保持时间意义清楚。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_compare",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识与文化",
+      "name": "描述与比较事物",
+      "description": "根据目的描述人、物、地点的特征并作简单比较。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用相关特征说明两者异同"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用相关特征说明两者异同。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_service",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语言知识与文化",
+      "name": "日常情境中的得体交流",
+      "description": "在问路、购物等模拟活动中提出请求并回应。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "根据对方回答调整下一句而非背固定对话"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据对方回答调整下一句而非背固定对话。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_culture",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "语言知识与文化",
+      "name": "比较中外生活文化",
+      "description": "结合节日和生活例子认识文化差异并保持尊重。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "描述一种异同并避免把个别习惯说成所有人的习惯"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：描述一种异同并避免把个别习惯说成所有人的习惯。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "mt_cn_en_guess",
+      "type": "META",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "利用线索推测词义",
+      "description": "结合前后文和图像推测生词，并用后文核对。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "指出线索并在证据不足时保留疑问"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出线索并在证据不足时保留疑问。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_story_sequence",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "故事情节与概括",
+      "description": "梳理故事的发生、发展和结局，简要复述。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "选择主要事件并按合理顺序复述"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：选择主要事件并按合理顺序复述。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_paragraph",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "连贯描述与短文仿写",
+      "description": "围绕图片或主题写意思连贯的几句话并补充细节。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "让读者理解事件或对象并检查基本标点"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：让读者理解事件或对象并检查基本标点。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_en_poster",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "听说读看写",
+      "name": "用图文传达信息",
+      "description": "通过海报、图表或自制绘本表达一个主题。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释图与文字如何共同帮助读者理解"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释图与文字如何共同帮助读者理解。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_properties",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "观察物体特征",
+      "description": "用多种感官或安全工具描述物体形状颜色与表面特征。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "按同一特征比较两个物体并记录观察"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按同一特征比较两个物体并记录观察。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_materials",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "物体与材料",
+      "description": "区分物体名称与制造它的材料，认识常见金属等材料。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "指出同一材料可制成不同物体"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出同一材料可制成不同物体。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_water_air",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "水与空气的特征",
+      "description": "描述水与空气可观察到的特征，避免把看不见等同不存在。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用安全观察说明水和空气的不同特征"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用安全观察说明水和空气的不同特征。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_dissolve",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "溶解现象",
+      "description": "比较盐糖与沙等材料在水中的表现。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "描述搅拌后可见现象并区分观察和猜测"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：描述搅拌后可见现象并区分观察和猜测。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-DISSOLVE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_measure",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "工具测量与记录",
+      "description": "选择简单仪器测量长度质量体积温度并标明单位。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "重复测量并记录读数差异"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：重复测量并记录读数差异。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_air_space",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "空气占据空间",
+      "description": "借助容器和气球等现象解释空气占空间且有质量。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "预测压入容器中的空气会怎样影响水的位置"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：预测压入容器中的空气会怎样影响水的位置。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_separate",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "按性质分离混合物",
+      "description": "根据材料的溶解或磁性等差别选择分离方案。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明每一步利用的材料差异"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明每一步利用的材料差异。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_states",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "固液气与状态变化",
+      "description": "比较物质三态的形状与占空间方式，描述水的状态变化。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释冰熔化后仍是水并描述变化条件"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释冰熔化后仍是水并描述变化条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-CHANGE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_fairtest",
+      "type": "META",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "公平比较实验",
+      "description": "研究溶解快慢时每次改变一个条件，保持其他关键条件一致。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "指出对比实验中不公平之处并改进"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出对比实验中不公平之处并改进。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-CHANGE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_evaporation",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "蒸发与凝结",
+      "description": "用水与水蒸气的转变解释晾干、水珠等现象。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明水珠来自何处并提出可观察证据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明水珠来自何处并提出可观察证据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_air_mix",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "空气是混合物",
+      "description": "认识空气含多种气体并联系生命活动。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释空气不等同于氧气"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释空气不等同于氧气。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_new_substance",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "物质与变化",
+      "name": "变化中是否产生新物质",
+      "description": "比较切碎、熔化与生锈等变化的证据。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明判断依据并区分现象与结论"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明判断依据并区分现象与结论。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-MATTER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_push_pull",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "推拉与形变",
+      "description": "观察推和拉引起的形状变化，描述施力方向。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "比较对同一物体推和拉后的变化"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较对同一物体推和拉后的变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_magnet",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "磁铁吸引的材料",
+      "description": "观察磁铁能隔一定距离吸引部分材料，避免概括为所有金属。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用多种材料检验并记录哪些被吸引"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用多种材料检验并记录哪些被吸引。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_speed",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "运动位置与快慢",
+      "description": "选择参照物，以距离和时间比较运动快慢。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明比较快慢时需要控制或测量什么"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明比较快慢时需要控制或测量什么。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_poles",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "磁极与指南针",
+      "description": "通过相吸相斥识别磁极，解释指南针的指向用途。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "对未知磁极作预测并用实验检验"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对未知磁极作预测并用实验检验。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_circuit",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "闭合电路",
+      "description": "用低压教学电源连接电源导线开关和用电器，理解闭合回路。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在安全教学电路中定位一处断路并解释原因"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在安全教学电路中定位一处断路并解释原因。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_sound",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "振动与声音",
+      "description": "观察发声物的振动，区分声音高低与强弱。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用证据说明发声时振动并比较两种声音"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用证据说明发声时振动并比较两种声音。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_shadow",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "光源与影子",
+      "description": "区分发光和反光物体，解释挡光形成影子。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "改变光源位置并预测影子的变化"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：改变光源位置并预测影子的变化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_force_motion",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "力改变运动状态",
+      "description": "用摩擦弹力浮力等情境解释运动开始停止或快慢变化。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用测力记录支持关于力的比较"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用测力记录支持关于力的比较。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_light",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "运动与相互作用",
+      "name": "光路与反射",
+      "description": "用光沿直线传播和反射解释看见物体。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "画出光源到物体再到眼睛的简单路径"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：画出光源到物体再到眼睛的简单路径。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-FORCE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_temperature",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "能量与技术",
+      "name": "温度测量",
+      "description": "用合适的温度计和摄氏度记录冷热，区分感觉与测量。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "比较手感与温度读数并解释为何采用工具"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较手感与温度读数并解释为何采用工具。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-ENERGY"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_expansion",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "能量与技术",
+      "name": "热胀冷缩与例外",
+      "description": "观察加热冷却时体积变化，认识水结冰的例外。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "根据记录描述变化而不把一般规律绝对化"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据记录描述变化而不把一般规律绝对化。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-ENERGY"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_energy",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "能量与技术",
+      "name": "能量形式与转化",
+      "description": "用灯、电机等装置辨认能量形式和转化。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明装置的能量输入与输出"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明装置的能量输入与输出。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_heat",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "能量与技术",
+      "name": "热传递方向",
+      "description": "用证据描述热从较热部分向较冷部分传递。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "比较保温材料并控制实验条件"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较保温材料并控制实验条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_machine",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "能量与技术",
+      "name": "简单机械的作用",
+      "description": "观察杠杆滑轮轮轴斜面怎样改变用力方式。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明工具带来的便利及使用条件"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明工具带来的便利及使用条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_energy_sources",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "能量与技术",
+      "name": "能源与使用",
+      "description": "辨认太阳能风能水能和化石能源等，讨论使用场景。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "比较两种能源的一项优势和限制"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两种能源的一项优势和限制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_living",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "辨认常见动植物",
+      "description": "通过观察描述常见动物植物，比较可见特征。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用两项特征区分两个生物"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用两项特征区分两个生物。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_senses",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "感官与功能",
+      "description": "认识常见感官及其在获取信息中的作用。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "选择合适感官获取信息并说明保护方法"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：选择合适感官获取信息并说明保护方法。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_needs",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "生物的基本需要",
+      "description": "认识植物需要水阳光空气，动物需要水食物空气等。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "为常见生物设计照护条件并说明理由"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：为常见生物设计照护条件并说明理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-NEEDS"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_life_classify",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "生物特征分类",
+      "description": "用共同特征对常见动物分类，避免只凭生活地点判断。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明分类依据并处理一例容易误分的动物"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明分类依据并处理一例容易误分的动物。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_plant_parts",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "植物器官",
+      "description": "辨认根茎叶花果实种子并描述其位置。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在不同植物中辨认相同器官而非只记一张图"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在不同植物中辨认相同器官而非只记一张图。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_body",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "呼吸与营养器官",
+      "description": "辨认人体呼吸和摄取养分的主要器官及保护方式。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用简图说明一个相关过程"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用简图说明一个相关过程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_plant_function",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "植物结构与生存",
+      "description": "把植物器官的功能与生长需要联系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "根据观察解释根叶等器官如何帮助生存"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据观察解释根叶等器官如何帮助生存。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-ADAPT"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_adaptation",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "生物适应环境",
+      "description": "比较不同环境中的形态或行为与生存的联系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用具体实例说明环境与特征的关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用具体实例说明环境与特征的关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-ADAPT"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_lifecycle",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "生命的延续",
+      "name": "植物生命周期",
+      "description": "用连续记录呈现萌发生长开花结果等过程。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "按观察证据排列生长阶段"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按观察证据排列生长阶段。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-CYCLE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_reproduction",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命的延续",
+      "name": "动物与植物繁殖方式",
+      "description": "比较种子和营养器官繁殖、卵生与胎生等例子。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用实际例子说明不同繁殖方式"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用实际例子说明不同繁殖方式。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-CYCLE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_cells",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "显微观察与细胞",
+      "description": "使用教学显微镜观察，理解细胞是生物体基本结构单位。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "区分观察到的形态与教材示意图"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分观察到的形态与教材示意图。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_microbes",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "微生物与生活",
+      "description": "认识常见微生物及其与生活的联系。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "举出有益和有害影响的不同例子"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：举出有益和有害影响的不同例子。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_foodchain",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "生命与环境",
+      "name": "栖息地与食物链",
+      "description": "联系栖息地条件，用图表达吃与被吃关系。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释食物链箭头的约定并预测一环变化的影响"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释食物链箭头的约定并预测一环变化的影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_inheritance",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命的延续",
+      "name": "亲代子代的相似与差异",
+      "description": "比较动植物亲代与子代外部特征，认识既相似也有差别。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "描述一组观察而不凭单个特征推断全部遗传"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：描述一组观察而不凭单个特征推断全部遗传。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-CYCLE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_fossil",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命的延续",
+      "name": "化石与过去的生命",
+      "description": "把化石作为了解已灭绝生物的证据。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "根据形态比较过去和今天生物的相似之处"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据形态比较过去和今天生物的相似之处。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-CYCLE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_growth",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "生命的延续",
+      "name": "青春期与个体差异",
+      "description": "了解成长中的常见变化，尊重发育时间的个体差异。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "能说明面对成长困惑时如何向可信成人求助"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：能说明面对成长困惑时如何向可信成人求助。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-CYCLE"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_sun",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "太阳位置观察",
+      "description": "用安全的间接观察描述太阳位置随一天变化，禁止直视太阳。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "按时间排列影子或位置记录"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按时间排列影子或位置记录。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_moon_observe",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "月亮外观记录",
+      "description": "持续记录可见月亮的形状并比较变化。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "根据日期整理观察并注明未观察到的情况"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据日期整理观察并注明未观察到的情况。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_season_observe",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "季节与生活",
+      "description": "描述一年季节变化以及动植物和人们的相应变化。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "用多个生活实例说明季节差别"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用多个生活实例说明季节差别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_planet",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "地球行星与月球卫星",
+      "description": "区分地球、月球和太阳的基本角色。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用模型说明地球与月球的关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用模型说明地球与月球的关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_shadow_time",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "一天中的影长变化",
+      "description": "固定物体与地点连续记录影长，比较上午正午下午。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释公平记录需要固定哪些条件"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释公平记录需要固定哪些条件。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_daynight",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "自转与昼夜",
+      "description": "用地球自转模型解释同一地点昼夜交替。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "指出模型中光源与转动方向的意义"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出模型中光源与转动方向的意义。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_seasons",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "公转与季节模型",
+      "description": "联系地轴倾斜和公转解释季节变化，避免只用远近解释。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用模型比较不同季节太阳照射的差别"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用模型比较不同季节太阳照射的差别。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_moonphase",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "月相的周期性",
+      "description": "根据记录辨认主要月相并说明变化顺序。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "将月相按周期排列并区分月相与月食"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：将月相按周期排列并区分月相与月食。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_solar_system",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "地球与宇宙",
+      "name": "太阳系结构",
+      "description": "比较恒星行星卫星，并以模型表示主要天体关系。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明模型不能同时准确体现所有大小距离"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明模型不能同时准确体现所有大小距离。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-EARTH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_weather",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "天气观察",
+      "description": "用日期和统一符号记录晴雨风雪等现象。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "依据一周记录描述变化而非凭印象"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：依据一周记录描述变化而非凭印象。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_soil_life",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "土壤中的生命",
+      "description": "观察土壤为植物和小动物提供生存场所。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "记录土壤中发现的生物并保护观察环境"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：记录土壤中发现的生物并保护观察环境。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_weather_data",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "气象数据测量",
+      "description": "用仪器记录气温风向风力降水等信息。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明测量时间位置与单位并读懂天气预报"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明测量时间位置与单位并读懂天气预报。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_soil",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "土壤组成与类型",
+      "description": "通过观察比较土壤颗粒与保水等特征。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用同一方法比较两种土壤并联系植物生长"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用同一方法比较两种土壤并联系植物生长。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_water_bodies",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "地球上的水体",
+      "description": "区分河湖海洋冰川地下水等水体，认识海陆分布。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在图上辨认主要水体并说明生活联系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在图上辨认主要水体并说明生活联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_precipitation",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "降水与水的变化",
+      "description": "联系蒸发凝结和温度解释常见降水现象。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用过程图说明水从哪里来又到哪里去"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用过程图说明水从哪里来又到哪里去。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_rocks",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "岩石与矿物观察",
+      "description": "比较颜色硬度颗粒等特征，认识岩石由矿物组成。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用观察表比较岩石并注明不确定判断"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用观察表比较岩石并注明不确定判断。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_earth_inside",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "地球系统",
+      "name": "地球内部与地表变化",
+      "description": "用地壳地幔地核模型认识内部结构，联系火山地震等变化。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "区分模型描述与直接观察到的证据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分模型描述与直接观察到的证据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-WEATHER"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_recycle",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "name": "材料回收与节约",
+      "description": "识别可回收材料并按当地要求分类。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明一种材料再次利用能减少什么浪费"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明一种材料再次利用能减少什么浪费。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-ENV"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_resources",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "name": "生活依赖自然资源",
+      "description": "用实例说明水土壤和矿产对生活生产的作用。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "提出一项节约行动并解释所保护的资源"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：提出一项节约行动并解释所保护的资源。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-ENV"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_sustainability",
+      "type": "META",
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "name": "资源利用与环境影响",
+      "description": "区分可再生与不可再生资源，评价开发与保护的关系。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用证据比较一项行动的收益与环境影响"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用证据比较一项行动的收益与环境影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-ENV"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_biodiversity",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "name": "保护生物多样性",
+      "description": "联系栖息地和人类活动说明保护不同生物的价值。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "提出有依据的保护建议"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：提出有依据的保护建议。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-ENV"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_disaster",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "人类活动与环境",
+      "name": "自然灾害认识与防护",
+      "description": "认识常见灾害及影响，依据当地权威指引参加防护演练。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "区分不同灾害场景的求助和避险原则"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：区分不同灾害场景的求助和避险原则。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-ENV"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_tools",
+      "type": "PROCEDURAL",
+      "subject": "科学",
+      "domain": "技术与工程",
+      "name": "工具与简单制作",
+      "description": "在成人指导下选择安全工具制作简单物品。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明工具用途与操作规范并完成作品"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明工具用途与操作规范并完成作品。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-TECH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_artifact",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "技术与工程",
+      "name": "自然物与人造物",
+      "description": "辨认人造产品并说明结构怎样服务用途。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "比较产品的一个结构与对应功能"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较产品的一个结构与对应功能。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S1-TECH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_model",
+      "type": "REPRESENTATIONAL",
+      "subject": "科学",
+      "domain": "技术与工程",
+      "name": "产品结构与模型",
+      "description": "分析简单产品组成，制作反映部分功能的模型。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明模型保留和省略了什么"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明模型保留和省略了什么。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S2-TECH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_improve",
+      "type": "META",
+      "subject": "科学",
+      "domain": "技术与工程",
+      "name": "用证据改进装置",
+      "description": "提出明确目标，比较作品效果并根据测试修改。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用相同标准对比两个方案并记录改动理由"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用相同标准对比两个方案并记录改动理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-TECH"
+      ]
+    },
+    {
+      "id": "mt_cn_sc_system",
+      "type": "CONCEPTUAL",
+      "subject": "科学",
+      "domain": "技术与工程",
+      "name": "工程系统的配合",
+      "description": "把工程看作多个相互作用的部分，说明各部分功能。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释一个部件失效对整体的影响"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释一个部件失效对整体的影响。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-science:S3-TECH"
+      ]
+    },
+    {
+      "id": "mt_cn_it_record",
+      "type": "PROCEDURAL",
+      "subject": "信息科技",
+      "domain": "信息交流与安全",
+      "name": "数字记录与分享",
+      "description": "选择照片声音文字记录见闻，并向合适对象分享。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明选择媒介和分享对象的理由"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明选择媒介和分享对象的理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S1-DIGITAL"
+      ]
+    },
+    {
+      "id": "mt_cn_it_privacy",
+      "type": "CONCEPTUAL",
+      "subject": "信息科技",
+      "domain": "信息交流与安全",
+      "name": "个人信息与隐私",
+      "description": "识别姓名住址照片等信息的隐私属性，先询问再分享。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "在模拟分享中指出哪些信息需要保护"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在模拟分享中指出哪些信息需要保护。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S1-DIGITAL"
+      ]
+    },
+    {
+      "id": "mt_cn_it_civility",
+      "type": "META",
+      "subject": "信息科技",
+      "domain": "信息交流与安全",
+      "name": "文明健康使用设备",
+      "description": "友善回应他人作品，安排使用时间与休息。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "解释一条友善反馈与一项使用习惯"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释一条友善反馈与一项使用习惯。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S1-DIGITAL"
+      ]
+    },
+    {
+      "id": "mt_cn_it_search",
+      "type": "PROCEDURAL",
+      "subject": "信息科技",
+      "domain": "在线学习与生活",
+      "name": "搜索与信息来源",
+      "description": "把问题转为关键词，比较结果与来源。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明一个结果为何相关以及还需核实什么"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明一个结果为何相关以及还需核实什么。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S2-ONLINE"
+      ]
+    },
+    {
+      "id": "mt_cn_it_collaborate",
+      "type": "PROCEDURAL",
+      "subject": "信息科技",
+      "domain": "在线学习与生活",
+      "name": "在线协作",
+      "description": "用共同文档或平台分工、交流并保留修改记录。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明自己的贡献并尊重同伴内容"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明自己的贡献并尊重同伴内容。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S2-ONLINE"
+      ]
+    },
+    {
+      "id": "mt_cn_it_security",
+      "type": "META",
+      "subject": "信息科技",
+      "domain": "在线学习与生活",
+      "name": "在线安全判断",
+      "description": "识别可疑链接、索取信息和不当传播，向可信成人求助。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在模拟场景中说明停止操作和求助的理由"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在模拟场景中说明停止操作和求助的理由。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S2-ONLINE"
+      ]
+    },
+    {
+      "id": "mt_cn_it_code",
+      "type": "REPRESENTATIONAL",
+      "subject": "信息科技",
+      "domain": "数据与编码",
+      "name": "唯一标识编码",
+      "description": "为对象设计无歧义的编号并说明编码规则。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "发现重复编码并修改使对象可区分"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：发现重复编码并修改使对象可区分。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S2-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_it_data",
+      "type": "REPRESENTATIONAL",
+      "subject": "信息科技",
+      "domain": "数据与编码",
+      "name": "数据组织与呈现",
+      "description": "按问题选择字段和呈现方式，解释数据代表的含义。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用表格整理数据并检查缺失或重复"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用表格整理数据并检查缺失或重复。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S2-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_it_data_protect",
+      "type": "META",
+      "subject": "信息科技",
+      "domain": "数据与编码",
+      "name": "数据安全与负责任使用",
+      "description": "区分可公开与需保护的数据，尊重他人成果。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "对一个数据分享方案提出保护措施"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对一个数据分享方案提出保护措施。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S2-DATA"
+      ]
+    },
+    {
+      "id": "mt_cn_it_steps",
+      "type": "PROCEDURAL",
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "name": "可执行的算法步骤",
+      "description": "把解决问题的方法写成明确且可执行的有限步骤。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "让同伴照步骤执行并定位含糊指令"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：让同伴照步骤执行并定位含糊指令。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ]
+    },
+    {
+      "id": "mt_cn_it_flow",
+      "type": "REPRESENTATIONAL",
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "name": "流程图表示",
+      "description": "用约定符号表达输入处理输出与执行顺序。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "在流程图与自然语言步骤之间转换"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在流程图与自然语言步骤之间转换。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ]
+    },
+    {
+      "id": "mt_cn_it_branch",
+      "type": "CONCEPTUAL",
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "name": "条件分支",
+      "description": "用条件决定下一步操作，检查不同输入的结果。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "为真和假两种条件分别追踪执行"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：为真和假两种条件分别追踪执行。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ]
+    },
+    {
+      "id": "mt_cn_it_loop",
+      "type": "CONCEPTUAL",
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "name": "重复与循环",
+      "description": "识别重复步骤并给出停止条件。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明循环执行次数并识别不终止的错误"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明循环执行次数并识别不终止的错误。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ]
+    },
+    {
+      "id": "mt_cn_it_test",
+      "type": "META",
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "name": "程序验证与效率比较",
+      "description": "用多种测试输入检验算法，比较解决同一问题的步骤数。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "找出反例并修改算法后重新测试"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：找出反例并修改算法后重新测试。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ]
+    },
+    {
+      "id": "mt_cn_it_system",
+      "type": "CONCEPTUAL",
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "name": "输入处理输出系统",
+      "description": "将生活中的控制过程拆为输入、处理和输出。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用模型说明各部分如何配合"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用模型说明各部分如何配合。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ]
+    },
+    {
+      "id": "mt_cn_it_feedback",
+      "type": "CONCEPTUAL",
+      "subject": "信息科技",
+      "domain": "算法与控制",
+      "name": "反馈与阈值控制",
+      "description": "依据输出或环境反馈调整行为，用阈值形成开关判断。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "追踪一次反馈如何改变下一次输出"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：追踪一次反馈如何改变下一次输出。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ]
+    },
+    {
+      "id": "mt_cn_et_routine",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "入学适应与道德生活",
+      "name": "自理与任务安排",
+      "description": "根据日常需要准备用品并安排可完成的小任务。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明任务顺序并检查是否完成"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明任务顺序并检查是否完成。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_honesty",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "入学适应与道德生活",
+      "name": "诚实与改正错误",
+      "description": "区分事实与编造，承认错误并提出弥补办法。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "在故事情境中说明事实和可行的修正行动"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在故事情境中说明事实和可行的修正行动。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_cooperate",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "入学适应与道德生活",
+      "name": "合作与分享",
+      "description": "在共同任务中承担自己的部分并尊重同伴。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明分工和遇到意见不同如何协商"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明分工和遇到意见不同如何协商。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_emotion",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "入学适应与道德生活",
+      "name": "识别情绪与求助",
+      "description": "描述感受，用合适方式表达需要并向可信成人求助。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "为情绪困扰情境提出不伤害自己或他人的应对"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：为情绪困扰情境提出不伤害自己或他人的应对。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_safety",
+      "type": "PROCEDURAL",
+      "subject": "道德与法治",
+      "domain": "入学适应与道德生活",
+      "name": "安全标识与求助信息",
+      "description": "辨认常见安全交通标识，知道危险时寻求成人帮助。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "在模拟求助中说清地点与发生的事"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在模拟求助中说清地点与发生的事。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_rules",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "规则与文化认同",
+      "name": "规则与守约",
+      "description": "理解规则帮助共同生活，承诺后承担相应责任。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "解释一条校园规则的作用以及怎样履行约定"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释一条校园规则的作用以及怎样履行约定。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ]
+    },
+    {
+      "id": "mt_cn_et_symbols",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "规则与文化认同",
+      "name": "国家象征",
+      "description": "认识国旗国徽国歌及相应场合的礼仪。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "辨认国家象征并说明尊重的行为"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：辨认国家象征并说明尊重的行为。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ]
+    },
+    {
+      "id": "mt_cn_et_family",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "规则与文化认同",
+      "name": "家庭责任与节约",
+      "description": "关心家人，承担适合自己的家务并珍惜物品。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "持续完成一项家务并描述劳动过程"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：持续完成一项家务并描述劳动过程。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ]
+    },
+    {
+      "id": "mt_cn_et_heritage1",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "规则与文化认同",
+      "name": "传统美德与英雄故事",
+      "description": "通过具体故事认识勤俭、自强、关爱和奉献。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "复述一个故事并联系生活中的行动"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：复述一个故事并联系生活中的行动。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ]
+    },
+    {
+      "id": "mt_cn_et_consumption",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "公共生活与自我保护",
+      "name": "合理消费与劳动价值",
+      "description": "区分需要与想要，在资源有限时作选择并尊重劳动成果。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释一份简单消费计划中的取舍"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释一份简单消费计划中的取舍。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ]
+    },
+    {
+      "id": "mt_cn_et_respect",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "公共生活与自我保护",
+      "name": "平等交往与尊重劳动",
+      "description": "不以职业或个体差异判断人的价值，学习倾听与包容。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "对偏见情境提出尊重他人的替代表达"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：对偏见情境提出尊重他人的替代表达。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ]
+    },
+    {
+      "id": "mt_cn_et_public",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "公共生活与自我保护",
+      "name": "公共设施与共同责任",
+      "description": "调查公共设施使用，提出维护与改善建议。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明设施服务哪些人及自己能做什么"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明设施服务哪些人及自己能做什么。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ]
+    },
+    {
+      "id": "mt_cn_et_rules_process",
+      "type": "PROCEDURAL",
+      "subject": "道德与法治",
+      "domain": "公共生活与自我保护",
+      "name": "参与制定规则",
+      "description": "通过讨论和约定程序形成集体规则，并解释理由。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明意见如何被听取及规则怎样修改"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明意见如何被听取及规则怎样修改。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ]
+    },
+    {
+      "id": "mt_cn_et_boundaries",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "公共生活与自我保护",
+      "name": "个人边界与防欺凌",
+      "description": "尊重身体和信息边界，识别不当行为并寻求保护。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在模拟情境中提出拒绝、离开与求助的可行方式"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在模拟情境中提出拒绝、离开与求助的可行方式。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ]
+    },
+    {
+      "id": "mt_cn_et_hometown",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "name": "家乡与国家发展",
+      "description": "通过可靠资料了解家乡变化与国家建设，区分事实和感受。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "用两个来源说明一项变化并标明资料出处"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用两个来源说明一项变化并标明资料出处。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-CULTURE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_heritage2",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "name": "传统文化与革命故事",
+      "description": "从节日、文化遗产和人物事迹理解文化传承。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明一个事例的背景和今天的联系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明一个事例的背景和今天的联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-CULTURE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_values",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "name": "价值观与日常行动",
+      "description": "用友善诚信等日常案例理解社会主义核心价值观相关要求。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "把抽象词语与具体行为及理由联系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把抽象词语与具体行为及理由联系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S2-CULTURE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_reflect",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "法治与公共参与",
+      "name": "反思选择与责任",
+      "description": "比较行为对自己和他人的影响，依据理由调整选择。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明一次反思如何改变后续行动"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明一次反思如何改变后续行动。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ]
+    },
+    {
+      "id": "mt_cn_et_law",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治与公共参与",
+      "name": "法律与宪法的作用",
+      "description": "认识法律规范公共生活及宪法的根本地位。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用生活案例区分一般约定与法律规则"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用生活案例区分一般约定与法律规则。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ]
+    },
+    {
+      "id": "mt_cn_et_rights",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治与公共参与",
+      "name": "公民权利与义务",
+      "description": "在生活情境中认识权利义务及法律面前平等。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释行使权利时为什么也要尊重他人"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释行使权利时为什么也要尊重他人。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ]
+    },
+    {
+      "id": "mt_cn_et_protection",
+      "type": "PROCEDURAL",
+      "subject": "道德与法治",
+      "domain": "法治与公共参与",
+      "name": "未成年人保护与合法求助",
+      "description": "识别权益受损情境，寻找可信成人和合法帮助途径。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明保存事实与求助的重要性，不自行对抗危险"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明保存事实与求助的重要性，不自行对抗危险。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ]
+    },
+    {
+      "id": "mt_cn_et_service",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "法治与公共参与",
+      "name": "公益活动与团队责任",
+      "description": "在适龄公共服务中分工、履约并评价实际帮助。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "用活动记录说明贡献与可以改进之处"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用活动记录说明贡献与可以改进之处。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ]
+    },
+    {
+      "id": "mt_cn_et_civilizations",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "name": "文化遗产与文明交流",
+      "description": "了解中华文明成果，尊重不同文化并认识交流的作用。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "比较两项文化成果并说明交流价值"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两项文化成果并说明交流价值。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CULTURE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_history",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "name": "革命历史与国家发展",
+      "description": "依据可靠材料梳理中国共产党成立、新中国成立与改革开放等历史节点。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "将事件放入时间顺序并区分史实与个人评价"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：将事件放入时间顺序并区分史实与个人评价。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CULTURE"
+      ]
+    },
+    {
+      "id": "mt_cn_et_national_responsibility",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "文化与国情",
+      "name": "国家与社会责任",
+      "description": "联系公共安全、社会建设和个人行动讨论责任。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "提出适合自己年龄的行动并解释所依据的事实"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：提出适合自己年龄的行动并解释所依据的事实。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-ethics:S3-CULTURE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_clean",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "清洁工具与个人卫生",
+      "description": "选择合适工具清洁小范围环境，养成洗手与整理习惯。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "按步骤完成清洁并检查结果"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按步骤完成清洁并检查结果。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S1-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_organize",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "个人物品分类收纳",
+      "description": "按照用途或类别收纳学习生活用品，方便取用。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明收纳依据并在使用后复位"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明收纳依据并在使用后复位。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S1-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_foodprep",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "简单食材准备",
+      "description": "在成人指导下择洗食材，注意工具与食品卫生。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "完成适龄准备任务并说明安全注意点"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：完成适龄准备任务并说明安全注意点。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S1-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_plant",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "种植与工艺劳动",
+      "name": "常见植物养护",
+      "description": "根据植物需要浇水观察，记录持续照护。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明养护安排并根据生长情况调整"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明养护安排并根据生长情况调整。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S1-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_craft",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "种植与工艺劳动",
+      "name": "简单传统工艺",
+      "description": "在安全指导下使用纸泥等材料完成简单作品。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "按步骤制作并说明材料使用和收拾方法"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按步骤制作并说明材料使用和收拾方法。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S1-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_housework",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "有计划的清洁收纳",
+      "description": "根据空间用途安排清洁顺序与分类存放。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明先后顺序、工具选择和检验标准"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明先后顺序、工具选择和检验标准。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S2-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_cook",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "简单餐食制作",
+      "description": "在成人现场指导下完成凉拌、蒸煮等适龄任务。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明准备操作收尾全过程及卫生要求"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明准备操作收尾全过程及卫生要求。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S2-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_appliance",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "家用器具规范使用",
+      "description": "依据说明和成人指导选择器具功能，完成任务后清理。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明操作顺序和异常时停止求助的方法"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明操作顺序和异常时停止求助的方法。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S2-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_grow",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "蔬菜种植与记录",
+      "description": "根据当地条件种植蔬菜，记录生长和照护过程。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "解释季节与养护措施的关系"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释季节与养护措施的关系。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S2-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_diagram",
+      "type": "REPRESENTATIONAL",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "识读工艺示意图",
+      "description": "理解简单步骤图并据图制作工艺品。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "把图中步骤转为实际操作并检查尺寸顺序"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：把图中步骤转为实际操作并检查尺寸顺序。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S2-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_service",
+      "type": "META",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "集体劳动分工",
+      "description": "在校园或家庭服务中明确任务、配合并完成收尾。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "记录个人承担的工作和协作问题"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：记录个人承担的工作和协作问题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S2-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_plan_space",
+      "type": "META",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "空间整理与取舍",
+      "description": "依据需要、空间与再利用规划物品保留和处置。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释取舍依据并评估整理后的取用效率"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释取舍依据并评估整理后的取用效率。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_meal",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "家庭餐食计划",
+      "description": "考虑家人需求和食物多样性设计餐食，在成人指导下参与制作。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明食谱选择、任务安排和食品安全检查"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明食谱选择、任务安排和食品安全检查。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_manual",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "日常生活劳动",
+      "name": "按说明使用器具",
+      "description": "阅读产品说明，按任务选择功能并规范维护。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "找到相关说明并解释为何选择某功能"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：找到相关说明并解释为何选择某功能。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-DAILY"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_sustained",
+      "type": "META",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "持续生产劳动",
+      "description": "制定较长期种植养护安排，记录投入和成果。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "根据实际变化调整计划并完成持续记录"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据实际变化调整计划并完成持续记录。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_designcraft",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "工艺设计与制作",
+      "description": "结合传统工艺背景设计方案，读图并选择材料制作。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "展示方案与成品差别并解释改进"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：展示方案与成品差别并解释改进。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_prototype",
+      "type": "PROCEDURAL",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "产品模型组装与测试",
+      "description": "在教师指导下依据技术图样完成适龄模型组装测试。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "按同一标准检查模型功能与质量"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按同一标准检查模型功能与质量。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_newtech",
+      "type": "META",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "新技术劳动体验",
+      "description": "在受监督的教学环境中体验数字制造或智能控制的作用。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "比较技术引入前后流程变化而非只展示成品"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较技术引入前后流程变化而非只展示成品。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_lb_public_service",
+      "type": "META",
+      "subject": "劳动",
+      "domain": "生产与服务劳动",
+      "name": "服务项目策划与履约",
+      "description": "根据实际需要参与校园社区服务，关注对象和个人信息保护。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明服务目标、分工、结果与反馈"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明服务目标、分工、结果与反馈。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_posture",
+      "type": "PROCEDURAL",
+      "subject": "体育与健康",
+      "domain": "基本运动技能",
+      "name": "身体姿势与空间",
+      "description": "在活动中保持适当姿势，区分自己与他人的活动空间。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "根据场地调整位置并保持安全距离"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据场地调整位置并保持安全距离。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_locomotion",
+      "type": "PROCEDURAL",
+      "subject": "体育与健康",
+      "domain": "基本运动技能",
+      "name": "走跑跳等移动",
+      "description": "在教师组织的游戏中协调完成多种移动方式。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "按信号改变方向或速度并保持控制"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按信号改变方向或速度并保持控制。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_balance",
+      "type": "PROCEDURAL",
+      "subject": "体育与健康",
+      "domain": "基本运动技能",
+      "name": "平衡与身体控制",
+      "description": "通过适龄支撑伸展和平衡游戏控制身体。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "完成指定动作并说明如何维持稳定"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：完成指定动作并说明如何维持稳定。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_object",
+      "type": "PROCEDURAL",
+      "subject": "体育与健康",
+      "domain": "基本运动技能",
+      "name": "投传接等操控",
+      "description": "在适龄器材活动中协调手眼或脚眼控制物体。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "按目标完成传接并照顾同伴安全"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：按目标完成传接并照顾同伴安全。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_habits",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "name": "健康生活习惯",
+      "description": "联系饮水饮食卫生睡眠与活动建立日常习惯。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "回顾一天安排并提出一项可落实的改进"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：回顾一天安排并提出一项可落实的改进。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L1-HEALTH"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_safety",
+      "type": "PROCEDURAL",
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "name": "运动风险识别与求助",
+      "description": "活动前检查环境，遇到不适或意外及时告诉教师。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "在情境演练中说明地点、感受和需要帮助"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在情境演练中说明地点、感受和需要帮助。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L1-HEALTH"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_feelings",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "name": "运动感受与情绪表达",
+      "description": "描述运动前后的感受，用合适方式与同伴沟通。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "表达不适或情绪并提出合理需要"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：表达不适或情绪并提出合理需要。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L1-HEALTH"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_fitness",
+      "type": "CONCEPTUAL",
+      "subject": "体育与健康",
+      "domain": "体能与合作",
+      "name": "不同体能与练习",
+      "description": "认识耐力力量柔韧协调等体能与不同活动的关系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "说明两种练习主要锻炼的不同能力"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明两种练习主要锻炼的不同能力。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L2-FITNESS"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_pace",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "体能与合作",
+      "name": "练习节奏与身体感受",
+      "description": "在教师指导下依据感受调整活动节奏并报告异常。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "描述练习变化与感受而非与同伴盲目比较"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：描述练习变化与感受而非与同伴盲目比较。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L2-FITNESS"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_fairplay",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "体能与合作",
+      "name": "规则公平与合作",
+      "description": "在游戏比赛中遵守约定，尊重同伴和裁判。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "遇到争议时按规则协商并继续合作"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：遇到争议时按规则协商并继续合作。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L2-FITNESS"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_lifestyle",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "name": "生活方式与成长",
+      "description": "联系运动睡眠饮食安排观察自己的生活习惯。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "提出适合自己的改进并记录实施"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：提出适合自己的改进并记录实施。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L2-HEALTH"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_boundary",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "name": "运动中的身体边界",
+      "description": "尊重个人身体界限，遇到不适当接触明确拒绝并求助。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "在情境中指出边界和可信求助对象"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在情境中指出边界和可信求助对象。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L2-HEALTH"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_plan",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "体能与合作",
+      "name": "体能练习安排与反思",
+      "description": "根据教师指导和自身情况安排目标、方法与记录。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明计划如何根据反馈调整"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明计划如何根据反馈调整。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L3-FITNESS"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_coordination",
+      "type": "PROCEDURAL",
+      "subject": "体育与健康",
+      "domain": "体能与合作",
+      "name": "组合动作与协调",
+      "description": "把移动、操控与平衡技能用于较复杂游戏。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "在变化情境中调整动作并说明配合要点"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：在变化情境中调整动作并说明配合要点。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L3-FITNESS"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_health_decision",
+      "type": "META",
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "name": "健康选择与信息判断",
+      "description": "联系饮食多样和规律活动评价日常选择，不以单一体型评价健康。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明选择依据并识别需要专业帮助的问题"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明选择依据并识别需要专业帮助的问题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L3-HEALTH"
+      ]
+    },
+    {
+      "id": "mt_cn_pe_emergency",
+      "type": "PROCEDURAL",
+      "subject": "体育与健康",
+      "domain": "健康与运动安全",
+      "name": "运动意外的求助原则",
+      "description": "学习在模拟情境中识别意外、呼叫帮助并遵循专业指导。",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说清现场情况且不进行超出训练的处置"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说清现场情况且不进行超出训练的处置。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-pe:L3-HEALTH"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_pulse",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "节拍与律动",
+      "description": "用身体动作或打击材料跟随音乐的稳定节拍。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "保持节拍并在音乐变化时调整"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：保持节拍并在音乐变化时调整。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_sing",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "自然歌唱与旋律模唱",
+      "description": "用自然声音演唱短歌，感受旋律和情绪。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "模唱短旋律并表达歌曲情绪"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：模唱短旋律并表达歌曲情绪。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_listen",
+      "type": "CONCEPTUAL",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "声音特征与音乐情绪",
+      "description": "聆听速度力度音色等变化并表达感受。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "指出音乐中的变化并用动作或语言回应"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出音乐中的变化并用动作或语言回应。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_perform",
+      "type": "REPRESENTATIONAL",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "音乐情境表演",
+      "description": "结合歌声动作和角色表现简单情境。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明自己的表现怎样呼应音乐"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明自己的表现怎样呼应音乐。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_elements",
+      "type": "CONCEPTUAL",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "音乐要素与表现",
+      "description": "比较速度力度音色节拍与情感变化的关系。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "指出一个可听见的要素支持自己的感受"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出一个可听见的要素支持自己的感受。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-MUSIC"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_structure",
+      "type": "REPRESENTATIONAL",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "音乐主题与段落",
+      "description": "辨认主题重复和变化，用图或动作表达结构。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "给短乐曲标记重复段落并说明依据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：给短乐曲标记重复段落并说明依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-MUSIC"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_music_culture",
+      "type": "CONCEPTUAL",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "音乐风格与生活",
+      "description": "欣赏不同地区民族的作品，联系生活背景比较。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "用具体音乐特征描述异同而非刻板标签"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用具体音乐特征描述异同而非刻板标签。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-MUSIC"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_ensemble",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "音乐表现",
+      "name": "合作演唱",
+      "description": "在教师指导下进行齐唱轮唱或简单合唱，兼顾自己和同伴。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "根据同伴声音调整进入时机与音量"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：根据同伴声音调整进入时机与音量。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-SING"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_music_analysis",
+      "type": "META",
+      "subject": "艺术",
+      "domain": "音乐",
+      "name": "音乐表达的证据分析",
+      "description": "用音乐要素解释情绪、主题及结构变化。",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "比较两段音乐并说明可听见的依据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两段音乐并说明可听见的依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S3-MUSIC-G6"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_visual",
+      "type": "CONCEPTUAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "线形色与肌理",
+      "description": "观察自然和作品的视觉特征，描述自己的感受。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "指出作品中的具体视觉元素"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：指出作品中的具体视觉元素。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_make",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "材料造型表达",
+      "description": "安全使用纸泥或绘画工具，以平面或立体作品表达想法。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "展示材料操作怎样体现个人感受"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：展示材料操作怎样体现个人感受。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_design",
+      "type": "META",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "用品的美观与功能",
+      "description": "观察常用物品，提出兼顾用途与外观的改进。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "解释设计改变如何帮助使用者"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释设计改变如何帮助使用者。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_craft",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "传统工艺体验",
+      "description": "欣赏并尝试适龄传统工艺，尊重作品和不同表达。",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "说明一种材料方法与作品特点"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明一种材料方法与作品特点。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_appreciate",
+      "type": "META",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "有依据的作品评述",
+      "description": "用视觉元素与比较方法欣赏不同门类作品。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "描述作品证据并区分个人喜好与事实"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：描述作品证据并区分个人喜好与事实。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_color",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "色彩关系与表达",
+      "description": "通过调色认识色彩关系，选择色彩表达主题。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "比较两种配色的效果并解释选择"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：比较两种配色的效果并解释选择。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_space",
+      "type": "REPRESENTATIONAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "画面空间与近大远小",
+      "description": "观察对象远近导致的视觉变化，在画面中表达空间。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "用大小位置关系表达远近并说明观察依据"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：用大小位置关系表达远近并说明观察依据。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_design_project",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "实用与美观的设计",
+      "description": "根据班级活动需求制作设计作品并评估效果。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "说明目标受众、功能与视觉选择"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明目标受众、功能与视觉选择。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_media",
+      "type": "REPRESENTATIONAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "定格与动态表达",
+      "description": "通过连续画面或拍摄制作简单动态作品。",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": null,
+      "evidence": [
+        "解释帧之间的变化怎样产生动作感"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释帧之间的变化怎样产生动作感。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_diversity",
+      "type": "CONCEPTUAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "美术多样性与文化",
+      "description": "比较不同文化和媒介的作品，尊重多样审美。",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "结合视觉和背景资料解释作品差异"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：结合视觉和背景资料解释作品差异。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S3-VISUAL-G6"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_environment",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "环境设计与合作",
+      "description": "根据人与环境的关系设计适合校园或社区的方案。",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "解释方案怎样同时考虑功能美观与环境"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：解释方案怎样同时考虑功能美观与环境。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S3-VISUAL-G6"
+      ]
+    },
+    {
+      "id": "mt_cn_ar_film",
+      "type": "PROCEDURAL",
+      "subject": "艺术",
+      "domain": "美术",
+      "name": "校园影像创编",
+      "description": "围绕主题设计分镜，合作拍摄并反思表达效果。",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "说明镜头顺序和声音如何服务主题"
+      ],
+      "assessmentPrompt": "请让{{name}}在未练过的同类情境中完成以下任务，并用讲述、作品或操作说明依据：说明镜头顺序和声音如何服务主题。记录独立完成与获得帮助的区别，不仅凭答案判断掌握。",
+      "standards": [
+        "cn-moe-2022-arts:S3-VISUAL-G6"
+      ]
+    }
+  ]
+}

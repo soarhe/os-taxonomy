@@ -1,0 +1,2287 @@
+{
+  "version": "cn-primary-2022-draft.1",
+  "note": "topicId depends on prerequisiteId. All edges are authored pedagogical hypotheses, not official MOE mandates; pending expert review. hard describes a logical prerequisite in this decomposition, not an access gate.",
+  "edgeCount": 380,
+  "dependencies": [
+    {
+      "topicId": "mt_cn_math_place",
+      "prerequisiteId": "mt_cn_math_count",
+      "strength": "hard",
+      "reason": "数位表示建立在数量与计数经验上"
+    },
+    {
+      "topicId": "mt_cn_math_compare",
+      "prerequisiteId": "mt_cn_math_place",
+      "strength": "hard",
+      "reason": "需要理解各数位代表的数量"
+    },
+    {
+      "topicId": "mt_cn_math_add",
+      "prerequisiteId": "mt_cn_math_count",
+      "strength": "hard",
+      "reason": "合并需要确定各部分数量"
+    },
+    {
+      "topicId": "mt_cn_math_sub",
+      "prerequisiteId": "mt_cn_math_add",
+      "strength": "hard",
+      "reason": "逆运算解释需要理解加法"
+    },
+    {
+      "topicId": "mt_cn_math_add20",
+      "prerequisiteId": "mt_cn_math_add",
+      "strength": "hard",
+      "reason": "分解策略用于加法"
+    },
+    {
+      "topicId": "mt_cn_math_add20",
+      "prerequisiteId": "mt_cn_math_sub",
+      "strength": "hard",
+      "reason": "需要理解减法表示的变化"
+    },
+    {
+      "topicId": "mt_cn_math_written_add",
+      "prerequisiteId": "mt_cn_math_place",
+      "strength": "hard",
+      "reason": "进退位源于十进制"
+    },
+    {
+      "topicId": "mt_cn_math_written_add",
+      "prerequisiteId": "mt_cn_math_add20",
+      "strength": "hard",
+      "reason": "各位计算需要基本加减"
+    },
+    {
+      "topicId": "mt_cn_math_equal_groups",
+      "prerequisiteId": "mt_cn_math_count",
+      "strength": "hard",
+      "reason": "需要数出组数和每组个数"
+    },
+    {
+      "topicId": "mt_cn_math_multiply",
+      "prerequisiteId": "mt_cn_math_equal_groups",
+      "strength": "hard",
+      "reason": "乘法模型需要相等分组"
+    },
+    {
+      "topicId": "mt_cn_math_multiply",
+      "prerequisiteId": "mt_cn_math_add",
+      "strength": "hard",
+      "reason": "乘法与连加相联系"
+    },
+    {
+      "topicId": "mt_cn_math_divide",
+      "prerequisiteId": "mt_cn_math_multiply",
+      "strength": "hard",
+      "reason": "利用乘除互逆解释分组"
+    },
+    {
+      "topicId": "mt_cn_math_tables",
+      "prerequisiteId": "mt_cn_math_multiply",
+      "strength": "hard",
+      "reason": "需要理解乘法"
+    },
+    {
+      "topicId": "mt_cn_math_tables",
+      "prerequisiteId": "mt_cn_math_divide",
+      "strength": "hard",
+      "reason": "需要理解除法"
+    },
+    {
+      "topicId": "mt_cn_math_model1",
+      "prerequisiteId": "mt_cn_math_sub",
+      "strength": "soft",
+      "reason": "加减模型帮助表达生活问题"
+    },
+    {
+      "topicId": "mt_cn_math_model1",
+      "prerequisiteId": "mt_cn_math_divide",
+      "strength": "soft",
+      "reason": "分组模型帮助选择运算"
+    },
+    {
+      "topicId": "mt_cn_math_pattern",
+      "prerequisiteId": "mt_cn_math_count",
+      "strength": "soft",
+      "reason": "计数帮助描述变化"
+    },
+    {
+      "topicId": "mt_cn_math_large",
+      "prerequisiteId": "mt_cn_math_place",
+      "strength": "hard",
+      "reason": "大数扩展十进制数位"
+    },
+    {
+      "topicId": "mt_cn_math_multi_mul",
+      "prerequisiteId": "mt_cn_math_multiply",
+      "strength": "hard",
+      "reason": "需要乘法含义"
+    },
+    {
+      "topicId": "mt_cn_math_multi_mul",
+      "prerequisiteId": "mt_cn_math_written_add",
+      "strength": "hard",
+      "reason": "部分积需要按位相加"
+    },
+    {
+      "topicId": "mt_cn_math_multi_div",
+      "prerequisiteId": "mt_cn_math_divide",
+      "strength": "hard",
+      "reason": "需要除法含义"
+    },
+    {
+      "topicId": "mt_cn_math_multi_div",
+      "prerequisiteId": "mt_cn_math_multi_mul",
+      "strength": "hard",
+      "reason": "试商与检验使用多位数乘法"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_unit",
+      "prerequisiteId": "mt_cn_math_equal_groups",
+      "strength": "hard",
+      "reason": "需要平均分组经验"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_repr",
+      "prerequisiteId": "mt_cn_math_fraction_unit",
+      "strength": "hard",
+      "reason": "表示依赖整体与单位份"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_compare",
+      "prerequisiteId": "mt_cn_math_fraction_repr",
+      "strength": "hard",
+      "reason": "比较依赖对分数表示的理解"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_add",
+      "prerequisiteId": "mt_cn_math_fraction_repr",
+      "strength": "hard",
+      "reason": "需要确定分数单位"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_add",
+      "prerequisiteId": "mt_cn_math_add20",
+      "strength": "hard",
+      "reason": "需要单位个数的加减"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_intro",
+      "prerequisiteId": "mt_cn_math_place",
+      "strength": "hard",
+      "reason": "需要数位与单位概念"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_intro",
+      "prerequisiteId": "mt_cn_math_fraction_unit",
+      "strength": "hard",
+      "reason": "十等分联系单位份"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_add1",
+      "prerequisiteId": "mt_cn_math_decimal_intro",
+      "strength": "hard",
+      "reason": "需要十分位意义"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_add1",
+      "prerequisiteId": "mt_cn_math_written_add",
+      "strength": "hard",
+      "reason": "可迁移按单位计算的策略"
+    },
+    {
+      "topicId": "mt_cn_math_order",
+      "prerequisiteId": "mt_cn_math_tables",
+      "strength": "hard",
+      "reason": "需要基本乘除"
+    },
+    {
+      "topicId": "mt_cn_math_order",
+      "prerequisiteId": "mt_cn_math_written_add",
+      "strength": "hard",
+      "reason": "需要加减运算"
+    },
+    {
+      "topicId": "mt_cn_math_laws",
+      "prerequisiteId": "mt_cn_math_multi_mul",
+      "strength": "hard",
+      "reason": "分配关系可从部分积理解"
+    },
+    {
+      "topicId": "mt_cn_math_price",
+      "prerequisiteId": "mt_cn_math_multiply",
+      "strength": "hard",
+      "reason": "总价模型是等量累加"
+    },
+    {
+      "topicId": "mt_cn_math_speed",
+      "prerequisiteId": "mt_cn_math_multiply",
+      "strength": "hard",
+      "reason": "路程模型需要单位量与份数"
+    },
+    {
+      "topicId": "mt_cn_math_estimate",
+      "prerequisiteId": "mt_cn_math_large",
+      "strength": "hard",
+      "reason": "估算依赖数量级"
+    },
+    {
+      "topicId": "mt_cn_math_estimate",
+      "prerequisiteId": "mt_cn_math_order",
+      "strength": "soft",
+      "reason": "估算可检验混合运算"
+    },
+    {
+      "topicId": "mt_cn_math_equal_relation",
+      "prerequisiteId": "mt_cn_math_compare",
+      "strength": "hard",
+      "reason": "需要相等关系"
+    },
+    {
+      "topicId": "mt_cn_math_calculator",
+      "prerequisiteId": "mt_cn_math_estimate",
+      "strength": "hard",
+      "reason": "机器结果仍需数量判断"
+    },
+    {
+      "topicId": "mt_cn_math_factors",
+      "prerequisiteId": "mt_cn_math_multi_div",
+      "strength": "hard",
+      "reason": "整除判断依赖除法"
+    },
+    {
+      "topicId": "mt_cn_math_divisibility",
+      "prerequisiteId": "mt_cn_math_factors",
+      "strength": "hard",
+      "reason": "需要倍数含义"
+    },
+    {
+      "topicId": "mt_cn_math_divisibility",
+      "prerequisiteId": "mt_cn_math_place",
+      "strength": "hard",
+      "reason": "判别联系数位"
+    },
+    {
+      "topicId": "mt_cn_math_prime",
+      "prerequisiteId": "mt_cn_math_factors",
+      "strength": "hard",
+      "reason": "分类依据因数"
+    },
+    {
+      "topicId": "mt_cn_math_common",
+      "prerequisiteId": "mt_cn_math_factors",
+      "strength": "hard",
+      "reason": "需要因数倍数的集合"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_division",
+      "prerequisiteId": "mt_cn_math_divide",
+      "strength": "hard",
+      "reason": "需要平均分意义"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_division",
+      "prerequisiteId": "mt_cn_math_fraction_repr",
+      "strength": "hard",
+      "reason": "需要分数表示"
+    },
+    {
+      "topicId": "mt_cn_math_equivalent",
+      "prerequisiteId": "mt_cn_math_fraction_repr",
+      "strength": "hard",
+      "reason": "需要单位份与整体"
+    },
+    {
+      "topicId": "mt_cn_math_common_den",
+      "prerequisiteId": "mt_cn_math_equivalent",
+      "strength": "hard",
+      "reason": "需保持量不变"
+    },
+    {
+      "topicId": "mt_cn_math_common_den",
+      "prerequisiteId": "mt_cn_math_common",
+      "strength": "hard",
+      "reason": "公因数公倍数支持选取单位"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_add2",
+      "prerequisiteId": "mt_cn_math_common_den",
+      "strength": "hard",
+      "reason": "先统一分数单位"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_add2",
+      "prerequisiteId": "mt_cn_math_fraction_add",
+      "strength": "hard",
+      "reason": "迁移同分母运算"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_mul",
+      "prerequisiteId": "mt_cn_math_fraction_repr",
+      "strength": "hard",
+      "reason": "需要分数单位"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_mul",
+      "prerequisiteId": "mt_cn_math_multiply",
+      "strength": "hard",
+      "reason": "联系乘法模型"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_div",
+      "prerequisiteId": "mt_cn_math_fraction_mul",
+      "strength": "hard",
+      "reason": "用乘除互逆解释分数除法"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_div",
+      "prerequisiteId": "mt_cn_math_divide",
+      "strength": "hard",
+      "reason": "保留分组或平均分的意义"
+    },
+    {
+      "topicId": "mt_cn_math_decimal",
+      "prerequisiteId": "mt_cn_math_decimal_intro",
+      "strength": "hard",
+      "reason": "扩展十分位概念"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_ops",
+      "prerequisiteId": "mt_cn_math_decimal",
+      "strength": "hard",
+      "reason": "需要小数单位"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_ops",
+      "prerequisiteId": "mt_cn_math_multi_div",
+      "strength": "hard",
+      "reason": "迁移整数算法"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_ops",
+      "prerequisiteId": "mt_cn_math_estimate",
+      "strength": "hard",
+      "reason": "检验结果数量级"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_decimal",
+      "prerequisiteId": "mt_cn_math_fraction_division",
+      "strength": "hard",
+      "reason": "分数可表示除法"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_decimal",
+      "prerequisiteId": "mt_cn_math_decimal",
+      "strength": "hard",
+      "reason": "需要小数单位"
+    },
+    {
+      "topicId": "mt_cn_math_equation_property",
+      "prerequisiteId": "mt_cn_math_equal_relation",
+      "strength": "hard",
+      "reason": "需要等量关系"
+    },
+    {
+      "topicId": "mt_cn_math_letter",
+      "prerequisiteId": "mt_cn_math_laws",
+      "strength": "hard",
+      "reason": "已有字母表达经验"
+    },
+    {
+      "topicId": "mt_cn_math_ratio",
+      "prerequisiteId": "mt_cn_math_fraction_division",
+      "strength": "hard",
+      "reason": "比值联系除法"
+    },
+    {
+      "topicId": "mt_cn_math_proportion",
+      "prerequisiteId": "mt_cn_math_ratio",
+      "strength": "hard",
+      "reason": "分配依赖份数比"
+    },
+    {
+      "topicId": "mt_cn_math_proportion",
+      "prerequisiteId": "mt_cn_math_fraction_mul",
+      "strength": "hard",
+      "reason": "求总量的一部分"
+    },
+    {
+      "topicId": "mt_cn_math_direct",
+      "prerequisiteId": "mt_cn_math_ratio",
+      "strength": "hard",
+      "reason": "需要比值"
+    },
+    {
+      "topicId": "mt_cn_math_direct",
+      "prerequisiteId": "mt_cn_math_letter",
+      "strength": "hard",
+      "reason": "需要表达一般数量关系"
+    },
+    {
+      "topicId": "mt_cn_math_composition",
+      "prerequisiteId": "mt_cn_math_shapes",
+      "strength": "hard",
+      "reason": "需要辨认组成图形"
+    },
+    {
+      "topicId": "mt_cn_math_length",
+      "prerequisiteId": "mt_cn_math_count",
+      "strength": "hard",
+      "reason": "度量需要计数单位"
+    },
+    {
+      "topicId": "mt_cn_math_cm_m",
+      "prerequisiteId": "mt_cn_math_length",
+      "strength": "hard",
+      "reason": "需要统一度量单位"
+    },
+    {
+      "topicId": "mt_cn_math_lines",
+      "prerequisiteId": "mt_cn_math_length",
+      "strength": "soft",
+      "reason": "测量经验帮助理解线段"
+    },
+    {
+      "topicId": "mt_cn_math_parallel",
+      "prerequisiteId": "mt_cn_math_lines",
+      "strength": "hard",
+      "reason": "需要直线概念"
+    },
+    {
+      "topicId": "mt_cn_math_angle",
+      "prerequisiteId": "mt_cn_math_lines",
+      "strength": "hard",
+      "reason": "需要射线概念"
+    },
+    {
+      "topicId": "mt_cn_math_angle_measure",
+      "prerequisiteId": "mt_cn_math_angle",
+      "strength": "hard",
+      "reason": "度量需理解角的大小"
+    },
+    {
+      "topicId": "mt_cn_math_triangle",
+      "prerequisiteId": "mt_cn_math_shapes",
+      "strength": "hard",
+      "reason": "需要图形辨认"
+    },
+    {
+      "topicId": "mt_cn_math_triangle",
+      "prerequisiteId": "mt_cn_math_angle",
+      "strength": "hard",
+      "reason": "分类使用角的性质"
+    },
+    {
+      "topicId": "mt_cn_math_perimeter",
+      "prerequisiteId": "mt_cn_math_length",
+      "strength": "hard",
+      "reason": "周长是长度累加"
+    },
+    {
+      "topicId": "mt_cn_math_perimeter",
+      "prerequisiteId": "mt_cn_math_written_add",
+      "strength": "hard",
+      "reason": "需要长度相加"
+    },
+    {
+      "topicId": "mt_cn_math_area",
+      "prerequisiteId": "mt_cn_math_shapes",
+      "strength": "hard",
+      "reason": "需要平面区域经验"
+    },
+    {
+      "topicId": "mt_cn_math_rectangle_area",
+      "prerequisiteId": "mt_cn_math_area",
+      "strength": "hard",
+      "reason": "需要单位面积"
+    },
+    {
+      "topicId": "mt_cn_math_rectangle_area",
+      "prerequisiteId": "mt_cn_math_multiply",
+      "strength": "hard",
+      "reason": "行列计数是乘法"
+    },
+    {
+      "topicId": "mt_cn_math_units2",
+      "prerequisiteId": "mt_cn_math_cm_m",
+      "strength": "hard",
+      "reason": "已有长度换算"
+    },
+    {
+      "topicId": "mt_cn_math_units2",
+      "prerequisiteId": "mt_cn_math_area",
+      "strength": "hard",
+      "reason": "需要平方单位"
+    },
+    {
+      "topicId": "mt_cn_math_views",
+      "prerequisiteId": "mt_cn_math_shapes",
+      "strength": "hard",
+      "reason": "需要立体与平面对应"
+    },
+    {
+      "topicId": "mt_cn_math_transform",
+      "prerequisiteId": "mt_cn_math_shapes",
+      "strength": "hard",
+      "reason": "需要识别变化前后的图形"
+    },
+    {
+      "topicId": "mt_cn_math_triangle_properties",
+      "prerequisiteId": "mt_cn_math_triangle",
+      "strength": "hard",
+      "reason": "需要三角形特征"
+    },
+    {
+      "topicId": "mt_cn_math_triangle_properties",
+      "prerequisiteId": "mt_cn_math_angle_measure",
+      "strength": "hard",
+      "reason": "需要角度度量"
+    },
+    {
+      "topicId": "mt_cn_math_polygon_area",
+      "prerequisiteId": "mt_cn_math_rectangle_area",
+      "strength": "hard",
+      "reason": "需要已知面积模型"
+    },
+    {
+      "topicId": "mt_cn_math_circle",
+      "prerequisiteId": "mt_cn_math_length",
+      "strength": "hard",
+      "reason": "需要长度度量"
+    },
+    {
+      "topicId": "mt_cn_math_circle",
+      "prerequisiteId": "mt_cn_math_ratio",
+      "strength": "hard",
+      "reason": "解释圆周率使用比"
+    },
+    {
+      "topicId": "mt_cn_math_circle_area",
+      "prerequisiteId": "mt_cn_math_circle",
+      "strength": "hard",
+      "reason": "需要圆的要素"
+    },
+    {
+      "topicId": "mt_cn_math_circle_area",
+      "prerequisiteId": "mt_cn_math_polygon_area",
+      "strength": "hard",
+      "reason": "转化思想支持面积推导"
+    },
+    {
+      "topicId": "mt_cn_math_volume",
+      "prerequisiteId": "mt_cn_math_area",
+      "strength": "hard",
+      "reason": "从面度量拓展到空间度量"
+    },
+    {
+      "topicId": "mt_cn_math_cuboid",
+      "prerequisiteId": "mt_cn_math_volume",
+      "strength": "hard",
+      "reason": "需要体积单位"
+    },
+    {
+      "topicId": "mt_cn_math_cuboid",
+      "prerequisiteId": "mt_cn_math_rectangle_area",
+      "strength": "hard",
+      "reason": "面和层计算用长方形面积"
+    },
+    {
+      "topicId": "mt_cn_math_cylinder",
+      "prerequisiteId": "mt_cn_math_circle_area",
+      "strength": "hard",
+      "reason": "需要圆底面积"
+    },
+    {
+      "topicId": "mt_cn_math_cylinder",
+      "prerequisiteId": "mt_cn_math_volume",
+      "strength": "hard",
+      "reason": "需要体积概念"
+    },
+    {
+      "topicId": "mt_cn_math_coordinates",
+      "prerequisiteId": "mt_cn_math_views",
+      "strength": "soft",
+      "reason": "空间表示经验有帮助"
+    },
+    {
+      "topicId": "mt_cn_math_mapscale",
+      "prerequisiteId": "mt_cn_math_ratio",
+      "strength": "hard",
+      "reason": "比例尺是长度之比"
+    },
+    {
+      "topicId": "mt_cn_math_mapscale",
+      "prerequisiteId": "mt_cn_math_units2",
+      "strength": "hard",
+      "reason": "需要距离单位换算"
+    },
+    {
+      "topicId": "mt_cn_math_grid_transform",
+      "prerequisiteId": "mt_cn_math_transform",
+      "strength": "hard",
+      "reason": "需辨认变换"
+    },
+    {
+      "topicId": "mt_cn_math_grid_transform",
+      "prerequisiteId": "mt_cn_math_coordinates",
+      "strength": "hard",
+      "reason": "定位支持准确作图"
+    },
+    {
+      "topicId": "mt_cn_math_tally",
+      "prerequisiteId": "mt_cn_math_classify",
+      "strength": "hard",
+      "reason": "记录需要确定分类"
+    },
+    {
+      "topicId": "mt_cn_math_tally",
+      "prerequisiteId": "mt_cn_math_count",
+      "strength": "hard",
+      "reason": "统计需要计数"
+    },
+    {
+      "topicId": "mt_cn_math_collect",
+      "prerequisiteId": "mt_cn_math_tally",
+      "strength": "hard",
+      "reason": "需要基本记录"
+    },
+    {
+      "topicId": "mt_cn_math_bar",
+      "prerequisiteId": "mt_cn_math_collect",
+      "strength": "hard",
+      "reason": "图表需有数据"
+    },
+    {
+      "topicId": "mt_cn_math_bar",
+      "prerequisiteId": "mt_cn_math_length",
+      "strength": "hard",
+      "reason": "条长对应数量"
+    },
+    {
+      "topicId": "mt_cn_math_mean",
+      "prerequisiteId": "mt_cn_math_divide",
+      "strength": "hard",
+      "reason": "均分是平均数的基础"
+    },
+    {
+      "topicId": "mt_cn_math_mean",
+      "prerequisiteId": "mt_cn_math_collect",
+      "strength": "hard",
+      "reason": "需要理解数据集合"
+    },
+    {
+      "topicId": "mt_cn_math_linechart",
+      "prerequisiteId": "mt_cn_math_bar",
+      "strength": "hard",
+      "reason": "需要图表刻度与数量对应"
+    },
+    {
+      "topicId": "mt_cn_math_percent",
+      "prerequisiteId": "mt_cn_math_fraction_repr",
+      "strength": "hard",
+      "reason": "需要部分整体关系"
+    },
+    {
+      "topicId": "mt_cn_math_percent",
+      "prerequisiteId": "mt_cn_math_ratio",
+      "strength": "hard",
+      "reason": "百分数表达比例"
+    },
+    {
+      "topicId": "mt_cn_math_pie",
+      "prerequisiteId": "mt_cn_math_percent",
+      "strength": "hard",
+      "reason": "需要百分数"
+    },
+    {
+      "topicId": "mt_cn_math_pie",
+      "prerequisiteId": "mt_cn_math_circle",
+      "strength": "hard",
+      "reason": "需要圆与扇形"
+    },
+    {
+      "topicId": "mt_cn_math_chance",
+      "prerequisiteId": "mt_cn_math_collect",
+      "strength": "soft",
+      "reason": "重复试验记录帮助比较"
+    },
+    {
+      "topicId": "mt_cn_math_money",
+      "prerequisiteId": "mt_cn_math_written_add",
+      "strength": "hard",
+      "reason": "结算需要加减"
+    },
+    {
+      "topicId": "mt_cn_math_time",
+      "prerequisiteId": "mt_cn_math_count",
+      "strength": "hard",
+      "reason": "需要计数"
+    },
+    {
+      "topicId": "mt_cn_math_time",
+      "prerequisiteId": "mt_cn_math_sub",
+      "strength": "soft",
+      "reason": "时间差可用减法解释"
+    },
+    {
+      "topicId": "mt_cn_math_calendar",
+      "prerequisiteId": "mt_cn_math_time",
+      "strength": "hard",
+      "reason": "需要时刻与时间间隔"
+    },
+    {
+      "topicId": "mt_cn_math_mass",
+      "prerequisiteId": "mt_cn_math_equal_relation",
+      "strength": "hard",
+      "reason": "需要等量替换"
+    },
+    {
+      "topicId": "mt_cn_math_mass",
+      "prerequisiteId": "mt_cn_math_written_add",
+      "strength": "hard",
+      "reason": "组合质量需相加"
+    },
+    {
+      "topicId": "mt_cn_math_eight_directions",
+      "prerequisiteId": "mt_cn_math_direction",
+      "strength": "hard",
+      "reason": "中间方向建立在四方上"
+    },
+    {
+      "topicId": "mt_cn_math_negative",
+      "prerequisiteId": "mt_cn_math_compare",
+      "strength": "hard",
+      "reason": "需要数的比较与基准"
+    },
+    {
+      "topicId": "mt_cn_math_campus_plan",
+      "prerequisiteId": "mt_cn_math_mapscale",
+      "strength": "hard",
+      "reason": "需要比例尺"
+    },
+    {
+      "topicId": "mt_cn_math_campus_plan",
+      "prerequisiteId": "mt_cn_math_eight_directions",
+      "strength": "hard",
+      "reason": "需要方向描述"
+    },
+    {
+      "topicId": "mt_cn_math_survey_project",
+      "prerequisiteId": "mt_cn_math_collect",
+      "strength": "hard",
+      "reason": "需要可靠收集"
+    },
+    {
+      "topicId": "mt_cn_math_survey_project",
+      "prerequisiteId": "mt_cn_math_percent",
+      "strength": "hard",
+      "reason": "比例分析支持比较"
+    },
+    {
+      "topicId": "mt_cn_zh_character",
+      "prerequisiteId": "mt_cn_zh_pinyin",
+      "strength": "soft",
+      "reason": "拼音帮助确认读音"
+    },
+    {
+      "topicId": "mt_cn_zh_character",
+      "prerequisiteId": "mt_cn_zh_components",
+      "strength": "soft",
+      "reason": "部件帮助辨认字形"
+    },
+    {
+      "topicId": "mt_cn_zh_dictionary",
+      "prerequisiteId": "mt_cn_zh_pinyin",
+      "strength": "hard",
+      "reason": "音序检字需拼音"
+    },
+    {
+      "topicId": "mt_cn_zh_dictionary",
+      "prerequisiteId": "mt_cn_zh_components",
+      "strength": "hard",
+      "reason": "部首检字需部件辨认"
+    },
+    {
+      "topicId": "mt_cn_zh_read_aloud",
+      "prerequisiteId": "mt_cn_zh_character",
+      "strength": "hard",
+      "reason": "需要基本认读"
+    },
+    {
+      "topicId": "mt_cn_zh_context",
+      "prerequisiteId": "mt_cn_zh_character",
+      "strength": "soft",
+      "reason": "基本认读帮助理解书面语"
+    },
+    {
+      "topicId": "mt_cn_zh_story",
+      "prerequisiteId": "mt_cn_zh_context",
+      "strength": "hard",
+      "reason": "需要连贯理解"
+    },
+    {
+      "topicId": "mt_cn_zh_poem",
+      "prerequisiteId": "mt_cn_zh_read_aloud",
+      "strength": "soft",
+      "reason": "朗读支持节奏感受"
+    },
+    {
+      "topicId": "mt_cn_zh_book",
+      "prerequisiteId": "mt_cn_zh_story",
+      "strength": "soft",
+      "reason": "故事理解帮助分享"
+    },
+    {
+      "topicId": "mt_cn_zh_speak",
+      "prerequisiteId": "mt_cn_zh_listen",
+      "strength": "soft",
+      "reason": "倾听有助于面向听者调整"
+    },
+    {
+      "topicId": "mt_cn_zh_sentence",
+      "prerequisiteId": "mt_cn_zh_character",
+      "strength": "hard",
+      "reason": "书写需要汉字"
+    },
+    {
+      "topicId": "mt_cn_zh_sentence",
+      "prerequisiteId": "mt_cn_zh_read_aloud",
+      "strength": "hard",
+      "reason": "语气经验支持标点选择"
+    },
+    {
+      "topicId": "mt_cn_zh_independent_chars",
+      "prerequisiteId": "mt_cn_zh_dictionary",
+      "strength": "hard",
+      "reason": "需要查检工具"
+    },
+    {
+      "topicId": "mt_cn_zh_independent_chars",
+      "prerequisiteId": "mt_cn_zh_context",
+      "strength": "hard",
+      "reason": "需要语境判断"
+    },
+    {
+      "topicId": "mt_cn_zh_silent",
+      "prerequisiteId": "mt_cn_zh_context",
+      "strength": "hard",
+      "reason": "需要连贯理解"
+    },
+    {
+      "topicId": "mt_cn_zh_mainidea",
+      "prerequisiteId": "mt_cn_zh_story",
+      "strength": "hard",
+      "reason": "由故事大意发展概括"
+    },
+    {
+      "topicId": "mt_cn_zh_annotation",
+      "prerequisiteId": "mt_cn_zh_silent",
+      "strength": "hard",
+      "reason": "需要独立阅读"
+    },
+    {
+      "topicId": "mt_cn_zh_annotation",
+      "prerequisiteId": "mt_cn_zh_question",
+      "strength": "hard",
+      "reason": "需要问题意识"
+    },
+    {
+      "topicId": "mt_cn_zh_expression_effect",
+      "prerequisiteId": "mt_cn_zh_context",
+      "strength": "hard",
+      "reason": "需要上下文词义"
+    },
+    {
+      "topicId": "mt_cn_zh_retell",
+      "prerequisiteId": "mt_cn_zh_listen",
+      "strength": "hard",
+      "reason": "需要抓住听到的信息"
+    },
+    {
+      "topicId": "mt_cn_zh_paragraph",
+      "prerequisiteId": "mt_cn_zh_sentence",
+      "strength": "hard",
+      "reason": "需要句子表达"
+    },
+    {
+      "topicId": "mt_cn_zh_paragraph",
+      "prerequisiteId": "mt_cn_zh_speak",
+      "strength": "hard",
+      "reason": "讲述顺序支持写作"
+    },
+    {
+      "topicId": "mt_cn_zh_note",
+      "prerequisiteId": "mt_cn_zh_sentence",
+      "strength": "hard",
+      "reason": "需要清楚表达"
+    },
+    {
+      "topicId": "mt_cn_zh_revision",
+      "prerequisiteId": "mt_cn_zh_paragraph",
+      "strength": "hard",
+      "reason": "需要完整表达对象"
+    },
+    {
+      "topicId": "mt_cn_zh_source_search",
+      "prerequisiteId": "mt_cn_zh_question",
+      "strength": "hard",
+      "reason": "需要明确问题"
+    },
+    {
+      "topicId": "mt_cn_zh_source_search",
+      "prerequisiteId": "mt_cn_zh_annotation",
+      "strength": "hard",
+      "reason": "记录帮助筛选"
+    },
+    {
+      "topicId": "mt_cn_zh_inference",
+      "prerequisiteId": "mt_cn_zh_context",
+      "strength": "hard",
+      "reason": "需要语境理解"
+    },
+    {
+      "topicId": "mt_cn_zh_inference",
+      "prerequisiteId": "mt_cn_zh_annotation",
+      "strength": "hard",
+      "reason": "需要证据定位"
+    },
+    {
+      "topicId": "mt_cn_zh_structure",
+      "prerequisiteId": "mt_cn_zh_mainidea",
+      "strength": "hard",
+      "reason": "需要文章主要内容"
+    },
+    {
+      "topicId": "mt_cn_zh_structure",
+      "prerequisiteId": "mt_cn_zh_expression_effect",
+      "strength": "hard",
+      "reason": "需要表达效果意识"
+    },
+    {
+      "topicId": "mt_cn_zh_multimodal",
+      "prerequisiteId": "mt_cn_zh_silent",
+      "strength": "hard",
+      "reason": "需要按目的阅读"
+    },
+    {
+      "topicId": "mt_cn_zh_multimodal",
+      "prerequisiteId": "mt_cn_math_bar",
+      "strength": "soft",
+      "reason": "统计图知识帮助读表"
+    },
+    {
+      "topicId": "mt_cn_zh_book_recommend",
+      "prerequisiteId": "mt_cn_zh_book",
+      "strength": "hard",
+      "reason": "需要持续阅读"
+    },
+    {
+      "topicId": "mt_cn_zh_book_recommend",
+      "prerequisiteId": "mt_cn_zh_mainidea",
+      "strength": "hard",
+      "reason": "需要概括"
+    },
+    {
+      "topicId": "mt_cn_zh_opinion",
+      "prerequisiteId": "mt_cn_zh_retell",
+      "strength": "hard",
+      "reason": "需要准确听取他人意思"
+    },
+    {
+      "topicId": "mt_cn_zh_composition",
+      "prerequisiteId": "mt_cn_zh_paragraph",
+      "strength": "hard",
+      "reason": "需要具体表达"
+    },
+    {
+      "topicId": "mt_cn_zh_composition",
+      "prerequisiteId": "mt_cn_zh_structure",
+      "strength": "hard",
+      "reason": "结构阅读支持组织"
+    },
+    {
+      "topicId": "mt_cn_zh_peer_revision",
+      "prerequisiteId": "mt_cn_zh_revision",
+      "strength": "hard",
+      "reason": "需要基本修改"
+    },
+    {
+      "topicId": "mt_cn_zh_peer_revision",
+      "prerequisiteId": "mt_cn_zh_opinion",
+      "strength": "hard",
+      "reason": "需要有依据回应"
+    },
+    {
+      "topicId": "mt_cn_zh_research",
+      "prerequisiteId": "mt_cn_zh_source_search",
+      "strength": "hard",
+      "reason": "需要资料收集"
+    },
+    {
+      "topicId": "mt_cn_zh_research",
+      "prerequisiteId": "mt_cn_zh_multimodal",
+      "strength": "hard",
+      "reason": "需综合材料"
+    },
+    {
+      "topicId": "mt_cn_zh_research",
+      "prerequisiteId": "mt_cn_zh_composition",
+      "strength": "hard",
+      "reason": "需组织书面表达"
+    },
+    {
+      "topicId": "mt_cn_en_phonics",
+      "prerequisiteId": "mt_cn_en_letters",
+      "strength": "hard",
+      "reason": "需要辨认字母"
+    },
+    {
+      "topicId": "mt_cn_en_simple_sentence",
+      "prerequisiteId": "mt_cn_en_vocabulary",
+      "strength": "hard",
+      "reason": "需要表意词汇"
+    },
+    {
+      "topicId": "mt_cn_en_present",
+      "prerequisiteId": "mt_cn_en_simple_sentence",
+      "strength": "hard",
+      "reason": "需要简单句结构"
+    },
+    {
+      "topicId": "mt_cn_en_politeness",
+      "prerequisiteId": "mt_cn_en_simple_sentence",
+      "strength": "soft",
+      "reason": "句式帮助交流"
+    },
+    {
+      "topicId": "mt_cn_en_instruction",
+      "prerequisiteId": "mt_cn_en_vocabulary",
+      "strength": "soft",
+      "reason": "词义帮助理解"
+    },
+    {
+      "topicId": "mt_cn_en_information",
+      "prerequisiteId": "mt_cn_en_vocabulary",
+      "strength": "hard",
+      "reason": "需要理解关键词"
+    },
+    {
+      "topicId": "mt_cn_en_information",
+      "prerequisiteId": "mt_cn_en_picture_read",
+      "strength": "soft",
+      "reason": "图像支持理解"
+    },
+    {
+      "topicId": "mt_cn_en_selfintro",
+      "prerequisiteId": "mt_cn_en_simple_sentence",
+      "strength": "hard",
+      "reason": "需要基本句子"
+    },
+    {
+      "topicId": "mt_cn_en_copy_sentence",
+      "prerequisiteId": "mt_cn_en_letters",
+      "strength": "hard",
+      "reason": "需要字母书写"
+    },
+    {
+      "topicId": "mt_cn_en_copy_sentence",
+      "prerequisiteId": "mt_cn_en_simple_sentence",
+      "strength": "hard",
+      "reason": "需要句意理解"
+    },
+    {
+      "topicId": "mt_cn_en_stress",
+      "prerequisiteId": "mt_cn_en_phonics",
+      "strength": "hard",
+      "reason": "音形基础支持朗读"
+    },
+    {
+      "topicId": "mt_cn_en_past_future",
+      "prerequisiteId": "mt_cn_en_present",
+      "strength": "hard",
+      "reason": "已有时间表达经验"
+    },
+    {
+      "topicId": "mt_cn_en_compare",
+      "prerequisiteId": "mt_cn_en_simple_sentence",
+      "strength": "hard",
+      "reason": "需要基本描述"
+    },
+    {
+      "topicId": "mt_cn_en_compare",
+      "prerequisiteId": "mt_cn_en_vocabulary",
+      "strength": "hard",
+      "reason": "需要特征词汇"
+    },
+    {
+      "topicId": "mt_cn_en_service",
+      "prerequisiteId": "mt_cn_en_politeness",
+      "strength": "hard",
+      "reason": "需要交际礼貌"
+    },
+    {
+      "topicId": "mt_cn_en_service",
+      "prerequisiteId": "mt_cn_en_information",
+      "strength": "hard",
+      "reason": "需要听取信息"
+    },
+    {
+      "topicId": "mt_cn_en_culture",
+      "prerequisiteId": "mt_cn_en_information",
+      "strength": "soft",
+      "reason": "语言材料提供文化信息"
+    },
+    {
+      "topicId": "mt_cn_en_guess",
+      "prerequisiteId": "mt_cn_en_information",
+      "strength": "hard",
+      "reason": "需要已知信息理解"
+    },
+    {
+      "topicId": "mt_cn_en_story_sequence",
+      "prerequisiteId": "mt_cn_en_information",
+      "strength": "hard",
+      "reason": "需要提取信息"
+    },
+    {
+      "topicId": "mt_cn_en_paragraph",
+      "prerequisiteId": "mt_cn_en_copy_sentence",
+      "strength": "hard",
+      "reason": "从句子扩展到连贯表达"
+    },
+    {
+      "topicId": "mt_cn_en_paragraph",
+      "prerequisiteId": "mt_cn_en_compare",
+      "strength": "hard",
+      "reason": "细节描述提供内容"
+    },
+    {
+      "topicId": "mt_cn_en_poster",
+      "prerequisiteId": "mt_cn_en_paragraph",
+      "strength": "hard",
+      "reason": "需要组织文字"
+    },
+    {
+      "topicId": "mt_cn_en_poster",
+      "prerequisiteId": "mt_cn_en_picture_read",
+      "strength": "hard",
+      "reason": "需要理解图文意义"
+    },
+    {
+      "topicId": "mt_cn_sc_materials",
+      "prerequisiteId": "mt_cn_sc_properties",
+      "strength": "hard",
+      "reason": "观察支持材料比较"
+    },
+    {
+      "topicId": "mt_cn_sc_water_air",
+      "prerequisiteId": "mt_cn_sc_properties",
+      "strength": "hard",
+      "reason": "需要观察与描述"
+    },
+    {
+      "topicId": "mt_cn_sc_dissolve",
+      "prerequisiteId": "mt_cn_sc_water_air",
+      "strength": "hard",
+      "reason": "需要对水的观察经验"
+    },
+    {
+      "topicId": "mt_cn_sc_measure",
+      "prerequisiteId": "mt_cn_sc_properties",
+      "strength": "hard",
+      "reason": "从描述走向测量"
+    },
+    {
+      "topicId": "mt_cn_sc_measure",
+      "prerequisiteId": "mt_cn_math_length",
+      "strength": "soft",
+      "reason": "度量单位帮助记录"
+    },
+    {
+      "topicId": "mt_cn_sc_air_space",
+      "prerequisiteId": "mt_cn_sc_water_air",
+      "strength": "hard",
+      "reason": "需要认识空气"
+    },
+    {
+      "topicId": "mt_cn_sc_separate",
+      "prerequisiteId": "mt_cn_sc_materials",
+      "strength": "hard",
+      "reason": "需要材料特征"
+    },
+    {
+      "topicId": "mt_cn_sc_separate",
+      "prerequisiteId": "mt_cn_sc_dissolve",
+      "strength": "hard",
+      "reason": "溶解性提供分离依据"
+    },
+    {
+      "topicId": "mt_cn_sc_states",
+      "prerequisiteId": "mt_cn_sc_water_air",
+      "strength": "hard",
+      "reason": "需要水与空气的经验"
+    },
+    {
+      "topicId": "mt_cn_sc_fairtest",
+      "prerequisiteId": "mt_cn_sc_dissolve",
+      "strength": "hard",
+      "reason": "需要被研究现象"
+    },
+    {
+      "topicId": "mt_cn_sc_fairtest",
+      "prerequisiteId": "mt_cn_sc_measure",
+      "strength": "hard",
+      "reason": "记录帮助比较"
+    },
+    {
+      "topicId": "mt_cn_sc_evaporation",
+      "prerequisiteId": "mt_cn_sc_states",
+      "strength": "hard",
+      "reason": "需要物态变化"
+    },
+    {
+      "topicId": "mt_cn_sc_air_mix",
+      "prerequisiteId": "mt_cn_sc_air_space",
+      "strength": "hard",
+      "reason": "需要空气作为物质的认识"
+    },
+    {
+      "topicId": "mt_cn_sc_new_substance",
+      "prerequisiteId": "mt_cn_sc_states",
+      "strength": "hard",
+      "reason": "已有物态变化经验"
+    },
+    {
+      "topicId": "mt_cn_sc_magnet",
+      "prerequisiteId": "mt_cn_sc_materials",
+      "strength": "hard",
+      "reason": "需要区分材料"
+    },
+    {
+      "topicId": "mt_cn_sc_speed",
+      "prerequisiteId": "mt_cn_sc_measure",
+      "strength": "hard",
+      "reason": "需要测量距离时间"
+    },
+    {
+      "topicId": "mt_cn_sc_poles",
+      "prerequisiteId": "mt_cn_sc_magnet",
+      "strength": "hard",
+      "reason": "需要磁吸现象"
+    },
+    {
+      "topicId": "mt_cn_sc_circuit",
+      "prerequisiteId": "mt_cn_sc_materials",
+      "strength": "soft",
+      "reason": "材料知识帮助认识导体"
+    },
+    {
+      "topicId": "mt_cn_sc_sound",
+      "prerequisiteId": "mt_cn_sc_properties",
+      "strength": "hard",
+      "reason": "需要观察差异"
+    },
+    {
+      "topicId": "mt_cn_sc_shadow",
+      "prerequisiteId": "mt_cn_math_direction",
+      "strength": "soft",
+      "reason": "位置描述有助于解释"
+    },
+    {
+      "topicId": "mt_cn_sc_force_motion",
+      "prerequisiteId": "mt_cn_sc_push_pull",
+      "strength": "hard",
+      "reason": "已有力的经验"
+    },
+    {
+      "topicId": "mt_cn_sc_force_motion",
+      "prerequisiteId": "mt_cn_sc_speed",
+      "strength": "hard",
+      "reason": "需要描述运动变化"
+    },
+    {
+      "topicId": "mt_cn_sc_light",
+      "prerequisiteId": "mt_cn_sc_shadow",
+      "strength": "hard",
+      "reason": "需要光源与遮挡经验"
+    },
+    {
+      "topicId": "mt_cn_sc_temperature",
+      "prerequisiteId": "mt_cn_sc_measure",
+      "strength": "hard",
+      "reason": "需要仪器读数"
+    },
+    {
+      "topicId": "mt_cn_sc_expansion",
+      "prerequisiteId": "mt_cn_sc_temperature",
+      "strength": "hard",
+      "reason": "需要温度变化"
+    },
+    {
+      "topicId": "mt_cn_sc_expansion",
+      "prerequisiteId": "mt_cn_sc_states",
+      "strength": "hard",
+      "reason": "需要物态认识"
+    },
+    {
+      "topicId": "mt_cn_sc_energy",
+      "prerequisiteId": "mt_cn_sc_circuit",
+      "strength": "soft",
+      "reason": "电路经验帮助认识电能"
+    },
+    {
+      "topicId": "mt_cn_sc_heat",
+      "prerequisiteId": "mt_cn_sc_temperature",
+      "strength": "hard",
+      "reason": "需要温差"
+    },
+    {
+      "topicId": "mt_cn_sc_heat",
+      "prerequisiteId": "mt_cn_sc_fairtest",
+      "strength": "hard",
+      "reason": "比较材料需要公平实验"
+    },
+    {
+      "topicId": "mt_cn_sc_machine",
+      "prerequisiteId": "mt_cn_sc_force_motion",
+      "strength": "hard",
+      "reason": "需要力与运动经验"
+    },
+    {
+      "topicId": "mt_cn_sc_energy_sources",
+      "prerequisiteId": "mt_cn_sc_energy",
+      "strength": "hard",
+      "reason": "需要能量形式"
+    },
+    {
+      "topicId": "mt_cn_sc_living",
+      "prerequisiteId": "mt_cn_sc_properties",
+      "strength": "hard",
+      "reason": "需要观察描述"
+    },
+    {
+      "topicId": "mt_cn_sc_needs",
+      "prerequisiteId": "mt_cn_sc_living",
+      "strength": "hard",
+      "reason": "需要认识生物"
+    },
+    {
+      "topicId": "mt_cn_sc_life_classify",
+      "prerequisiteId": "mt_cn_sc_living",
+      "strength": "hard",
+      "reason": "需要生物观察"
+    },
+    {
+      "topicId": "mt_cn_sc_life_classify",
+      "prerequisiteId": "mt_cn_math_classify",
+      "strength": "hard",
+      "reason": "分类规则有帮助"
+    },
+    {
+      "topicId": "mt_cn_sc_plant_parts",
+      "prerequisiteId": "mt_cn_sc_living",
+      "strength": "hard",
+      "reason": "需要植物观察"
+    },
+    {
+      "topicId": "mt_cn_sc_body",
+      "prerequisiteId": "mt_cn_sc_senses",
+      "strength": "hard",
+      "reason": "已有器官功能经验"
+    },
+    {
+      "topicId": "mt_cn_sc_plant_function",
+      "prerequisiteId": "mt_cn_sc_plant_parts",
+      "strength": "hard",
+      "reason": "需要器官识别"
+    },
+    {
+      "topicId": "mt_cn_sc_plant_function",
+      "prerequisiteId": "mt_cn_sc_needs",
+      "strength": "hard",
+      "reason": "需要生存条件"
+    },
+    {
+      "topicId": "mt_cn_sc_adaptation",
+      "prerequisiteId": "mt_cn_sc_needs",
+      "strength": "hard",
+      "reason": "需要生存条件"
+    },
+    {
+      "topicId": "mt_cn_sc_lifecycle",
+      "prerequisiteId": "mt_cn_sc_plant_parts",
+      "strength": "hard",
+      "reason": "需要识别器官"
+    },
+    {
+      "topicId": "mt_cn_sc_reproduction",
+      "prerequisiteId": "mt_cn_sc_lifecycle",
+      "strength": "hard",
+      "reason": "需要生命过程"
+    },
+    {
+      "topicId": "mt_cn_sc_cells",
+      "prerequisiteId": "mt_cn_sc_measure",
+      "strength": "hard",
+      "reason": "需要工具使用与记录"
+    },
+    {
+      "topicId": "mt_cn_sc_microbes",
+      "prerequisiteId": "mt_cn_sc_living",
+      "strength": "hard",
+      "reason": "需要生物概念"
+    },
+    {
+      "topicId": "mt_cn_sc_foodchain",
+      "prerequisiteId": "mt_cn_sc_needs",
+      "strength": "hard",
+      "reason": "需要生存需要"
+    },
+    {
+      "topicId": "mt_cn_sc_foodchain",
+      "prerequisiteId": "mt_cn_sc_adaptation",
+      "strength": "hard",
+      "reason": "需要环境联系"
+    },
+    {
+      "topicId": "mt_cn_sc_inheritance",
+      "prerequisiteId": "mt_cn_sc_reproduction",
+      "strength": "hard",
+      "reason": "需要繁殖概念"
+    },
+    {
+      "topicId": "mt_cn_sc_fossil",
+      "prerequisiteId": "mt_cn_sc_life_classify",
+      "strength": "hard",
+      "reason": "比较需要特征观察"
+    },
+    {
+      "topicId": "mt_cn_sc_growth",
+      "prerequisiteId": "mt_cn_sc_body",
+      "strength": "soft",
+      "reason": "人体知识有帮助"
+    },
+    {
+      "topicId": "mt_cn_sc_sun",
+      "prerequisiteId": "mt_cn_math_direction",
+      "strength": "soft",
+      "reason": "方向语言帮助记录"
+    },
+    {
+      "topicId": "mt_cn_sc_planet",
+      "prerequisiteId": "mt_cn_sc_moon_observe",
+      "strength": "soft",
+      "reason": "观测经验支持模型"
+    },
+    {
+      "topicId": "mt_cn_sc_shadow_time",
+      "prerequisiteId": "mt_cn_sc_sun",
+      "strength": "hard",
+      "reason": "需要太阳位置观察"
+    },
+    {
+      "topicId": "mt_cn_sc_shadow_time",
+      "prerequisiteId": "mt_cn_sc_shadow",
+      "strength": "hard",
+      "reason": "需要影子形成"
+    },
+    {
+      "topicId": "mt_cn_sc_shadow_time",
+      "prerequisiteId": "mt_cn_sc_measure",
+      "strength": "hard",
+      "reason": "需要长度记录"
+    },
+    {
+      "topicId": "mt_cn_sc_daynight",
+      "prerequisiteId": "mt_cn_sc_planet",
+      "strength": "hard",
+      "reason": "需要天体角色"
+    },
+    {
+      "topicId": "mt_cn_sc_daynight",
+      "prerequisiteId": "mt_cn_sc_shadow",
+      "strength": "hard",
+      "reason": "需要照明与遮挡"
+    },
+    {
+      "topicId": "mt_cn_sc_seasons",
+      "prerequisiteId": "mt_cn_sc_daynight",
+      "strength": "hard",
+      "reason": "需区分自转"
+    },
+    {
+      "topicId": "mt_cn_sc_seasons",
+      "prerequisiteId": "mt_cn_sc_season_observe",
+      "strength": "hard",
+      "reason": "需要季节现象"
+    },
+    {
+      "topicId": "mt_cn_sc_moonphase",
+      "prerequisiteId": "mt_cn_sc_moon_observe",
+      "strength": "hard",
+      "reason": "需要连续观测"
+    },
+    {
+      "topicId": "mt_cn_sc_solar_system",
+      "prerequisiteId": "mt_cn_sc_planet",
+      "strength": "hard",
+      "reason": "需要天体角色"
+    },
+    {
+      "topicId": "mt_cn_sc_soil_life",
+      "prerequisiteId": "mt_cn_sc_living",
+      "strength": "hard",
+      "reason": "需要辨认生物"
+    },
+    {
+      "topicId": "mt_cn_sc_weather_data",
+      "prerequisiteId": "mt_cn_sc_weather",
+      "strength": "hard",
+      "reason": "需要天气现象"
+    },
+    {
+      "topicId": "mt_cn_sc_weather_data",
+      "prerequisiteId": "mt_cn_sc_measure",
+      "strength": "hard",
+      "reason": "需要测量记录"
+    },
+    {
+      "topicId": "mt_cn_sc_soil",
+      "prerequisiteId": "mt_cn_sc_soil_life",
+      "strength": "hard",
+      "reason": "需要土壤观察"
+    },
+    {
+      "topicId": "mt_cn_sc_soil",
+      "prerequisiteId": "mt_cn_sc_fairtest",
+      "strength": "hard",
+      "reason": "比较需一致条件"
+    },
+    {
+      "topicId": "mt_cn_sc_water_bodies",
+      "prerequisiteId": "mt_cn_sc_water_air",
+      "strength": "hard",
+      "reason": "需要水的认识"
+    },
+    {
+      "topicId": "mt_cn_sc_precipitation",
+      "prerequisiteId": "mt_cn_sc_evaporation",
+      "strength": "hard",
+      "reason": "需要水的状态转换"
+    },
+    {
+      "topicId": "mt_cn_sc_rocks",
+      "prerequisiteId": "mt_cn_sc_properties",
+      "strength": "hard",
+      "reason": "需要描述特征"
+    },
+    {
+      "topicId": "mt_cn_sc_earth_inside",
+      "prerequisiteId": "mt_cn_sc_rocks",
+      "strength": "soft",
+      "reason": "岩石认识提供背景"
+    },
+    {
+      "topicId": "mt_cn_sc_recycle",
+      "prerequisiteId": "mt_cn_sc_materials",
+      "strength": "hard",
+      "reason": "分类回收需要认识材料"
+    },
+    {
+      "topicId": "mt_cn_sc_resources",
+      "prerequisiteId": "mt_cn_sc_recycle",
+      "strength": "hard",
+      "reason": "节约经验支持资源理解"
+    },
+    {
+      "topicId": "mt_cn_sc_sustainability",
+      "prerequisiteId": "mt_cn_sc_resources",
+      "strength": "hard",
+      "reason": "需要资源概念"
+    },
+    {
+      "topicId": "mt_cn_sc_biodiversity",
+      "prerequisiteId": "mt_cn_sc_foodchain",
+      "strength": "hard",
+      "reason": "需要生态联系"
+    },
+    {
+      "topicId": "mt_cn_sc_disaster",
+      "prerequisiteId": "mt_cn_sc_weather_data",
+      "strength": "soft",
+      "reason": "天气信息帮助风险识别"
+    },
+    {
+      "topicId": "mt_cn_sc_tools",
+      "prerequisiteId": "mt_cn_sc_materials",
+      "strength": "soft",
+      "reason": "材料知识帮助选择"
+    },
+    {
+      "topicId": "mt_cn_sc_artifact",
+      "prerequisiteId": "mt_cn_sc_properties",
+      "strength": "hard",
+      "reason": "需要观察特征"
+    },
+    {
+      "topicId": "mt_cn_sc_model",
+      "prerequisiteId": "mt_cn_sc_artifact",
+      "strength": "hard",
+      "reason": "需要结构功能关系"
+    },
+    {
+      "topicId": "mt_cn_sc_model",
+      "prerequisiteId": "mt_cn_sc_tools",
+      "strength": "hard",
+      "reason": "需要制作经验"
+    },
+    {
+      "topicId": "mt_cn_sc_improve",
+      "prerequisiteId": "mt_cn_sc_model",
+      "strength": "hard",
+      "reason": "需要模型制作"
+    },
+    {
+      "topicId": "mt_cn_sc_improve",
+      "prerequisiteId": "mt_cn_sc_fairtest",
+      "strength": "hard",
+      "reason": "测试需公平比较"
+    },
+    {
+      "topicId": "mt_cn_sc_system",
+      "prerequisiteId": "mt_cn_sc_artifact",
+      "strength": "hard",
+      "reason": "需要结构功能关系"
+    },
+    {
+      "topicId": "mt_cn_it_civility",
+      "prerequisiteId": "mt_cn_it_record",
+      "strength": "soft",
+      "reason": "交流经验帮助理解礼仪"
+    },
+    {
+      "topicId": "mt_cn_it_search",
+      "prerequisiteId": "mt_cn_zh_source_search",
+      "strength": "soft",
+      "reason": "资料检索经验可迁移"
+    },
+    {
+      "topicId": "mt_cn_it_collaborate",
+      "prerequisiteId": "mt_cn_it_record",
+      "strength": "hard",
+      "reason": "需要数字表达"
+    },
+    {
+      "topicId": "mt_cn_it_collaborate",
+      "prerequisiteId": "mt_cn_it_civility",
+      "strength": "hard",
+      "reason": "需要交流规范"
+    },
+    {
+      "topicId": "mt_cn_it_security",
+      "prerequisiteId": "mt_cn_it_privacy",
+      "strength": "hard",
+      "reason": "需要隐私概念"
+    },
+    {
+      "topicId": "mt_cn_it_code",
+      "prerequisiteId": "mt_cn_math_classify",
+      "strength": "soft",
+      "reason": "分类有助于设计编码"
+    },
+    {
+      "topicId": "mt_cn_it_data",
+      "prerequisiteId": "mt_cn_math_collect",
+      "strength": "hard",
+      "reason": "需要数据收集"
+    },
+    {
+      "topicId": "mt_cn_it_data_protect",
+      "prerequisiteId": "mt_cn_it_privacy",
+      "strength": "hard",
+      "reason": "需要隐私认识"
+    },
+    {
+      "topicId": "mt_cn_it_data_protect",
+      "prerequisiteId": "mt_cn_it_data",
+      "strength": "hard",
+      "reason": "需要知道数据内容"
+    },
+    {
+      "topicId": "mt_cn_it_flow",
+      "prerequisiteId": "mt_cn_it_steps",
+      "strength": "hard",
+      "reason": "需要明确步骤"
+    },
+    {
+      "topicId": "mt_cn_it_branch",
+      "prerequisiteId": "mt_cn_it_steps",
+      "strength": "hard",
+      "reason": "需要顺序执行"
+    },
+    {
+      "topicId": "mt_cn_it_loop",
+      "prerequisiteId": "mt_cn_it_steps",
+      "strength": "hard",
+      "reason": "需要执行步骤"
+    },
+    {
+      "topicId": "mt_cn_it_loop",
+      "prerequisiteId": "mt_cn_it_branch",
+      "strength": "hard",
+      "reason": "停止条件需要判断"
+    },
+    {
+      "topicId": "mt_cn_it_test",
+      "prerequisiteId": "mt_cn_it_branch",
+      "strength": "hard",
+      "reason": "需要分支情况"
+    },
+    {
+      "topicId": "mt_cn_it_test",
+      "prerequisiteId": "mt_cn_it_loop",
+      "strength": "hard",
+      "reason": "需要循环过程"
+    },
+    {
+      "topicId": "mt_cn_it_system",
+      "prerequisiteId": "mt_cn_it_flow",
+      "strength": "hard",
+      "reason": "流程图帮助表达过程"
+    },
+    {
+      "topicId": "mt_cn_it_feedback",
+      "prerequisiteId": "mt_cn_it_system",
+      "strength": "hard",
+      "reason": "需要输入输出"
+    },
+    {
+      "topicId": "mt_cn_it_feedback",
+      "prerequisiteId": "mt_cn_it_branch",
+      "strength": "hard",
+      "reason": "阈值需条件判断"
+    },
+    {
+      "topicId": "mt_cn_et_rules",
+      "prerequisiteId": "mt_cn_et_cooperate",
+      "strength": "soft",
+      "reason": "合作经验帮助理解规则"
+    },
+    {
+      "topicId": "mt_cn_et_family",
+      "prerequisiteId": "mt_cn_et_routine",
+      "strength": "hard",
+      "reason": "需要基本自理"
+    },
+    {
+      "topicId": "mt_cn_et_heritage1",
+      "prerequisiteId": "mt_cn_zh_story",
+      "strength": "soft",
+      "reason": "故事理解有帮助"
+    },
+    {
+      "topicId": "mt_cn_et_consumption",
+      "prerequisiteId": "mt_cn_math_money",
+      "strength": "soft",
+      "reason": "购物经验帮助理解"
+    },
+    {
+      "topicId": "mt_cn_et_respect",
+      "prerequisiteId": "mt_cn_et_cooperate",
+      "strength": "hard",
+      "reason": "需要交往经验"
+    },
+    {
+      "topicId": "mt_cn_et_public",
+      "prerequisiteId": "mt_cn_et_rules",
+      "strength": "hard",
+      "reason": "需要公共规则意识"
+    },
+    {
+      "topicId": "mt_cn_et_rules_process",
+      "prerequisiteId": "mt_cn_et_rules",
+      "strength": "hard",
+      "reason": "需要规则意义"
+    },
+    {
+      "topicId": "mt_cn_et_boundaries",
+      "prerequisiteId": "mt_cn_et_safety",
+      "strength": "hard",
+      "reason": "需要求助意识"
+    },
+    {
+      "topicId": "mt_cn_et_boundaries",
+      "prerequisiteId": "mt_cn_et_emotion",
+      "strength": "hard",
+      "reason": "需要表达感受"
+    },
+    {
+      "topicId": "mt_cn_et_hometown",
+      "prerequisiteId": "mt_cn_zh_source_search",
+      "strength": "soft",
+      "reason": "调查需要资料方法"
+    },
+    {
+      "topicId": "mt_cn_et_heritage2",
+      "prerequisiteId": "mt_cn_et_heritage1",
+      "strength": "hard",
+      "reason": "需要故事与文化经验"
+    },
+    {
+      "topicId": "mt_cn_et_values",
+      "prerequisiteId": "mt_cn_et_honesty",
+      "strength": "hard",
+      "reason": "诚信经验提供实例"
+    },
+    {
+      "topicId": "mt_cn_et_reflect",
+      "prerequisiteId": "mt_cn_et_honesty",
+      "strength": "hard",
+      "reason": "需要面对事实"
+    },
+    {
+      "topicId": "mt_cn_et_reflect",
+      "prerequisiteId": "mt_cn_et_cooperate",
+      "strength": "hard",
+      "reason": "需要考虑他人"
+    },
+    {
+      "topicId": "mt_cn_et_law",
+      "prerequisiteId": "mt_cn_et_rules_process",
+      "strength": "hard",
+      "reason": "规则制定经验提供基础"
+    },
+    {
+      "topicId": "mt_cn_et_rights",
+      "prerequisiteId": "mt_cn_et_law",
+      "strength": "hard",
+      "reason": "需要法律概念"
+    },
+    {
+      "topicId": "mt_cn_et_protection",
+      "prerequisiteId": "mt_cn_et_rights",
+      "strength": "hard",
+      "reason": "需要权利意识"
+    },
+    {
+      "topicId": "mt_cn_et_protection",
+      "prerequisiteId": "mt_cn_et_boundaries",
+      "strength": "hard",
+      "reason": "需要识别不当行为"
+    },
+    {
+      "topicId": "mt_cn_et_service",
+      "prerequisiteId": "mt_cn_et_public",
+      "strength": "hard",
+      "reason": "需要公共责任"
+    },
+    {
+      "topicId": "mt_cn_et_service",
+      "prerequisiteId": "mt_cn_et_reflect",
+      "strength": "hard",
+      "reason": "需要反思"
+    },
+    {
+      "topicId": "mt_cn_et_civilizations",
+      "prerequisiteId": "mt_cn_et_heritage2",
+      "strength": "hard",
+      "reason": "需要文化实例"
+    },
+    {
+      "topicId": "mt_cn_et_history",
+      "prerequisiteId": "mt_cn_et_hometown",
+      "strength": "hard",
+      "reason": "需要来源意识"
+    },
+    {
+      "topicId": "mt_cn_et_national_responsibility",
+      "prerequisiteId": "mt_cn_et_service",
+      "strength": "hard",
+      "reason": "公共服务经验帮助理解"
+    },
+    {
+      "topicId": "mt_cn_et_national_responsibility",
+      "prerequisiteId": "mt_cn_et_values",
+      "strength": "hard",
+      "reason": "价值观提供讨论背景"
+    },
+    {
+      "topicId": "mt_cn_lb_organize",
+      "prerequisiteId": "mt_cn_math_classify",
+      "strength": "soft",
+      "reason": "分类支持收纳"
+    },
+    {
+      "topicId": "mt_cn_lb_foodprep",
+      "prerequisiteId": "mt_cn_lb_clean",
+      "strength": "hard",
+      "reason": "需要卫生习惯"
+    },
+    {
+      "topicId": "mt_cn_lb_plant",
+      "prerequisiteId": "mt_cn_sc_needs",
+      "strength": "hard",
+      "reason": "照护需认识生存条件"
+    },
+    {
+      "topicId": "mt_cn_lb_craft",
+      "prerequisiteId": "mt_cn_sc_tools",
+      "strength": "soft",
+      "reason": "工具经验帮助制作"
+    },
+    {
+      "topicId": "mt_cn_lb_housework",
+      "prerequisiteId": "mt_cn_lb_clean",
+      "strength": "hard",
+      "reason": "需要清洁经验"
+    },
+    {
+      "topicId": "mt_cn_lb_housework",
+      "prerequisiteId": "mt_cn_lb_organize",
+      "strength": "hard",
+      "reason": "需要收纳方法"
+    },
+    {
+      "topicId": "mt_cn_lb_cook",
+      "prerequisiteId": "mt_cn_lb_foodprep",
+      "strength": "hard",
+      "reason": "需要食材准备"
+    },
+    {
+      "topicId": "mt_cn_lb_appliance",
+      "prerequisiteId": "mt_cn_lb_clean",
+      "strength": "hard",
+      "reason": "使用后需清理"
+    },
+    {
+      "topicId": "mt_cn_lb_grow",
+      "prerequisiteId": "mt_cn_lb_plant",
+      "strength": "hard",
+      "reason": "需要持续养护"
+    },
+    {
+      "topicId": "mt_cn_lb_diagram",
+      "prerequisiteId": "mt_cn_lb_craft",
+      "strength": "hard",
+      "reason": "需要制作经验"
+    },
+    {
+      "topicId": "mt_cn_lb_service",
+      "prerequisiteId": "mt_cn_et_cooperate",
+      "strength": "hard",
+      "reason": "需要合作"
+    },
+    {
+      "topicId": "mt_cn_lb_service",
+      "prerequisiteId": "mt_cn_lb_housework",
+      "strength": "hard",
+      "reason": "劳动方法帮助实施"
+    },
+    {
+      "topicId": "mt_cn_lb_plan_space",
+      "prerequisiteId": "mt_cn_lb_housework",
+      "strength": "hard",
+      "reason": "需要整理方法"
+    },
+    {
+      "topicId": "mt_cn_lb_meal",
+      "prerequisiteId": "mt_cn_lb_cook",
+      "strength": "hard",
+      "reason": "需要基础烹饪"
+    },
+    {
+      "topicId": "mt_cn_lb_manual",
+      "prerequisiteId": "mt_cn_lb_appliance",
+      "strength": "hard",
+      "reason": "需要器具经验"
+    },
+    {
+      "topicId": "mt_cn_lb_manual",
+      "prerequisiteId": "mt_cn_zh_multimodal",
+      "strength": "soft",
+      "reason": "图文阅读帮助理解说明"
+    },
+    {
+      "topicId": "mt_cn_lb_sustained",
+      "prerequisiteId": "mt_cn_lb_grow",
+      "strength": "hard",
+      "reason": "需要种植经验"
+    },
+    {
+      "topicId": "mt_cn_lb_designcraft",
+      "prerequisiteId": "mt_cn_lb_diagram",
+      "strength": "hard",
+      "reason": "需要识图制作"
+    },
+    {
+      "topicId": "mt_cn_lb_prototype",
+      "prerequisiteId": "mt_cn_lb_designcraft",
+      "strength": "hard",
+      "reason": "需要方案与制作"
+    },
+    {
+      "topicId": "mt_cn_lb_prototype",
+      "prerequisiteId": "mt_cn_sc_improve",
+      "strength": "hard",
+      "reason": "测试改进支持质量检查"
+    },
+    {
+      "topicId": "mt_cn_lb_newtech",
+      "prerequisiteId": "mt_cn_lb_prototype",
+      "strength": "hard",
+      "reason": "需要产品过程"
+    },
+    {
+      "topicId": "mt_cn_lb_newtech",
+      "prerequisiteId": "mt_cn_it_system",
+      "strength": "soft",
+      "reason": "系统概念帮助理解"
+    },
+    {
+      "topicId": "mt_cn_lb_public_service",
+      "prerequisiteId": "mt_cn_lb_service",
+      "strength": "hard",
+      "reason": "需要服务经验"
+    },
+    {
+      "topicId": "mt_cn_lb_public_service",
+      "prerequisiteId": "mt_cn_it_privacy",
+      "strength": "hard",
+      "reason": "服务记录需保护隐私"
+    },
+    {
+      "topicId": "mt_cn_pe_locomotion",
+      "prerequisiteId": "mt_cn_pe_posture",
+      "strength": "hard",
+      "reason": "需要空间与姿态意识"
+    },
+    {
+      "topicId": "mt_cn_pe_balance",
+      "prerequisiteId": "mt_cn_pe_posture",
+      "strength": "hard",
+      "reason": "需要姿态控制"
+    },
+    {
+      "topicId": "mt_cn_pe_object",
+      "prerequisiteId": "mt_cn_pe_posture",
+      "strength": "hard",
+      "reason": "需要空间安全"
+    },
+    {
+      "topicId": "mt_cn_pe_fitness",
+      "prerequisiteId": "mt_cn_pe_locomotion",
+      "strength": "soft",
+      "reason": "移动经验帮助认识体能"
+    },
+    {
+      "topicId": "mt_cn_pe_pace",
+      "prerequisiteId": "mt_cn_pe_feelings",
+      "strength": "hard",
+      "reason": "需要表达身体感受"
+    },
+    {
+      "topicId": "mt_cn_pe_fairplay",
+      "prerequisiteId": "mt_cn_et_rules",
+      "strength": "soft",
+      "reason": "规则意识帮助参与"
+    },
+    {
+      "topicId": "mt_cn_pe_lifestyle",
+      "prerequisiteId": "mt_cn_pe_habits",
+      "strength": "hard",
+      "reason": "需要基本习惯"
+    },
+    {
+      "topicId": "mt_cn_pe_boundary",
+      "prerequisiteId": "mt_cn_pe_safety",
+      "strength": "hard",
+      "reason": "需要求助意识"
+    },
+    {
+      "topicId": "mt_cn_pe_plan",
+      "prerequisiteId": "mt_cn_pe_fitness",
+      "strength": "hard",
+      "reason": "需要体能概念"
+    },
+    {
+      "topicId": "mt_cn_pe_plan",
+      "prerequisiteId": "mt_cn_pe_pace",
+      "strength": "hard",
+      "reason": "需要感受监控"
+    },
+    {
+      "topicId": "mt_cn_pe_coordination",
+      "prerequisiteId": "mt_cn_pe_locomotion",
+      "strength": "hard",
+      "reason": "需要移动"
+    },
+    {
+      "topicId": "mt_cn_pe_coordination",
+      "prerequisiteId": "mt_cn_pe_object",
+      "strength": "hard",
+      "reason": "需要操控"
+    },
+    {
+      "topicId": "mt_cn_pe_coordination",
+      "prerequisiteId": "mt_cn_pe_balance",
+      "strength": "hard",
+      "reason": "需要平衡"
+    },
+    {
+      "topicId": "mt_cn_pe_health_decision",
+      "prerequisiteId": "mt_cn_pe_lifestyle",
+      "strength": "hard",
+      "reason": "需要生活方式认识"
+    },
+    {
+      "topicId": "mt_cn_pe_emergency",
+      "prerequisiteId": "mt_cn_pe_safety",
+      "strength": "hard",
+      "reason": "需要风险与求助意识"
+    },
+    {
+      "topicId": "mt_cn_ar_sing",
+      "prerequisiteId": "mt_cn_ar_pulse",
+      "strength": "soft",
+      "reason": "节拍帮助演唱"
+    },
+    {
+      "topicId": "mt_cn_ar_perform",
+      "prerequisiteId": "mt_cn_ar_listen",
+      "strength": "hard",
+      "reason": "需要听觉感受"
+    },
+    {
+      "topicId": "mt_cn_ar_perform",
+      "prerequisiteId": "mt_cn_ar_sing",
+      "strength": "soft",
+      "reason": "歌唱支持表演"
+    },
+    {
+      "topicId": "mt_cn_ar_elements",
+      "prerequisiteId": "mt_cn_ar_listen",
+      "strength": "hard",
+      "reason": "需要听辨经验"
+    },
+    {
+      "topicId": "mt_cn_ar_structure",
+      "prerequisiteId": "mt_cn_ar_elements",
+      "strength": "hard",
+      "reason": "要素识别帮助比较"
+    },
+    {
+      "topicId": "mt_cn_ar_music_culture",
+      "prerequisiteId": "mt_cn_ar_elements",
+      "strength": "hard",
+      "reason": "需要可听见的证据"
+    },
+    {
+      "topicId": "mt_cn_ar_ensemble",
+      "prerequisiteId": "mt_cn_ar_sing",
+      "strength": "hard",
+      "reason": "需要歌唱基础"
+    },
+    {
+      "topicId": "mt_cn_ar_ensemble",
+      "prerequisiteId": "mt_cn_ar_pulse",
+      "strength": "hard",
+      "reason": "需要稳定节拍"
+    },
+    {
+      "topicId": "mt_cn_ar_music_analysis",
+      "prerequisiteId": "mt_cn_ar_structure",
+      "strength": "hard",
+      "reason": "需要结构意识"
+    },
+    {
+      "topicId": "mt_cn_ar_music_analysis",
+      "prerequisiteId": "mt_cn_ar_music_culture",
+      "strength": "hard",
+      "reason": "需要风格经验"
+    },
+    {
+      "topicId": "mt_cn_ar_make",
+      "prerequisiteId": "mt_cn_ar_visual",
+      "strength": "hard",
+      "reason": "视觉观察支持表达"
+    },
+    {
+      "topicId": "mt_cn_ar_design",
+      "prerequisiteId": "mt_cn_ar_visual",
+      "strength": "hard",
+      "reason": "需要观察形色"
+    },
+    {
+      "topicId": "mt_cn_ar_craft",
+      "prerequisiteId": "mt_cn_ar_make",
+      "strength": "hard",
+      "reason": "需要材料操作"
+    },
+    {
+      "topicId": "mt_cn_ar_appreciate",
+      "prerequisiteId": "mt_cn_ar_visual",
+      "strength": "hard",
+      "reason": "需要视觉语言"
+    },
+    {
+      "topicId": "mt_cn_ar_color",
+      "prerequisiteId": "mt_cn_ar_make",
+      "strength": "hard",
+      "reason": "需要材料经验"
+    },
+    {
+      "topicId": "mt_cn_ar_space",
+      "prerequisiteId": "mt_cn_ar_visual",
+      "strength": "hard",
+      "reason": "需要形状观察"
+    },
+    {
+      "topicId": "mt_cn_ar_design_project",
+      "prerequisiteId": "mt_cn_ar_design",
+      "strength": "hard",
+      "reason": "需要设计意识"
+    },
+    {
+      "topicId": "mt_cn_ar_design_project",
+      "prerequisiteId": "mt_cn_ar_make",
+      "strength": "hard",
+      "reason": "需要制作"
+    },
+    {
+      "topicId": "mt_cn_ar_media",
+      "prerequisiteId": "mt_cn_ar_make",
+      "strength": "hard",
+      "reason": "需要造型"
+    },
+    {
+      "topicId": "mt_cn_ar_media",
+      "prerequisiteId": "mt_cn_it_record",
+      "strength": "soft",
+      "reason": "数字记录支持制作"
+    },
+    {
+      "topicId": "mt_cn_ar_diversity",
+      "prerequisiteId": "mt_cn_ar_appreciate",
+      "strength": "hard",
+      "reason": "需要评述方法"
+    },
+    {
+      "topicId": "mt_cn_ar_environment",
+      "prerequisiteId": "mt_cn_ar_design_project",
+      "strength": "hard",
+      "reason": "需要项目设计"
+    },
+    {
+      "topicId": "mt_cn_ar_film",
+      "prerequisiteId": "mt_cn_ar_media",
+      "strength": "hard",
+      "reason": "需要连续画面"
+    },
+    {
+      "topicId": "mt_cn_ar_film",
+      "prerequisiteId": "mt_cn_zh_structure",
+      "strength": "soft",
+      "reason": "叙事结构有帮助"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Marble Skill Taxonomy
 
+> **中国小学课程扩展（初稿）**：[中文说明](README.zh-CN.md) · [数据](data/cn-primary) · 9 学科 / 308 节点 / 380 依赖。基于教育部 2022 年版课标，待学科专家审核。以下为保留的上游项目介绍。
+
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
 > **Version:** `v1` · **Topics:** 1,590 · **Prerequisite edges:** 3,221 · **Subjects:** 8

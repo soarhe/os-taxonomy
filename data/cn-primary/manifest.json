@@ -1,0 +1,56 @@
+{
+  "dataset": "中国小学课程知识图谱（基于2022年版义务教育课标）",
+  "taxonomyVersion": "cn-primary-2022-draft.1",
+  "status": "draft",
+  "sourceDate": "2026-10-19",
+  "upstreamCommit": "96a7933754af672e1bfdbf7ecb05c325860c6e0d",
+  "counts": {
+    "topics": 308,
+    "topicsBySubject": {
+      "体育与健康": 16,
+      "信息科技": 16,
+      "劳动": 19,
+      "数学": 90,
+      "科学": 70,
+      "艺术": 21,
+      "英语": 20,
+      "语文": 31,
+      "道德与法治": 25
+    },
+    "dependencies": 380,
+    "curricula": 9,
+    "curriculumStandards": 81,
+    "topicStandardLinks": 308,
+    "clusters": 77
+  },
+  "files": {
+    "topics.json": {
+      "bytes": 235144,
+      "sha256": "cdd9f5f7b9c5484f03c38d28490a0466588f8822db6356e6fc0f7a5a85a4ca62"
+    },
+    "dependencies.json": {
+      "bytes": 62858,
+      "sha256": "ac77e74ce6b95f66013134f90b6265e70f8170ed3d90b3fb97a5bc509bc42f27"
+    },
+    "curriculum-standards.json": {
+      "bytes": 12322,
+      "sha256": "57a955008e2d229a412c79dc8eb1bdfa5d00a2de85373a75f64d061c597baef2"
+    },
+    "clusters.json": {
+      "bytes": 18144,
+      "sha256": "cb74c79c98a7e33f9b2666d3e58c5f6a31e80c4a03d9bbf1e451fdc60262c142"
+    },
+    "provenance.json": {
+      "bytes": 136466,
+      "sha256": "b7425ff0d3cf17b9db27ef203e5598d2badc339a4ff73375452ef3ad18c371c1"
+    }
+  },
+  "excluded": [
+    "source PDF text",
+    "student data",
+    "empirical mastery estimates",
+    "official prerequisite claims",
+    "textbook edition mappings"
+  ],
+  "expertReviewCompleted": false
+}

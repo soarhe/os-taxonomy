@@ -1,0 +1,449 @@
+{
+  "note": "Codes are project-assigned section locators, NOT official standard identifiers. Source text is not reproduced. See provenance.json for page ranges.",
+  "codesOnlySources": [
+    "cn-moe-2022-ethics",
+    "cn-moe-2022-chinese",
+    "cn-moe-2022-math",
+    "cn-moe-2022-english",
+    "cn-moe-2022-science",
+    "cn-moe-2022-computing",
+    "cn-moe-2022-pe",
+    "cn-moe-2022-arts",
+    "cn-moe-2022-labor"
+  ],
+  "curriculumCount": 9,
+  "curricula": [
+    {
+      "slug": "cn-moe-2022-ethics",
+      "country": "CN",
+      "name": "义务教育道德与法治课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582343475848.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 6,
+      "topics": [
+        {
+          "key": "cn-moe-2022-ethics:S1-LIFE",
+          "code": "S1-LIFE"
+        },
+        {
+          "key": "cn-moe-2022-ethics:S1-RULES",
+          "code": "S1-RULES"
+        },
+        {
+          "key": "cn-moe-2022-ethics:S2-SOCIETY",
+          "code": "S2-SOCIETY"
+        },
+        {
+          "key": "cn-moe-2022-ethics:S2-CULTURE",
+          "code": "S2-CULTURE"
+        },
+        {
+          "key": "cn-moe-2022-ethics:S3-CIVIC",
+          "code": "S3-CIVIC"
+        },
+        {
+          "key": "cn-moe-2022-ethics:S3-CULTURE",
+          "code": "S3-CULTURE"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-chinese",
+      "country": "CN",
+      "name": "义务教育语文课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 7,
+      "topics": [
+        {
+          "key": "cn-moe-2022-chinese:S1-LITERACY",
+          "code": "S1-LITERACY"
+        },
+        {
+          "key": "cn-moe-2022-chinese:S1-READ",
+          "code": "S1-READ"
+        },
+        {
+          "key": "cn-moe-2022-chinese:S1-EXPRESS",
+          "code": "S1-EXPRESS"
+        },
+        {
+          "key": "cn-moe-2022-chinese:S2-READ",
+          "code": "S2-READ"
+        },
+        {
+          "key": "cn-moe-2022-chinese:S2-WRITE",
+          "code": "S2-WRITE"
+        },
+        {
+          "key": "cn-moe-2022-chinese:S3-READ",
+          "code": "S3-READ"
+        },
+        {
+          "key": "cn-moe-2022-chinese:S3-WRITE",
+          "code": "S3-WRITE"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-math",
+      "country": "CN",
+      "name": "义务教育数学课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 12,
+      "topics": [
+        {
+          "key": "cn-moe-2022-math:S1-NUM",
+          "code": "S1-NUM"
+        },
+        {
+          "key": "cn-moe-2022-math:S2-NUM",
+          "code": "S2-NUM"
+        },
+        {
+          "key": "cn-moe-2022-math:S3-NUM",
+          "code": "S3-NUM"
+        },
+        {
+          "key": "cn-moe-2022-math:S1-GEO",
+          "code": "S1-GEO"
+        },
+        {
+          "key": "cn-moe-2022-math:S2-GEO",
+          "code": "S2-GEO"
+        },
+        {
+          "key": "cn-moe-2022-math:S3-GEO",
+          "code": "S3-GEO"
+        },
+        {
+          "key": "cn-moe-2022-math:S1-DATA",
+          "code": "S1-DATA"
+        },
+        {
+          "key": "cn-moe-2022-math:S2-DATA",
+          "code": "S2-DATA"
+        },
+        {
+          "key": "cn-moe-2022-math:S3-DATA",
+          "code": "S3-DATA"
+        },
+        {
+          "key": "cn-moe-2022-math:S1-PRACTICE",
+          "code": "S1-PRACTICE"
+        },
+        {
+          "key": "cn-moe-2022-math:S2-PRACTICE",
+          "code": "S2-PRACTICE"
+        },
+        {
+          "key": "cn-moe-2022-math:S3-PRACTICE",
+          "code": "S3-PRACTICE"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-english",
+      "country": "CN",
+      "name": "义务教育英语课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 4,
+      "topics": [
+        {
+          "key": "cn-moe-2022-english:L1-KNOWLEDGE",
+          "code": "L1-KNOWLEDGE"
+        },
+        {
+          "key": "cn-moe-2022-english:L1-SKILLS",
+          "code": "L1-SKILLS"
+        },
+        {
+          "key": "cn-moe-2022-english:L2-KNOWLEDGE",
+          "code": "L2-KNOWLEDGE"
+        },
+        {
+          "key": "cn-moe-2022-english:L2-SKILLS",
+          "code": "L2-SKILLS"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-science",
+      "country": "CN",
+      "name": "义务教育科学课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582355009892.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 29,
+      "topics": [
+        {
+          "key": "cn-moe-2022-science:S1-MATTER",
+          "code": "S1-MATTER"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-DISSOLVE",
+          "code": "S1-DISSOLVE"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-MATTER",
+          "code": "S2-MATTER"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-CHANGE",
+          "code": "S2-CHANGE"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-MATTER",
+          "code": "S3-MATTER"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-FORCE",
+          "code": "S1-FORCE"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-FORCE",
+          "code": "S2-FORCE"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-FORCE",
+          "code": "S3-FORCE"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-ENERGY",
+          "code": "S2-ENERGY"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-ENERGY",
+          "code": "S3-ENERGY"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-LIFE",
+          "code": "S1-LIFE"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-NEEDS",
+          "code": "S1-NEEDS"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-LIFE",
+          "code": "S2-LIFE"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-ADAPT",
+          "code": "S2-ADAPT"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-CYCLE",
+          "code": "S2-CYCLE"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-LIFE",
+          "code": "S3-LIFE"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-CYCLE",
+          "code": "S3-CYCLE"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-EARTH",
+          "code": "S1-EARTH"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-EARTH",
+          "code": "S2-EARTH"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-EARTH",
+          "code": "S3-EARTH"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-WEATHER",
+          "code": "S1-WEATHER"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-WEATHER",
+          "code": "S2-WEATHER"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-WEATHER",
+          "code": "S3-WEATHER"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-ENV",
+          "code": "S1-ENV"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-ENV",
+          "code": "S2-ENV"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-ENV",
+          "code": "S3-ENV"
+        },
+        {
+          "key": "cn-moe-2022-science:S1-TECH",
+          "code": "S1-TECH"
+        },
+        {
+          "key": "cn-moe-2022-science:S2-TECH",
+          "code": "S2-TECH"
+        },
+        {
+          "key": "cn-moe-2022-science:S3-TECH",
+          "code": "S3-TECH"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-computing",
+      "country": "CN",
+      "name": "义务教育信息科技课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582361024968.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 4,
+      "topics": [
+        {
+          "key": "cn-moe-2022-computing:S1-DIGITAL",
+          "code": "S1-DIGITAL"
+        },
+        {
+          "key": "cn-moe-2022-computing:S2-ONLINE",
+          "code": "S2-ONLINE"
+        },
+        {
+          "key": "cn-moe-2022-computing:S2-DATA",
+          "code": "S2-DATA"
+        },
+        {
+          "key": "cn-moe-2022-computing:S3-ALGO",
+          "code": "S3-ALGO"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-pe",
+      "country": "CN",
+      "name": "义务教育体育与健康课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582362336303.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 6,
+      "topics": [
+        {
+          "key": "cn-moe-2022-pe:L1-MOVE",
+          "code": "L1-MOVE"
+        },
+        {
+          "key": "cn-moe-2022-pe:L1-HEALTH",
+          "code": "L1-HEALTH"
+        },
+        {
+          "key": "cn-moe-2022-pe:L2-FITNESS",
+          "code": "L2-FITNESS"
+        },
+        {
+          "key": "cn-moe-2022-pe:L2-HEALTH",
+          "code": "L2-HEALTH"
+        },
+        {
+          "key": "cn-moe-2022-pe:L3-FITNESS",
+          "code": "L3-FITNESS"
+        },
+        {
+          "key": "cn-moe-2022-pe:L3-HEALTH",
+          "code": "L3-HEALTH"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-arts",
+      "country": "CN",
+      "name": "义务教育艺术课程标准（2022年版）",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582364678888.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 7,
+      "topics": [
+        {
+          "key": "cn-moe-2022-arts:S1-MUSIC",
+          "code": "S1-MUSIC"
+        },
+        {
+          "key": "cn-moe-2022-arts:S2-MUSIC",
+          "code": "S2-MUSIC"
+        },
+        {
+          "key": "cn-moe-2022-arts:S2-SING",
+          "code": "S2-SING"
+        },
+        {
+          "key": "cn-moe-2022-arts:S3-MUSIC-G6",
+          "code": "S3-MUSIC-G6"
+        },
+        {
+          "key": "cn-moe-2022-arts:S1-VISUAL",
+          "code": "S1-VISUAL"
+        },
+        {
+          "key": "cn-moe-2022-arts:S2-VISUAL",
+          "code": "S2-VISUAL"
+        },
+        {
+          "key": "cn-moe-2022-arts:S3-VISUAL-G6",
+          "code": "S3-VISUAL-G6"
+        }
+      ]
+    },
+    {
+      "slug": "cn-moe-2022-labor",
+      "country": "CN",
+      "name": "义务教育劳动课程标准(2022年版)",
+      "version": "2022",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582367012450.pdf",
+      "textIncluded": false,
+      "license": "Upstream source terms; no license granted by this fork for source PDFs.",
+      "topicCount": 6,
+      "topics": [
+        {
+          "key": "cn-moe-2022-labor:S1-DAILY",
+          "code": "S1-DAILY"
+        },
+        {
+          "key": "cn-moe-2022-labor:S1-PRODUCE",
+          "code": "S1-PRODUCE"
+        },
+        {
+          "key": "cn-moe-2022-labor:S2-DAILY",
+          "code": "S2-DAILY"
+        },
+        {
+          "key": "cn-moe-2022-labor:S2-PRODUCE",
+          "code": "S2-PRODUCE"
+        },
+        {
+          "key": "cn-moe-2022-labor:S3-DAILY",
+          "code": "S3-DAILY"
+        },
+        {
+          "key": "cn-moe-2022-labor:S3-PRODUCE",
+          "code": "S3-PRODUCE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5611 @@
+{
+  "version": "cn-primary-2022-draft.1",
+  "status": "draft",
+  "sourceIndexUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
+  "sources": [
+    {
+      "slug": "ethics",
+      "subject": "道德与法治",
+      "title": "义务教育道德与法治课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582343475848.pdf",
+      "sha256": "16c0a291b522ce5b0afe3b1a28e696d8cca0d4d63cc01ff552a1d6ce06506cf0",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 73
+    },
+    {
+      "slug": "chinese",
+      "subject": "语文",
+      "title": "义务教育语文课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf",
+      "sha256": "3ef0ec8a30b5a950211202658df07d99f5427f750f8ba0c3cfda12736b7bd71a",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 109
+    },
+    {
+      "slug": "math",
+      "subject": "数学",
+      "title": "义务教育数学课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+      "sha256": "1183b95c58a65eaac4c456f2d2b329bbe42f65a6482993edb537e3eaf8baa144",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 189
+    },
+    {
+      "slug": "english",
+      "subject": "英语",
+      "title": "义务教育英语课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+      "sha256": "59ec3971e0dbd6ca487c4e4972cbc80effaf2fd62418d07e5f62c6698fa222fb",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 201
+    },
+    {
+      "slug": "science",
+      "subject": "科学",
+      "title": "义务教育科学课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582355009892.pdf",
+      "sha256": "630b2fb082aed2f0b6aaff1cd30cdea530c41459ee0ffd5847e3e07b7324546f",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 193
+    },
+    {
+      "slug": "computing",
+      "subject": "信息科技",
+      "title": "义务教育信息科技课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582361024968.pdf",
+      "sha256": "065f9df22d35da8813508c23782c7853dab3c54e34f552a627f8dd1698fa1e01",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 74
+    },
+    {
+      "slug": "pe",
+      "subject": "体育与健康",
+      "title": "义务教育体育与健康课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582362336303.pdf",
+      "sha256": "bc53754f8fb55e32f1ac49abfbbd120ee587d0385ed5dfbea620baa16624e03d",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 148
+    },
+    {
+      "slug": "arts",
+      "subject": "艺术",
+      "title": "义务教育艺术课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582364678888.pdf",
+      "sha256": "7c5c688f5e1b9d8e5c2a0ef908055322df67bb36d5b85ca1c540f1c35807230d",
+      "printedPageOffset": 7,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 131
+    },
+    {
+      "slug": "labor",
+      "subject": "劳动",
+      "title": "义务教育劳动课程标准(2022年版)",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582367012450.pdf",
+      "sha256": "d5f080fee80df073ef67f6b0dbe303250913777aee32f98bea4f22df1c6247d8",
+      "printedPageOffset": 8,
+      "retrievedAt": "2026-10-19",
+      "publisher": "中华人民共和国教育部",
+      "extractionMethod": "Local OCR of official scanned PDF; section mapping inspected; no official clause codes invented.",
+      "pdfPageCount": 68
+    }
+  ],
+  "standardLocators": [
+    {
+      "key": "cn-moe-2022-math:S1-NUM",
+      "code": "S1-NUM",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／数与代数／第一学段／内容要求与学业要求",
+      "pdfPages": [
+        25,
+        26
+      ],
+      "printedPages": [
+        18,
+        19
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S2-NUM",
+      "code": "S2-NUM",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／数与代数／第二学段",
+      "pdfPages": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "printedPages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S3-NUM",
+      "code": "S3-NUM",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／数与代数／第三学段",
+      "pdfPages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "printedPages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S1-GEO",
+      "code": "S1-GEO",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／图形与几何／第一学段",
+      "pdfPages": [
+        35
+      ],
+      "printedPages": [
+        28
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S2-GEO",
+      "code": "S2-GEO",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／图形与几何／第二学段",
+      "pdfPages": [
+        36,
+        37,
+        38
+      ],
+      "printedPages": [
+        29,
+        30,
+        31
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S3-GEO",
+      "code": "S3-GEO",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／图形与几何／第三学段",
+      "pdfPages": [
+        39,
+        40,
+        41
+      ],
+      "printedPages": [
+        32,
+        33,
+        34
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S1-DATA",
+      "code": "S1-DATA",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／统计与概率／第一学段",
+      "pdfPages": [
+        44,
+        45
+      ],
+      "printedPages": [
+        37,
+        38
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S2-DATA",
+      "code": "S2-DATA",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／统计与概率／第二学段",
+      "pdfPages": [
+        45,
+        46
+      ],
+      "printedPages": [
+        38,
+        39
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S3-DATA",
+      "code": "S3-DATA",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／统计与概率／第三学段",
+      "pdfPages": [
+        47,
+        48
+      ],
+      "printedPages": [
+        40,
+        41
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S1-PRACTICE",
+      "code": "S1-PRACTICE",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／综合与实践／第一学段",
+      "pdfPages": [
+        50,
+        51,
+        52
+      ],
+      "printedPages": [
+        43,
+        44,
+        45
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S2-PRACTICE",
+      "code": "S2-PRACTICE",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／综合与实践／第二学段",
+      "pdfPages": [
+        53,
+        54,
+        55
+      ],
+      "printedPages": [
+        46,
+        47,
+        48
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-math:S3-PRACTICE",
+      "code": "S3-PRACTICE",
+      "sourceSlug": "cn-moe-2022-math",
+      "section": "四、课程内容／小学部分／综合与实践／第三学段",
+      "pdfPages": [
+        57,
+        58,
+        59
+      ],
+      "printedPages": [
+        50,
+        51,
+        52
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-chinese:S1-LITERACY",
+      "code": "S1-LITERACY",
+      "sourceSlug": "cn-moe-2022-chinese",
+      "section": "三、课程目标／学段要求／第一学段／识字与写字",
+      "pdfPages": [
+        14
+      ],
+      "printedPages": [
+        7
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-chinese:S1-READ",
+      "code": "S1-READ",
+      "sourceSlug": "cn-moe-2022-chinese",
+      "section": "三、课程目标／学段要求／第一学段／阅读与鉴赏",
+      "pdfPages": [
+        15
+      ],
+      "printedPages": [
+        8
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-chinese:S1-EXPRESS",
+      "code": "S1-EXPRESS",
+      "sourceSlug": "cn-moe-2022-chinese",
+      "section": "三、课程目标／学段要求／第一学段／表达与交流、梳理与探究",
+      "pdfPages": [
+        15,
+        16
+      ],
+      "printedPages": [
+        8,
+        9
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-chinese:S2-READ",
+      "code": "S2-READ",
+      "sourceSlug": "cn-moe-2022-chinese",
+      "section": "三、课程目标／学段要求／第二学段／识字与写字、阅读与鉴赏",
+      "pdfPages": [
+        16,
+        17
+      ],
+      "printedPages": [
+        9,
+        10
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-chinese:S2-WRITE",
+      "code": "S2-WRITE",
+      "sourceSlug": "cn-moe-2022-chinese",
+      "section": "三、课程目标／学段要求／第二学段／表达与交流、梳理与探究",
+      "pdfPages": [
+        17,
+        18
+      ],
+      "printedPages": [
+        10,
+        11
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-chinese:S3-READ",
+      "code": "S3-READ",
+      "sourceSlug": "cn-moe-2022-chinese",
+      "section": "三、课程目标／学段要求／第三学段／识字与写字、阅读与鉴赏",
+      "pdfPages": [
+        18,
+        19
+      ],
+      "printedPages": [
+        11,
+        12
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-chinese:S3-WRITE",
+      "code": "S3-WRITE",
+      "sourceSlug": "cn-moe-2022-chinese",
+      "section": "三、课程目标／学段要求／第三学段／表达与交流、梳理与探究",
+      "pdfPages": [
+        19,
+        20
+      ],
+      "printedPages": [
+        12,
+        13
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-english:L1-KNOWLEDGE",
+      "code": "L1-KNOWLEDGE",
+      "sourceSlug": "cn-moe-2022-english",
+      "section": "四、课程内容／内容要求／语言知识／一级",
+      "pdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "printedPages": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-english:L1-SKILLS",
+      "code": "L1-SKILLS",
+      "sourceSlug": "cn-moe-2022-english",
+      "section": "四、课程内容／内容要求／语言技能／一级（不含一级+）",
+      "pdfPages": [
+        32,
+        33
+      ],
+      "printedPages": [
+        25,
+        26
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-english:L2-KNOWLEDGE",
+      "code": "L2-KNOWLEDGE",
+      "sourceSlug": "cn-moe-2022-english",
+      "section": "四、课程内容／内容要求／语言知识、文化知识／二级",
+      "pdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "printedPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-english:L2-SKILLS",
+      "code": "L2-SKILLS",
+      "sourceSlug": "cn-moe-2022-english",
+      "section": "四、课程内容／内容要求／语言技能／二级（不含二级+）",
+      "pdfPages": [
+        33,
+        34
+      ],
+      "printedPages": [
+        26,
+        27
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-MATTER",
+      "code": "S1-MATTER",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的结构与性质／1—2年级",
+      "pdfPages": [
+        26,
+        27
+      ],
+      "printedPages": [
+        19,
+        20
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-DISSOLVE",
+      "code": "S1-DISSOLVE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的变化与化学反应／1—2年级",
+      "pdfPages": [
+        36
+      ],
+      "printedPages": [
+        29
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-MATTER",
+      "code": "S2-MATTER",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的结构与性质／3—4年级",
+      "pdfPages": [
+        27
+      ],
+      "printedPages": [
+        20
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-CHANGE",
+      "code": "S2-CHANGE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的变化与化学反应／3—4年级",
+      "pdfPages": [
+        36
+      ],
+      "printedPages": [
+        29
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-MATTER",
+      "code": "S3-MATTER",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的结构与性质、物质的变化／5—6年级相关要求",
+      "pdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "printedPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-FORCE",
+      "code": "S1-FORCE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的运动与相互作用／1—2年级",
+      "pdfPages": [
+        42
+      ],
+      "printedPages": [
+        35
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-FORCE",
+      "code": "S2-FORCE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的运动与相互作用／3—4年级",
+      "pdfPages": [
+        42,
+        43
+      ],
+      "printedPages": [
+        35,
+        36
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-FORCE",
+      "code": "S3-FORCE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／物质的运动与相互作用／5—6年级",
+      "pdfPages": [
+        43
+      ],
+      "printedPages": [
+        36
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-ENERGY",
+      "code": "S2-ENERGY",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／能的转化与能量守恒／3—4年级",
+      "pdfPages": [
+        50
+      ],
+      "printedPages": [
+        43
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-ENERGY",
+      "code": "S3-ENERGY",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／能的转化与能量守恒／5—6年级",
+      "pdfPages": [
+        50,
+        51
+      ],
+      "printedPages": [
+        43,
+        44
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-LIFE",
+      "code": "S1-LIFE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／生命系统的构成层次／1—2年级",
+      "pdfPages": [
+        56
+      ],
+      "printedPages": [
+        49
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-NEEDS",
+      "code": "S1-NEEDS",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／生物体的稳态与调节／1—2年级",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-LIFE",
+      "code": "S2-LIFE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／生命系统的构成层次／3—4年级",
+      "pdfPages": [
+        56
+      ],
+      "printedPages": [
+        49
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-ADAPT",
+      "code": "S2-ADAPT",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／生物体的稳态与调节、生物与环境／3—4年级相关要求",
+      "pdfPages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "printedPages": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-CYCLE",
+      "code": "S2-CYCLE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／生命的延续与进化／3—4年级",
+      "pdfPages": [
+        74
+      ],
+      "printedPages": [
+        67
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-LIFE",
+      "code": "S3-LIFE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／生命系统的构成层次／5—6年级",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        50
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-CYCLE",
+      "code": "S3-CYCLE",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／生命的延续与进化／5—6年级",
+      "pdfPages": [
+        74,
+        75
+      ],
+      "printedPages": [
+        67,
+        68
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-EARTH",
+      "code": "S1-EARTH",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／宇宙中的地球／1—2年级",
+      "pdfPages": [
+        80
+      ],
+      "printedPages": [
+        73
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-EARTH",
+      "code": "S2-EARTH",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／宇宙中的地球／3—4年级",
+      "pdfPages": [
+        80
+      ],
+      "printedPages": [
+        73
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-EARTH",
+      "code": "S3-EARTH",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／宇宙中的地球／5—6年级",
+      "pdfPages": [
+        80
+      ],
+      "printedPages": [
+        73
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-WEATHER",
+      "code": "S1-WEATHER",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／地球系统／1—2年级",
+      "pdfPages": [
+        86
+      ],
+      "printedPages": [
+        79
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-WEATHER",
+      "code": "S2-WEATHER",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／地球系统／3—4年级",
+      "pdfPages": [
+        86
+      ],
+      "printedPages": [
+        79
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-WEATHER",
+      "code": "S3-WEATHER",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／地球系统／5—6年级",
+      "pdfPages": [
+        86
+      ],
+      "printedPages": [
+        79
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-ENV",
+      "code": "S1-ENV",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／人类活动与环境／1—2年级",
+      "pdfPages": [
+        91
+      ],
+      "printedPages": [
+        84
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-ENV",
+      "code": "S2-ENV",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／人类活动与环境／3—4年级",
+      "pdfPages": [
+        92
+      ],
+      "printedPages": [
+        85
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-ENV",
+      "code": "S3-ENV",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／人类活动与环境／5—6年级",
+      "pdfPages": [
+        92
+      ],
+      "printedPages": [
+        85
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S1-TECH",
+      "code": "S1-TECH",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／技术、工程与社会／1—2年级",
+      "pdfPages": [
+        97,
+        98,
+        99
+      ],
+      "printedPages": [
+        90,
+        91,
+        92
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S2-TECH",
+      "code": "S2-TECH",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／技术、工程与社会／3—4年级",
+      "pdfPages": [
+        98,
+        99,
+        100
+      ],
+      "printedPages": [
+        91,
+        92,
+        93
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-science:S3-TECH",
+      "code": "S3-TECH",
+      "sourceSlug": "cn-moe-2022-science",
+      "section": "四、课程内容／技术、工程与社会／5—6年级",
+      "pdfPages": [
+        98,
+        99,
+        100
+      ],
+      "printedPages": [
+        91,
+        92,
+        93
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-computing:S1-DIGITAL",
+      "code": "S1-DIGITAL",
+      "sourceSlug": "cn-moe-2022-computing",
+      "section": "四、课程内容／第一学段／信息交流与分享、信息隐私与安全",
+      "pdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "printedPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-computing:S2-ONLINE",
+      "code": "S2-ONLINE",
+      "sourceSlug": "cn-moe-2022-computing",
+      "section": "四、课程内容／第二学段／在线学习与生活",
+      "pdfPages": [
+        27,
+        28,
+        29
+      ],
+      "printedPages": [
+        20,
+        21,
+        22
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-computing:S2-DATA",
+      "code": "S2-DATA",
+      "sourceSlug": "cn-moe-2022-computing",
+      "section": "四、课程内容／第二学段／数据与编码、数据编码探秘",
+      "pdfPages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "printedPages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-computing:S3-ALGO",
+      "code": "S3-ALGO",
+      "sourceSlug": "cn-moe-2022-computing",
+      "section": "四、课程内容／第三学段／身边的算法、过程与控制、小型系统模拟",
+      "pdfPages": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "printedPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-ethics:S1-LIFE",
+      "code": "S1-LIFE",
+      "sourceSlug": "cn-moe-2022-ethics",
+      "section": "四、课程内容／第一学段／入学教育、道德教育、生命安全与健康教育",
+      "pdfPages": [
+        25,
+        26,
+        27
+      ],
+      "printedPages": [
+        18,
+        19,
+        20
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-ethics:S1-RULES",
+      "code": "S1-RULES",
+      "sourceSlug": "cn-moe-2022-ethics",
+      "section": "四、课程内容／第一学段／法治教育、中华优秀传统文化与革命传统教育",
+      "pdfPages": [
+        27,
+        28
+      ],
+      "printedPages": [
+        20,
+        21
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-ethics:S2-SOCIETY",
+      "code": "S2-SOCIETY",
+      "sourceSlug": "cn-moe-2022-ethics",
+      "section": "四、课程内容／第二学段／道德教育、生命安全与健康教育、法治教育",
+      "pdfPages": [
+        29,
+        30,
+        31
+      ],
+      "printedPages": [
+        22,
+        23,
+        24
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-ethics:S2-CULTURE",
+      "code": "S2-CULTURE",
+      "sourceSlug": "cn-moe-2022-ethics",
+      "section": "四、课程内容／第二学段／中华优秀传统文化与革命传统教育、国情教育",
+      "pdfPages": [
+        32,
+        33,
+        34
+      ],
+      "printedPages": [
+        25,
+        26,
+        27
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-ethics:S3-CIVIC",
+      "code": "S3-CIVIC",
+      "sourceSlug": "cn-moe-2022-ethics",
+      "section": "四、课程内容／第三学段／道德教育、生命安全与健康教育、法治教育",
+      "pdfPages": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "printedPages": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-ethics:S3-CULTURE",
+      "code": "S3-CULTURE",
+      "sourceSlug": "cn-moe-2022-ethics",
+      "section": "四、课程内容／第三学段／中华优秀传统文化与革命传统教育、国情教育",
+      "pdfPages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "printedPages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-labor:S1-DAILY",
+      "code": "S1-DAILY",
+      "sourceSlug": "cn-moe-2022-labor",
+      "section": "四、课程内容／第一学段／清洁与卫生、整理与收纳、烹饪与营养",
+      "pdfPages": [
+        21,
+        22
+      ],
+      "printedPages": [
+        13,
+        14
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-labor:S1-PRODUCE",
+      "code": "S1-PRODUCE",
+      "sourceSlug": "cn-moe-2022-labor",
+      "section": "四、课程内容／第一学段／农业生产劳动、传统工艺制作",
+      "pdfPages": [
+        22,
+        23
+      ],
+      "printedPages": [
+        14,
+        15
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-labor:S2-DAILY",
+      "code": "S2-DAILY",
+      "sourceSlug": "cn-moe-2022-labor",
+      "section": "四、课程内容／第二学段／清洁、收纳、烹饪与器具",
+      "pdfPages": [
+        24,
+        25
+      ],
+      "printedPages": [
+        16,
+        17
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-labor:S2-PRODUCE",
+      "code": "S2-PRODUCE",
+      "sourceSlug": "cn-moe-2022-labor",
+      "section": "四、课程内容／第二学段／农业、传统工艺、服务性劳动",
+      "pdfPages": [
+        26,
+        27,
+        28
+      ],
+      "printedPages": [
+        18,
+        19,
+        20
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-labor:S3-DAILY",
+      "code": "S3-DAILY",
+      "sourceSlug": "cn-moe-2022-labor",
+      "section": "四、课程内容／第三学段／整理、烹饪与器具",
+      "pdfPages": [
+        29,
+        30
+      ],
+      "printedPages": [
+        21,
+        22
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-labor:S3-PRODUCE",
+      "code": "S3-PRODUCE",
+      "sourceSlug": "cn-moe-2022-labor",
+      "section": "四、课程内容／第三学段／农业、工艺、工业、新技术、现代服务与公益",
+      "pdfPages": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "printedPages": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-pe:L1-MOVE",
+      "code": "L1-MOVE",
+      "sourceSlug": "cn-moe-2022-pe",
+      "section": "四、课程内容／基本运动技能／水平一",
+      "pdfPages": [
+        18,
+        19
+      ],
+      "printedPages": [
+        11,
+        12
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-pe:L1-HEALTH",
+      "code": "L1-HEALTH",
+      "sourceSlug": "cn-moe-2022-pe",
+      "section": "四、课程内容／健康教育／水平一",
+      "pdfPages": [
+        27,
+        28
+      ],
+      "printedPages": [
+        20,
+        21
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-pe:L2-FITNESS",
+      "code": "L2-FITNESS",
+      "sourceSlug": "cn-moe-2022-pe",
+      "section": "四、课程内容／体能／水平二",
+      "pdfPages": [
+        20,
+        21,
+        22
+      ],
+      "printedPages": [
+        13,
+        14,
+        15
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-pe:L2-HEALTH",
+      "code": "L2-HEALTH",
+      "sourceSlug": "cn-moe-2022-pe",
+      "section": "四、课程内容／健康教育／水平二",
+      "pdfPages": [
+        29,
+        30
+      ],
+      "printedPages": [
+        22,
+        23
+      ],
+      "sourceGradeRange": [
+        3,
+        4
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-pe:L3-FITNESS",
+      "code": "L3-FITNESS",
+      "sourceSlug": "cn-moe-2022-pe",
+      "section": "四、课程内容／体能／水平三",
+      "pdfPages": [
+        22,
+        23,
+        24
+      ],
+      "printedPages": [
+        15,
+        16,
+        17
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-pe:L3-HEALTH",
+      "code": "L3-HEALTH",
+      "sourceSlug": "cn-moe-2022-pe",
+      "section": "四、课程内容／健康教育／水平三",
+      "pdfPages": [
+        30,
+        31
+      ],
+      "printedPages": [
+        23,
+        24
+      ],
+      "sourceGradeRange": [
+        5,
+        6
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-arts:S1-MUSIC",
+      "code": "S1-MUSIC",
+      "sourceSlug": "cn-moe-2022-arts",
+      "section": "五、课程内容／音乐／第一学段",
+      "pdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "printedPages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-arts:S2-MUSIC",
+      "code": "S2-MUSIC",
+      "sourceSlug": "cn-moe-2022-arts",
+      "section": "五、课程内容／音乐／听赏与评述／第二学段",
+      "pdfPages": [
+        29,
+        30
+      ],
+      "printedPages": [
+        22,
+        23
+      ],
+      "sourceGradeRange": [
+        3,
+        5
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-arts:S2-SING",
+      "code": "S2-SING",
+      "sourceSlug": "cn-moe-2022-arts",
+      "section": "五、课程内容／音乐／独唱与合作演唱／第二学段",
+      "pdfPages": [
+        35,
+        36
+      ],
+      "printedPages": [
+        28,
+        29
+      ],
+      "sourceGradeRange": [
+        3,
+        5
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-arts:S3-MUSIC-G6",
+      "code": "S3-MUSIC-G6",
+      "sourceSlug": "cn-moe-2022-arts",
+      "section": "五、课程内容／音乐／听赏与评述／第三学段中的6年级要求",
+      "pdfPages": [
+        30,
+        31
+      ],
+      "printedPages": [
+        23,
+        24
+      ],
+      "sourceGradeRange": [
+        6,
+        7
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-arts:S1-VISUAL",
+      "code": "S1-VISUAL",
+      "sourceSlug": "cn-moe-2022-arts",
+      "section": "五、课程内容／美术／第一学段",
+      "pdfPages": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "printedPages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "sourceGradeRange": [
+        1,
+        2
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-arts:S2-VISUAL",
+      "code": "S2-VISUAL",
+      "sourceSlug": "cn-moe-2022-arts",
+      "section": "五、课程内容／美术／第二学段",
+      "pdfPages": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "printedPages": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "sourceGradeRange": [
+        3,
+        5
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "key": "cn-moe-2022-arts:S3-VISUAL-G6",
+      "code": "S3-VISUAL-G6",
+      "sourceSlug": "cn-moe-2022-arts",
+      "section": "五、课程内容／美术／第三学段中的6年级要求",
+      "pdfPages": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "printedPages": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "sourceGradeRange": [
+        6,
+        7
+      ],
+      "codeOrigin": "project-assigned-section-locator",
+      "mappingGranularity": "section",
+      "reviewStatus": "pending-subject-expert-review"
+    }
+  ],
+  "topicMappings": [
+    {
+      "topicId": "mt_cn_math_count",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_place",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_compare",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_add",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_sub",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_add20",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_written_add",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_equal_groups",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_multiply",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_divide",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_tables",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_model1",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_pattern",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_large",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_multi_mul",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_multi_div",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_unit",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_repr",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_compare",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_add",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_intro",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_add1",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_order",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_laws",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_price",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_speed",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_estimate",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_equal_relation",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_calculator",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_factors",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_divisibility",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_prime",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_common",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_division",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_equivalent",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_common_den",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_add2",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_mul",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_div",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_decimal",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_decimal_ops",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_fraction_decimal",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_equation_property",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_letter",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_ratio",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_proportion",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_direct",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-NUM"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_shapes",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_composition",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_length",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_cm_m",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_lines",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_parallel",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_angle",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_angle_measure",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_triangle",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_perimeter",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_area",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_rectangle_area",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_units2",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_views",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_transform",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_triangle_properties",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_polygon_area",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_circle",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_circle_area",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_volume",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_cuboid",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_cylinder",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_coordinates",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_mapscale",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_grid_transform",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-GEO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_classify",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_tally",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_collect",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_bar",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_mean",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_linechart",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_percent",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_pie",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_chance",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_money",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_time",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_direction",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S1-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_calendar",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_mass",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_eight_directions",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S2-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_negative",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_campus_plan",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_math_survey_project",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-math:S3-PRACTICE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_pinyin",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_components",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_character",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_dictionary",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-LITERACY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_read_aloud",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_context",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_story",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_poem",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_book",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_listen",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_speak",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_sentence",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_question",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S1-EXPRESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_independent_chars",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_silent",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_mainidea",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_annotation",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_expression_effect",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_retell",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_paragraph",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_note",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_revision",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_source_search",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S2-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_inference",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_structure",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_multimodal",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_book_recommend",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-READ"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_opinion",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_composition",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_peer_revision",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_zh_research",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-chinese:S3-WRITE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_letters",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_phonics",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_vocabulary",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_simple_sentence",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_present",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_politeness",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_instruction",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_picture_read",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_information",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_selfintro",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_copy_sentence",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L1-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_stress",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_past_future",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_compare",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_service",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_culture",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-KNOWLEDGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_guess",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_story_sequence",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_paragraph",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_en_poster",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-english:L2-SKILLS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_properties",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_materials",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_water_air",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_dissolve",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-DISSOLVE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_measure",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_air_space",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_separate",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_states",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-CHANGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_fairtest",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-CHANGE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_evaporation",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_air_mix",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_new_substance",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-MATTER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_push_pull",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_magnet",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_speed",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_poles",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_circuit",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_sound",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_shadow",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_force_motion",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_light",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-FORCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_temperature",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-ENERGY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_expansion",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-ENERGY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_energy",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_heat",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_machine",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_energy_sources",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-ENERGY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_living",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_senses",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_needs",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-NEEDS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_life_classify",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_plant_parts",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_body",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_plant_function",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-ADAPT"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_adaptation",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-ADAPT"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_lifecycle",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-CYCLE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_reproduction",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-CYCLE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_cells",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_microbes",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_foodchain",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_inheritance",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-CYCLE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_fossil",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-CYCLE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_growth",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-CYCLE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_sun",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_moon_observe",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_season_observe",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_planet",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_shadow_time",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_daynight",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_seasons",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_moonphase",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_solar_system",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-EARTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_weather",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_soil_life",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_weather_data",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_soil",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_water_bodies",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_precipitation",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_rocks",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_earth_inside",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-WEATHER"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_recycle",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-ENV"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_resources",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-ENV"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_sustainability",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-ENV"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_biodiversity",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-ENV"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_disaster",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-ENV"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_tools",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-TECH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_artifact",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S1-TECH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_model",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S2-TECH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_improve",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-TECH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_sc_system",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-science:S3-TECH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_record",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S1-DIGITAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_privacy",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S1-DIGITAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_civility",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S1-DIGITAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_search",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S2-ONLINE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_collaborate",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S2-ONLINE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_security",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S2-ONLINE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_code",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S2-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_data",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S2-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_data_protect",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S2-DATA"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_steps",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_flow",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_branch",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_loop",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_test",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_system",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_it_feedback",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-computing:S3-ALGO"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_routine",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_honesty",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_cooperate",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_emotion",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_safety",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-LIFE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_rules",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_symbols",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_family",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_heritage1",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S1-RULES"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_consumption",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_respect",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_public",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_rules_process",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_boundaries",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-SOCIETY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_hometown",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-CULTURE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_heritage2",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-CULTURE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_values",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S2-CULTURE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_reflect",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_law",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_rights",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_protection",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_service",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CIVIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_civilizations",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CULTURE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_history",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CULTURE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_et_national_responsibility",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-ethics:S3-CULTURE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_clean",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S1-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_organize",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S1-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_foodprep",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S1-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_plant",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S1-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_craft",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S1-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_housework",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S2-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_cook",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S2-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_appliance",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S2-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_grow",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S2-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_diagram",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S2-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_service",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S2-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_plan_space",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_meal",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_manual",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-DAILY"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_sustained",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_designcraft",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_prototype",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_newtech",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_lb_public_service",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-labor:S3-PRODUCE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_posture",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_locomotion",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_balance",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_object",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L1-MOVE"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_habits",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L1-HEALTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_safety",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L1-HEALTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_feelings",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L1-HEALTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_fitness",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L2-FITNESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_pace",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L2-FITNESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_fairplay",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L2-FITNESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_lifestyle",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L2-HEALTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_boundary",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L2-HEALTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_plan",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L3-FITNESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_coordination",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L3-FITNESS"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_health_decision",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L3-HEALTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_pe_emergency",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-pe:L3-HEALTH"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_pulse",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_sing",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_listen",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_perform",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-MUSIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_elements",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-MUSIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_structure",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-MUSIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_music_culture",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-MUSIC"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_ensemble",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-SING"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_music_analysis",
+      "gradeRange": [
+        6,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S3-MUSIC-G6"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_visual",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_make",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_design",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_craft",
+      "gradeRange": [
+        1,
+        2
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S1-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_appreciate",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_color",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_space",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_design_project",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_media",
+      "gradeRange": [
+        3,
+        5
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S2-VISUAL"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_diversity",
+      "gradeRange": [
+        6,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S3-VISUAL-G6"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_environment",
+      "gradeRange": [
+        6,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S3-VISUAL-G6"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    },
+    {
+      "topicId": "mt_cn_ar_film",
+      "gradeRange": [
+        6,
+        6
+      ],
+      "standardKeys": [
+        "cn-moe-2022-arts:S3-VISUAL-G6"
+      ],
+      "alignment": "author-decomposed-from-section",
+      "reviewStatus": "pending-subject-expert-review"
+    }
+  ],
+  "dependencyPolicy": {
+    "origin": "author-inferred",
+    "expertReviewed": false,
+    "learnerValidated": false
+  },
+  "agePolicy": "Display estimates for entry at age six; gradeRange is authoritative within this draft; never infer learner mastery from age.",
+  "coverageClaim": "Broad primary subject framework, six-three school system; not an exhaustive or officially endorsed decomposition. English starts at grades 3-4. Arts uses source bands 1-2, 3-5, 6-7, with grade 6 extracted separately. No grade 7 nodes."
+}

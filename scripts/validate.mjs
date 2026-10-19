@@ -14,7 +14,7 @@ import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const DATA = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'data');
+const DATA = resolve(dirname(fileURLToPath(import.meta.url)), '..', process.argv[2] ?? 'data');
 const load = (name) => JSON.parse(readFileSync(resolve(DATA, name), 'utf8'));
 const bytesOf = (name) => readFileSync(resolve(DATA, name));
 

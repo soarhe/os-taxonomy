@@ -4,6 +4,10 @@ All notable changes to the Marble Skill Taxonomy dataset are documented here.
 Dataset releases are versioned independently of the taxonomy `version` field
 (the underlying taxonomy is `v1`).
 
+## [cn-primary-2022-draft.1] — 2026-10-19
+
+Added an isolated Chinese primary curriculum draft: 308 topics, 380 dependencies, 9 sources, 81 project-assigned section locators and 77 clusters. Includes page-level provenance, deterministic authoring/build scripts, graph queries and validation tests. No expert review or exhaustive clause coverage claimed. Original upstream data retained.
+
 ## [1.0.0] — 2026-07-08
 
 Initial public release.
